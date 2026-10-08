@@ -38073,25 +38073,27 @@ function bind() {
   if ($('fileAutoSync')) {
     $('fileAutoSync').addEventListener('change', async e => {
       const f = e.target.files && e.target.files[0]; e.target.value = ''; if (!f) return;
-      toast('Đang dùng Whisper AI phân tích âm thanh và bắt nhịp...');
+      const curLyrics = ($('lyrics') && $('lyrics').value) || S.project.lyrics || '';
+      const hasLyrics = curLyrics.trim().length > 10;
+      toast(hasLyrics ? 'Đang ép khớp lời (Forced Alignment) chuẩn 100%...' : 'Đang dùng Whisper AI nghe và chép lời...');
       try { loadAudioFile(f); } catch (err) {}
       try {
-        let apiUrl = '/api/auto_sync';
-        if (S.project.lyrics && S.project.lyrics.trim()) {
-          apiUrl += '?lyrics=' + encodeURIComponent(S.project.lyrics.trim());
-        }
-        const res = await fetch(apiUrl, {
+        const fd = new FormData();
+        fd.append('audio', f);
+        if (hasLyrics) fd.append('lyrics', curLyrics.trim());
+        fd.append('lang', S.project.lang || 'vi');
+
+        const res = await fetch('/api/auto_sync', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/octet-stream' },
-          body: f
+          body: fd
         });
         if (!res.ok) throw new Error('API error: ' + res.status);
         const data = await res.json();
-        if (data.lrc) {
-          loadLrc(data.lrc);
-          toast('Đã đồng bộ nhịp tự động thành công bằng Whisper AI!');
+        if (data.lrc || data.lyrics) {
+          loadLrc(data.lrc || data.lyrics);
+          toast(hasLyrics ? 'Đã ép khớp nhịp lời bài hát chuẩn 100%!' : 'Đã chép lời và đồng bộ thành công!');
         } else if (data.error) {
-          toast('Lỗi Whisper: ' + data.error);
+          toast('Lỗi AI: ' + data.error);
         }
       } catch (err) {
         console.error(err);
