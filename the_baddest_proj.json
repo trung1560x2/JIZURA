@@ -1,0 +1,191 @@
+{
+  "title": "THE BADDEST",
+  "artist": "K/DA ft. (G)I-DLE, Bea Miller, Wolftyla",
+  "style": "kda",
+  "mood": "graphic",
+  "themeId": "kinetic",
+  "lyrics": "[00:00.62]Baddest do what the baddest do\n[00:03.70]The baddest do we the baddest ooh\n[00:07.10]Baddest do what the baddest do\n[00:10.00]The baddest do we the baddest\n[00:12.62]Coming at you live\n[00:14.16]Real real wild\n[00:15.70]Here to light it up\n[00:16.90]Set the world on fire\n[00:18.87]Gonna break rules\n[00:21.20]And hearts in twos\n[00:22.88]Cause that's what the baddest do\n[00:25.40]Never going back\n[00:26.90]Nah not that\n[00:28.50]Diamonds on drip\n[00:29.80]Cause I came to make a splash\n[00:31.70]Gonna break rules\n[00:34.00]And hearts in twos\n[00:35.66]Cause that's what the baddest do\n[00:38.80]I spit heat, I melt your face off\n[00:40.25]Disappear, I'm your eraser\n[00:41.70]In the cut just like a razor\n[00:43.41]Murder business, where my blazer?\n[00:45.04]I got all the boys on me\n[00:46.60]I got all the lines on ring\n[00:48.16]Knock 'em dead, turnin heads\n[00:49.95]I got all the eyes on me\n[00:51.37]Pretty face 걸어들어와 (I walk in with a pretty face)\n[00:53.25]유행 선두자 (Make 'em want a taste)\n[00:54.62]원하지만 못하잖아 (Boy slow down, you gone have to wait)\n[00:56.37]애가 타잖아 (Dangling the bait)\n[00:57.75]You like “whoa” KALI you the goat\n[00:59.79]난 알지 I know (I'm like \"yeah, I know\")\n[01:01.00]준비해 cause I like to ball (Gotta bounce cause I like to ball)\n[01:03.04]멈추지 않아 (Man I'm on a roll)\n[01:04.04]나는 lit 크게 like a bit (Keep it lit, mega like a bit)\n[01:05.95]그거 말고 byte (I mean like a byte)\n[01:07.37]믿어바 큰만큼 크게 (Get it right, know I do it big)\n[01:09.25]어깨펴고 high (I ain't talking height)\n[01:10.62]백퍼센트 덤비지못해 죽여주잖아 (I'm legit, know I leave 'em dead)\n[01:13.75]나는 boss 간지 with the sauce (I'm a boss, extra with the sauce)\n[01:15.79]원하면 줄게 (Give 'em what they like)\n[01:17.50]I’m doing damage\n[01:18.80]Went just how I planned it\n[01:20.37]I do what I want when I say\n[01:23.29]모두 날 따라해 (I’m making the news)\n[01:24.95]난 끝내주잖아 (But this ain’t nothing new)\n[01:26.80](Like) to live on the edge of insane\n[01:29.38]Coming at you live\n[01:30.88]Real real wild\n[01:32.50]Here to light it up\n[01:33.70]Set the world on fire\n[01:35.74]Gonna break rules\n[01:37.95]And hearts in twos\n[01:39.62]Cause that's what the baddest do\n[01:42.30]Never going back\n[01:43.70]Nah not that\n[01:45.30]Diamonds on drip\n[01:46.58]Cause I came to make a splash\n[01:48.62]Gonna break rules\n[01:50.83]And hearts in twos\n[01:52.45]Cause that's what the baddest do\n[01:54.91](It's crazy)\n[01:56.60]Sorry for the bad news sorry I’m so bad\n[01:59.80]Only took a minute for me to get what you had\n[02:02.88]Sorry for the bad news know it makes you sad\n[02:06.20]I’ll be here for a minute baby you should pack your bags\n[02:08.70]Way that I look should be breaking the law\n[02:10.08]If I don’t got it I take what I want\n[02:11.78]My circle small like a round of applause\n[02:13.45]You know that I love the sound of applause\n[02:15.12]You know I mean everything that I say\n[02:16.50]When you see me coming get out of the way\n[02:18.20]I came to slay I came to slay\n[02:19.83]back and I’m better and ready to stay\n[02:21.50]I’m doing damage\n[02:22.70]Went just how I planned it\n[02:24.40]I do what I want when I say\n[02:27.30]모두 날 따라해 (I’m making the news)\n[02:28.91]난 끝내주잖아 (But this ain’t nothing new)\n[02:30.75](Like) to live on the edge of insane\n[02:33.20](It's crazy)\n[02:34.54]Sorry not sorry for being the best\n[02:36.20]언제든지 내가 쫌 해 (I came to stunt came to impress)\n[02:37.83]Look at the gold all on my chest\n[02:39.46]Look at the gold call it a flex",
+  "timing": {
+    "bpm": 135,
+    "snap": true,
+    "lineScale": 1
+  },
+  "extra": true,
+  "wa": false,
+  "horror": false,
+  "typo": true,
+  "kinetic": true,
+  "colors": {
+    "enabled": true,
+    "scheme": 0
+  },
+  "overrides": {
+    "0": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaHero",
+          "decor": "kdaTechFrame",
+          "bg": "kdaAuroraSilk",
+          "trans": "none"
+        }
+      }
+    },
+    "1": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaEditorialSplit",
+          "decor": "kdaTechFrame",
+          "bg": "kdaAuroraSilk",
+          "trans": "none"
+        }
+      }
+    },
+    "2": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaHero",
+          "decor": "kdaTechFrame",
+          "bg": "kdaAuroraSilk",
+          "trans": "none"
+        }
+      }
+    },
+    "3": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaEditorialSplit",
+          "decor": "kdaTechFrame",
+          "bg": "kdaAuroraSilk",
+          "trans": "none"
+        }
+      }
+    },
+    "4": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaMatrixStack",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "enter": "kdaSnapZoom",
+          "trans": "none"
+        }
+      }
+    },
+    "5": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaMatrixStack",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "6": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaHero",
+          "decor": "kdaRazorSlice",
+          "bg": "kdaOnyxVoid",
+          "enter": "kdaSnapZoom",
+          "trans": "none"
+        }
+      }
+    },
+    "7": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaHero",
+          "decor": "kdaRazorSlice",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "8": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaEditorialSplit",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "9": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaEditorialSplit",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "10": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaHero",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "11": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaMatrixStack",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "12": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaMatrixStack",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "13": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaEditorialSplit",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    },
+    "14": {
+      "cuts": 1,
+      "cutTech": {
+        "0": {
+          "layout": "kdaHero",
+          "decor": "kdaTechFrame",
+          "bg": "kdaOnyxVoid",
+          "trans": "none"
+        }
+      }
+    }
+  }
+}

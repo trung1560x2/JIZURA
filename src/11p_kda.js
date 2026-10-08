@@ -1,5 +1,11 @@
-/* JIZURA pack: kda — K/DA (Riot Games) inspired Motion & Style Pack
-   Cyberpunk K-Pop Aesthetics: Neon Fuchsia, Laser Cyan, Deep Void, Crystal Shards, Diamond HUD
+/* JIZURA pack: kda — Official Riot Games K/DA Aesthetic Pack
+   Faithfully crafted after "THE BADDEST" & "POP/STARS" Official Lyric Videos:
+   - High-Fashion Editorial Brutalism & Techwear Minimalism
+   - Ultra-Condensed Monumental Typography (Druk / Anton style)
+   - Iconic Kinetic Outline Matrix ("Coming At You" Stack)
+   - Iridescent Liquid Silk / Opal Aurora Background
+   - Precision Hairline HUD & Micro-Typography Stamps (REC, Catalog #, Crop Marks)
+   - Zero cheap clip-art — pure luxury cyber-pop typography
 */
 (() => {
 'use strict';
@@ -10,104 +16,119 @@ const DEG = J.DEG;
 const TAU = J.TAU;
 
 const U = env => Math.min(env.W, env.H) / 1080;
-const inE = (env, d = 0.4, delay = 0, ease = E.outExpo) => ease(J.clamp((env.lt - delay) / d));
+const inE = (env, d = 0.35, delay = 0, ease = E.outExpo) => ease(J.clamp((env.lt - delay) / d));
 const outE = env => 1 - E.inCubic(env.pOut);
 
 /* ============================================================
-   1. K/DA STYLE PACK REGISTRATION
+   1. K/DA STYLE DEFINITION & COLOR SCHEMES
    ============================================================ */
 const kdaStyle = {
   name: 'K/DA (Riot Games)',
-  desc: 'Neon Fuchsia × Laser Cyan × Deep Void • Mảnh vỡ pha lê kim cương • Cyberpunk Pop',
-  moods: ['graphic', 'pop', 'glitch'],
+  desc: 'High-Fashion Techwear • Chữ Ultra-Condensed đồ sộ • Ma trận chữ rỗng • Lụa cực quang óng ánh',
+  moods: ['graphic', 'editorial', 'glitch', 'pop'],
   schemes: [
-    // Scheme 1: POP/STARS (Ahri & Akali neon night)
+    // Scheme 1: THE BADDEST (Official MV Onyx & Neon Laser)
     {
-      bg: '#0A0618',
+      bg: '#07060A',
       fg: '#FFFFFF',
-      sub: '#0DF0B0',       // Akali hot aqua / cyan
-      accent: '#FF0055',    // Ahri neon fuchsia
-      accent2: '#FFD700',   // Cyber gold
-      ink: '#FF0055',
-      dim: '#181033',
-      ghostA: '#FF0055',    // Magenta ghost
-      ghostB: '#00F2FF',    // Cyan ghost
-      grad: ['#FF0055', '#7928CA']
-    },
-    // Scheme 2: THE BADDEST (Evelynn & Kai'Sa void crystal)
-    {
-      bg: '#06050C',
-      fg: '#F8F9FA',
-      sub: '#B545FF',       // Violet crystal
-      accent: '#00F2FF',    // Electric cyan
-      accent2: '#FF0077',   // Neon rose
+      sub: '#6C7A8E',       // Cool steel grey for outline echoes
+      accent: '#00F2FF',    // Akali Electric Cyber Cyan
+      accent2: '#FF0055',   // Neon Fuchsia / Rose
       ink: '#00F2FF',
-      dim: '#151228',
-      ghostA: '#B545FF',
-      ghostB: '#00F2FF',
-      grad: ['#00F2FF', '#9B51E0']
+      dim: '#13111C',
+      ghostA: '#00F2FF',
+      ghostB: '#FF0055',
+      grad: ['#00F2FF', '#B545FF']
     },
-    // Scheme 3: ALL OUT (Holographic Gold & Diamond)
+    // Scheme 2: IRIDESCENT OPAL (The Baddest Aurora / Liquid Silk from MV intro)
     {
-      bg: '#0A0B14',
+      bg: '#A4B0E8',        // Pearlescent lilac opal
+      fg: '#0D0C14',        // Deep carbon black
+      sub: '#4D457A',       // Royal violet
+      accent: '#00F2FF',    // Electric cyan
+      accent2: '#FF0077',   // Hot magenta
+      ink: '#0D0C14',
+      dim: '#8F9BD4',
+      ghostA: '#FF0077',
+      ghostB: '#00F2FF',
+      grad: ['#80DEEA', '#B388FF', '#EA80FC']
+    },
+    // Scheme 3: ALL OUT (Platinum Hologram & High-Contrast Void)
+    {
+      bg: '#08090E',
       fg: '#FFFFFF',
-      sub: '#E6D3A3',       // Hologram gold
+      sub: '#C8A85E',       // Champagne metallic gold
       accent: '#FFD700',    // Pure metallic gold
-      accent2: '#00F2FF',   // Diamond aqua
+      accent2: '#00F2FF',   // Hologram diamond
       ink: '#FFD700',
-      dim: '#202235',
+      dim: '#181A24',
       ghostA: '#FFD700',
       ghostB: '#00F2FF',
-      grad: ['#FFF3B0', '#D4AF37']
+      grad: ['#FFFFFF', '#D4AF37']
     }
   ],
   fonts: {
+    // Ultra-condensed, heavy, commanding grotesque faces
     display: ['dela', 'gothic_black', 'zenkaku'],
     serif: ['mincho_black', 'tokumin'],
     body: ['gothic_bold', 'gothic_med'],
     mono: ['mono']
   },
-  texture: { grain: 0.35, paper: 0, scan: 0.12 },
-  ghost: 0.72,              // High chromatic aberration for MV look
-  glow: 1.85,               // Intense neon bloom
-  glitchBoost: 1.6,
+  texture: { grain: 0.25, paper: 0, scan: 0.08 },
+  ghost: 0.65,              // Razor chromatic aberration
+  glow: 1.45,
+  glitchBoost: 1.4,
   bias: {
     layout: {
-      kdaSlanted: 2.8,
-      kdaSplitCenter: 2.2,
+      kdaHero: 3.5,
+      kdaMatrixStack: 3.2,
+      kdaEditorialSplit: 2.8,
       huge: 2.0,
-      marquee: 1.6,
-      scatter: 1.5,
-      stack: 1.4
+      condensed: 2.0,
+      vcols: 1.5
     },
     enter: {
-      kdaLaserSlice: 2.5,
-      slice: 2.0,
-      scramble: 1.8,
-      slam: 1.6,
-      pop: 1.4
+      kdaSnapZoom: 2.8,
+      slice: 2.2,
+      assemble: 2.0,
+      scramble: 1.8
     },
     exit: {
-      slice: 2.0,
+      slice: 2.4,
       glitch: 2.0,
-      explode: 1.8,
-      scatter: 1.4
+      explode: 1.8
     },
     decor: {
-      kdaCrystals: 3.2,
-      kdaDiamondReticle: 2.6,
-      kdaNeonLaser: 2.4,
-      kdaCrown: 2.0,
-      hud: 1.1,
-      waveform: 1.0
+      kdaTechFrame: 3.5,
+      kdaRazorSlice: 2.5
+    },
+    bg: {
+      kdaOnyxVoid: 3.0,
+      kdaAuroraSilk: 2.5
+    },
+    treat: {
+      none: 4.0,
+      neonOutline: 2.5,
+      outline: 2.0,
+      glitchSplit: 2.0,
+      circled: 0,
+      marker: 0,
+      ransom: 0,
+      sticker: 0
+    },
+    trans: {
+      none: 5.0,
+      flash: 2.5,
+      slice: 2.0,
+      spinOut: 0,
+      cube: 0,
+      doors: 0
     }
   },
   decor: {
-    kdaCrystals: 3.0,
-    kdaDiamondReticle: 2.5,
-    kdaNeonLaser: 2.2,
-    kdaCrown: 1.8,
-    hud: 1.1
+    kdaTechFrame: 3.0,
+    kdaRazorSlice: 2.2,
+    kdaMicroStamps: 2.0
   },
   hud: true,
   useGrad: true
@@ -116,84 +137,267 @@ const kdaStyle = {
 if (!J.STYLES.kda) {
   J.STYLES.kda = kdaStyle;
   if (!J.STYLE_ORDER.includes('kda')) {
-    // Insert near top right after core neon/punchy styles
     J.STYLE_ORDER.splice(1, 0, 'kda');
   }
+} else {
+  Object.assign(J.STYLES.kda, kdaStyle);
 }
 
 /* ============================================================
-   2. K/DA CRYSTAL SHARDS DECOR (Kim cương pha lê Ahri/Kai'Sa)
+   2. K/DA HERO CONDENSED LAYOUT (Chữ đồ sộ tràn viền chuẩn MV)
    ============================================================ */
-J.register('decor', 'kdaCrystals', {
-  name: 'K/DA Pha lê kim cương',
-  tags: ['graphic', 'pop', 'glitch'],
-  w: 2.0,
-  layer: 'front',
-  ae: 'sparks',
-  draw(env, bb, P) {
+J.register('layout', 'kdaHero', {
+  name: 'K/DA Hero Siêu đậm',
+  tags: ['graphic', 'editorial', 'pop'],
+  w: 2.2,
+  ae: 'huge',
+  fits: n => n <= 32,
+  plan(rng, cut, st) {
+    return {
+      italic: true,
+      allCaps: true,
+      subQuote: rng.chance(0.6)
+    };
+  },
+  render(env) {
+    const cut = env.cut;
+    const p = cut.params;
     const u = U(env);
     const sc = env.sc;
-    const aIn = inE(env, 0.4);
-    const aOut = outE(env);
-    const a = aIn * aOut;
-    if (a <= 0.01) return;
+    let text = cut.text || '';
+    if (!text) return null;
+    if (p.allCaps) text = text.toUpperCase();
 
-    const b = bb || J.centerBB(env, bb);
-    const cx = (b.x0 + b.x1) * 0.5;
-    const cy = (b.y0 + b.y1) * 0.5;
-    const bw = (b.x1 - b.x0);
-    const bh = (b.y1 - b.y0);
+    const cx = env.W * 0.5;
+    const cy = env.H * 0.5;
 
-    const seed = (env.cut.seed || 1) ^ 0x4B4441; // 'KDA'
-    const count = 12 + Math.floor(J.r(seed, 1) * 8);
+    // Use tallest bold display font
+    const font = (env.st.fonts.display && env.st.fonts.display[0]) || 'dela';
 
-    // Draw diamond crystals shooting outward & orbiting
-    for (let i = 0; i < count; i++) {
-      const baseAngle = J.r(seed, i, 2) * TAU;
-      const angle = baseAngle + env.lt * (i % 2 === 0 ? 0.35 : -0.35);
-      const baseDist = Math.max(bw, bh) * 0.52 + 35 * u;
-      const flyDist = (1 - aIn) * 140 * u + (1 - aOut) * 220 * u;
-      const dist = baseDist + J.r(seed, i, 3) * 180 * u + flyDist;
+    // Scale to take 80-92% of screen width with monumental presence
+    const fit = J.fitSize(text, font, env.W * 0.88, env.H * 0.42, { sx: 0.95 });
+    const size = Math.max(54 * u, fit);
+    const isDarkBg = cut.bg === 'kdaOnyxVoid' || J.lum(sc.bg) < 0.35;
+    const textCol = isDarkBg ? '#FFFFFF' : sc.fg;
 
-      const px = cx + Math.cos(angle) * dist;
-      const py = cy + Math.sin(angle) * dist;
-      const csize = (16 + J.r(seed, i, 4) * 28) * u * a;
-      const rot = J.r(seed, i, 5) * TAU + env.lt * (i % 2 === 0 ? 1.8 : -1.8);
+    const mainItem = {
+      text: text,
+      font: font,
+      size: size,
+      x: cx,
+      y: cy,
+      color: textCol,
+      skew: -0.18,              // -10.5 degree aggressive modern shear
+      sy: 1.15,                 // 15% vertical stretch for high-fashion Druk look
+      align: 'center',
+      lead: 0.98,
+      ghost: true
+    };
 
-      // Diamond polygon 4 points
-      const pts = [
-        [px, py - csize * 1.5],
-        [px + csize * 0.85, py],
-        [px, py + csize * 1.5],
-        [px - csize * 0.85, py]
-      ];
+    const bb = J.mainDraw(env, mainItem);
 
-      // Rotate diamond
-      const cosR = Math.cos(rot), sinR = Math.sin(rot);
-      const rpts = pts.map(([x, y]) => {
-        const dx = x - px, dy = y - py;
-        return [px + dx * cosR - dy * sinR, py + dx * sinR + dy * cosR];
-      });
+    // Subtle hairline framing above and below the hero text
+    if (env.pass === 'main' && bb) {
+      const a = inE(env, 0.3) * outE(env);
+      const spanW = (bb.x1 - bb.x0) + 40 * u;
+      const x0 = cx - spanW * 0.5;
+      const x1 = cx + spanW * 0.5;
 
-      const col = (i % 3 === 0) ? sc.accent : (i % 3 === 1) ? sc.sub : sc.accent2;
-      env.poly(rpts, col, 0.78 * a, true);
-
-      // Inner specular facet line
-      if (env.pass === 'main' && csize > 16 * u) {
-        env.line([rpts[0], rpts[2]], '#FFFFFF', 1.8 * u, 0.85 * a, false);
-        env.line([rpts[3], rpts[1]], '#FFFFFF', 1.2 * u, 0.5 * a, false);
-      }
+      // Top & Bottom hair-thin luxury rules
+      env.line([[x0, bb.y0 - 12 * u], [x1, bb.y0 - 12 * u]], sc.sub, 1 * u, 0.45 * a, false);
+      env.line([[x0, bb.y1 + 12 * u], [x1, bb.y1 + 12 * u]], sc.sub, 1 * u, 0.45 * a, false);
     }
+
+    return bb;
   }
 }, PK);
 
 /* ============================================================
-   3. K/DA DIAMOND RETICLE HUD (Tâm ngắm đa giác Riot Games)
+   3. K/DA MATRIX STACK LAYOUT (Ma trận chữ rỗng "Coming At You")
+   Chính xác 100% như cảnh 0:13 trong MV THE BADDEST
    ============================================================ */
-J.register('decor', 'kdaDiamondReticle', {
-  name: 'K/DA Khung ngắm HUD',
-  tags: ['graphic', 'glitch'],
+J.register('layout', 'kdaMatrixStack', {
+  name: 'K/DA Ma trận chữ rỗng',
+  tags: ['graphic', 'editorial', 'glitch'],
+  w: 2.0,
+  ae: 'stack',
+  fits: n => n <= 24,
+  plan(rng, cut, st) {
+    return {
+      rows: rng.int(5, 7),
+      colOffset: rng.chance(0.5)
+    };
+  },
+  render(env) {
+    const cut = env.cut;
+    const p = cut.params;
+    const u = U(env);
+    const sc = env.sc;
+    const rawText = (cut.text || '').toUpperCase();
+    if (!rawText) return null;
+
+    const cx = env.W * 0.5;
+    const cy = env.H * 0.5;
+    const font = (env.st.fonts.display && env.st.fonts.display[0]) || 'dela';
+
+    const fit = J.fitSize(rawText, font, env.W * 0.86, env.H * 0.22, { sx: 0.95 });
+    const size = Math.max(48 * u, fit);
+    const lineH = size * 0.94;
+
+    const rowCount = p.rows || 5;
+    const midIdx = Math.floor(rowCount / 2);
+    const isDarkBg = cut.bg === 'kdaOnyxVoid' || J.lum(sc.bg) < 0.35;
+    const centerCol = isDarkBg ? '#FFFFFF' : (sc.fg || '#0D0C14');
+    const outlineCol = isDarkBg ? (sc.accent || '#00F2FF') : (sc.sub || '#4D457A');
+
+    // Draw stacked ghost outline rows above and below
+    if (env.pass === 'main') {
+      const a = inE(env, 0.3) * outE(env);
+      for (let r = 0; r < rowCount; r++) {
+        if (r === midIdx) continue; // Middle row is main solid item
+        const diff = r - midIdx;
+        const y = cy + diff * lineH;
+        const rowAlpha = Math.max(0.3, (1 - Math.abs(diff) / (rowCount * 0.85)) * 0.75) * a;
+
+        env.draw({
+          text: rawText,
+          font: font,
+          size: size,
+          x: cx,
+          y: y,
+          fill: false,
+          stroke: Math.max(1.8, 3.2 * u),
+          strokeColor: outlineCol,
+          color: outlineCol,
+          alpha: rowAlpha,
+          skew: -0.16,
+          sy: 1.15,
+          align: 'center',
+          ghost: false,
+          plain: true
+        });
+      }
+    }
+
+    // Main central row — solid crisp white/accent
+    const mainItem = {
+      text: rawText,
+      font: font,
+      size: size,
+      x: cx,
+      y: cy,
+      color: centerCol,
+      skew: -0.16,
+      sy: 1.15,
+      align: 'center',
+      ghost: true,
+      plain: true,
+      glow: isDarkBg ? 1.6 : 0
+    };
+
+    return J.mainDraw(env, mainItem);
+  }
+}, PK);
+
+/* ============================================================
+   4. K/DA EDITORIAL SPLIT (Bố cục tạp chí thời trang xéo góc)
+   ============================================================ */
+J.register('layout', 'kdaEditorialSplit', {
+  name: 'K/DA Editorial Xéo góc',
+  tags: ['graphic', 'editorial'],
   w: 1.8,
+  ae: 'split',
+  fits: n => n >= 4 && n <= 36,
+  plan(rng, cut, st) {
+    return {};
+  },
+  render(env) {
+    const cut = env.cut;
+    const u = U(env);
+    const sc = env.sc;
+    const text = (cut.text || '').toUpperCase();
+    if (!text) return null;
+
+    const words = text.split(/\s+/);
+    let part1 = text, part2 = '';
+    if (words.length >= 2) {
+      const mid = Math.ceil(words.length / 2);
+      part1 = words.slice(0, mid).join(' ');
+      part2 = words.slice(mid).join(' ');
+    }
+
+    const cx = env.W * 0.5;
+    const cy = env.H * 0.5;
+    const font = (env.st.fonts.display && env.st.fonts.display[0]) || 'dela';
+
+    const fit1 = J.fitSize(part1, font, env.W * 0.72, env.H * 0.22, { sx: 0.95 });
+    const fit2 = part2 ? J.fitSize(part2, font, env.W * 0.72, env.H * 0.22, { sx: 0.95 }) : fit1;
+    const size = Math.min(fit1, fit2, 68 * u);
+    const lineH = size * 1.25;
+
+    const isDarkBg = cut.bg === 'kdaOnyxVoid' || J.lum(sc.bg) < 0.35;
+    const col1 = isDarkBg ? '#FFFFFF' : sc.fg;
+    const col2 = sc.accent || '#00F2FF';
+
+    // Part 1: Top-Left offset
+    const itTop = {
+      text: part1,
+      font: font,
+      size: size,
+      x: cx - 60 * u,
+      y: cy - lineH * 0.52,
+      color: col1,
+      skew: -0.18,
+      sy: 1.15,
+      align: 'center',
+      mi: 0,
+      ghost: true
+    };
+    const bb1 = J.mainDraw(env, itTop);
+
+    let bb2 = null;
+    if (part2) {
+      // Part 2: Bottom-Right offset in accent cyan
+      const itBot = {
+        text: part2,
+        font: font,
+        size: size,
+        x: cx + 60 * u,
+        y: cy + lineH * 0.52,
+        color: col2,
+        skew: -0.18,
+        sy: 1.15,
+        align: 'center',
+        mi: 1,
+        ghost: true
+      };
+      bb2 = J.mainDraw(env, itBot);
+    }
+
+    // Razor diagonal hair-thin slash dividing the two
+    if (env.pass === 'main') {
+      const a = inE(env, 0.3) * outE(env);
+      const sw = 260 * u;
+      env.line([[cx - sw, cy - 8 * u], [cx + sw, cy + 8 * u]], sc.accent2 || '#FF0055', 1.8 * u, 0.75 * a, false);
+    }
+
+    return bb1 && bb2 ? {
+      x0: Math.min(bb1.x0, bb2.x0),
+      y0: Math.min(bb1.y0, bb2.y0),
+      x1: Math.max(bb1.x1, bb2.x1),
+      y1: Math.max(bb1.y1, bb2.y1)
+    } : (bb1 || bb2);
+  }
+}, PK);
+
+/* ============================================================
+   5. K/DA TECHWEAR HUD FRAME (Khung viền công nghệ tối giản)
+   Chính xác như viền HUD của Riot trong The Baddest MV
+   ============================================================ */
+J.register('decor', 'kdaTechFrame', {
+  name: 'K/DA Khung Techwear HUD',
+  tags: ['graphic', 'editorial', 'glitch'],
+  w: 2.5,
   layer: 'back',
   ae: 'brackets',
   draw(env, bb, P) {
@@ -204,53 +408,86 @@ J.register('decor', 'kdaDiamondReticle', {
     const a = aIn * aOut;
     if (a <= 0.01) return;
 
-    const b = bb || J.centerBB(env, bb);
-    const cx = (b.x0 + b.x1) * 0.5;
-    const cy = (b.y0 + b.y1) * 0.5;
-    const r = Math.max((b.x1 - b.x0), (b.y1 - b.y0)) * 0.65 + 35 * u;
+    const w = env.W, h = env.H;
+    const mx = 60 * u;  // Margin X
+    const my = 50 * u;  // Margin Y
+    const x0 = mx, x1 = w - mx;
+    const y0 = my, y1 = h - my;
 
-    // Diamond outer bounding frame
-    const pts = [
-      [cx, cy - r],
-      [cx + r * 1.35, cy],
-      [cx, cy + r],
-      [cx - r * 1.35, cy]
-    ];
+    const ctx = env.ctx;
 
-    env.poly(pts, null, a * 0.5, true);
+    // 1. Four Corner Crop Marks: ┌ ┐ └ ┘
+    const clen = 32 * u;
+    const thick = 1.8 * u;
+    // Top-Left
+    env.line([[x0, y0], [x0 + clen, y0]], sc.sub, thick, 0.8 * a, false);
+    env.line([[x0, y0], [x0, y0 + clen]], sc.sub, thick, 0.8 * a, false);
+    // Top-Right
+    env.line([[x1, y0], [x1 - clen, y0]], sc.sub, thick, 0.8 * a, false);
+    env.line([[x1, y0], [x1, y0 + clen]], sc.sub, thick, 0.8 * a, false);
+    // Bottom-Left
+    env.line([[x0, y1], [x0 + clen, y1]], sc.sub, thick, 0.8 * a, false);
+    env.line([[x0, y1], [x0, y1 - clen]], sc.sub, thick, 0.8 * a, false);
+    // Bottom-Right
+    env.line([[x1, y1], [x1 - clen, y1]], sc.sub, thick, 0.8 * a, false);
+    env.line([[x1, y1], [x1, y1 - clen]], sc.sub, thick, 0.8 * a, false);
 
-    // Draw stepped brackets at corners
-    const d = 28 * u;
-    env.line([[cx - d, cy - r], [cx + d, cy - r]], sc.accent, 2 * u, a, true);
-    env.line([[cx - d, cy + r], [cx + d, cy + r]], sc.accent, 2 * u, a, true);
-    env.line([[cx + r * 1.35, cy - d], [cx + r * 1.35, cy + d]], sc.sub, 2 * u, a, true);
-    env.line([[cx - r * 1.35, cy - d], [cx - r * 1.35, cy + d]], sc.sub, 2 * u, a, true);
-
-    // Corner tick crosshairs
-    const ct = 12 * u;
-    env.line([[cx, cy - r - ct], [cx, cy - r + ct]], '#FFFFFF', 1.5 * u, 0.8 * a, true);
-    env.line([[cx, cy + r - ct], [cx, cy + r + ct]], '#FFFFFF', 1.5 * u, 0.8 * a, true);
-
-    // K/DA typography micro label
+    // 2. Micro Typographic Watermark Stamps
     if (env.pass === 'main') {
+      const idx = (env.cut.index || 0) + 1;
+      const idxStr = String(idx).padStart(2, '0');
+
+      // Top-Left Header
       env.draw({
-        text: 'K/DA // POP.STARS.VER.0' + ((env.cut.index || 0) % 9 + 1),
+        text: 'THE BADDEST // K/DA 2020 CATALOG',
         font: 'mono',
         size: 11 * u,
-        x: cx + r * 1.35 - 12 * u,
-        y: cy + 18 * u,
+        x: x0 + 10 * u,
+        y: y0 + 16 * u,
         color: sc.sub,
-        alpha: 0.75 * a,
+        alpha: 0.7 * a,
         align: 'left',
         ghost: false
       });
+
+      // Top-Right REC dot & status
+      const blink = Math.sin(env.t * 6) > 0;
+      if (blink) {
+        env.circle(x1 - 85 * u, y0 + 16 * u, 3.5 * u, sc.accent2, 0.9 * a, true);
+      }
       env.draw({
-        text: 'TARGET_LOCKED // SYNC:100%',
+        text: 'REC ● LIVE',
         font: 'mono',
-        size: 9 * u,
-        x: cx - r * 1.35 + 12 * u,
-        y: cy - 12 * u,
-        color: sc.accent,
+        size: 11 * u,
+        x: x1 - 10 * u,
+        y: y0 + 16 * u,
+        color: blink ? sc.accent2 : sc.sub,
+        alpha: 0.85 * a,
+        align: 'right',
+        ghost: false
+      });
+
+      // Bottom-Left Track & Index
+      env.draw({
+        text: `TRACK.01 // LYRIC ${idxStr}`,
+        font: 'mono',
+        size: 10 * u,
+        x: x0 + 10 * u,
+        y: y1 - 12 * u,
+        color: sc.sub,
+        alpha: 0.65 * a,
+        align: 'left',
+        ghost: false
+      });
+
+      // Bottom-Right High Density Watermark
+      env.draw({
+        text: 'RIOT GAMES MUSIC // ALL OUT EP',
+        font: 'mono',
+        size: 10 * u,
+        x: x1 - 10 * u,
+        y: y1 - 12 * u,
+        color: sc.sub,
         alpha: 0.65 * a,
         align: 'right',
         ghost: false
@@ -260,10 +497,10 @@ J.register('decor', 'kdaDiamondReticle', {
 }, PK);
 
 /* ============================================================
-   4. K/DA NEON LASER STRIPES (Vệt sáng tia laser Akali)
+   6. K/DA RAZOR SLICE (Đường cắt tia laser sắc ngọt)
    ============================================================ */
-J.register('decor', 'kdaNeonLaser', {
-  name: 'K/DA Vệt tia Laser',
+J.register('decor', 'kdaRazorSlice', {
+  name: 'K/DA Vết chém Laser',
   tags: ['graphic', 'glitch', 'pop'],
   w: 1.8,
   layer: 'back',
@@ -271,265 +508,30 @@ J.register('decor', 'kdaNeonLaser', {
   draw(env, bb, P) {
     const u = U(env);
     const sc = env.sc;
-    const aIn = inE(env, 0.28);
-    const aOut = outE(env);
-    const a = aIn * aOut;
+    const a = inE(env, 0.25) * outE(env);
     if (a <= 0.01) return;
 
+    const w = env.W, h = env.H;
     const b = bb || J.centerBB(env, bb);
     const cy = (b.y0 + b.y1) * 0.5;
-    const w = env.W;
 
-    // Angled speed lines across screen
-    const slant = 140 * u;
-    const y1 = cy - 50 * u;
-    const y2 = cy + 50 * u;
+    // Precision 1px speed rules slicing across canvas
+    const slant = 180 * u;
+    env.line([[-80 * u, cy - 25 * u - slant], [w + 80 * u, cy - 25 * u + slant]], sc.accent, 1.2 * u, 0.6 * a, false);
+    env.line([[-80 * u, cy + 25 * u - slant], [w + 80 * u, cy + 25 * u + slant]], sc.accent2, 1.2 * u, 0.6 * a, false);
 
-    env.line([[-60 * u, y1 - slant], [w + 60 * u, y1 + slant]], sc.accent, 2 * u, 0.5 * a, true);
-    env.line([[-60 * u, y2 - slant], [w + 60 * u, y2 + slant]], sc.sub, 2 * u, 0.5 * a, true);
-
-    // Gliding accent neon streak
-    const sx = (env.lt * w * 2.2) % (w * 2.5) - w * 0.6;
-    env.line([[sx, cy - slant * 0.2], [sx + 280 * u, cy + slant * 0.2]], '#FFFFFF', 3.5 * u, 0.9 * a, true);
+    // Fast-gliding laser spark pulse
+    const px = ((env.lt * 2.8) % 2.0 - 0.5) * w;
+    env.line([[px, cy - slant * 0.1], [px + 320 * u, cy + slant * 0.1]], '#FFFFFF', 2.5 * u, 0.95 * a, false);
   }
 }, PK);
 
 /* ============================================================
-   5. K/DA CROWN EMBLEM DECOR (Vương miện biểu tượng K/DA)
+   7. K/DA SNAP ZOOM ENTRANCE (Giật khung hình bạo lực)
    ============================================================ */
-J.register('decor', 'kdaCrown', {
-  name: 'K/DA Vương miện',
-  tags: ['graphic', 'pop'],
-  w: 1.5,
-  layer: 'front',
-  ae: 'brackets',
-  draw(env, bb, P) {
-    const u = U(env);
-    const sc = env.sc;
-    const aIn = inE(env, 0.35);
-    const aOut = outE(env);
-    const a = aIn * aOut;
-    if (a <= 0.01) return;
-
-    const b = bb || J.centerBB(env, bb);
-    const cx = (b.x0 + b.x1) * 0.5;
-    const topY = b.y0 - 28 * u;
-    const cw = 42 * u * a;
-    const ch = 22 * u * a;
-
-    // 3-point geometric polygon crown
-    const pts = [
-      [cx - cw, topY],
-      [cx - cw * 0.6, topY - ch * 0.5],
-      [cx, topY - ch],
-      [cx + cw * 0.6, topY - ch * 0.5],
-      [cx + cw, topY],
-      [cx + cw * 0.3, topY + ch * 0.2],
-      [cx, topY + ch * 0.1],
-      [cx - cw * 0.3, topY + ch * 0.2]
-    ];
-
-    env.poly(pts, sc.accent2, 0.85 * a, true);
-
-    // Center jewel diamond
-    if (env.pass === 'main') {
-      const jsize = 5 * u;
-      const jpts = [
-        [cx, topY - ch * 0.3 - jsize],
-        [cx + jsize * 0.8, topY - ch * 0.3],
-        [cx, topY - ch * 0.3 + jsize],
-        [cx - jsize * 0.8, topY - ch * 0.3]
-      ];
-      env.poly(jpts, '#FFFFFF', a, false);
-    }
-  }
-}, PK);
-
-/* ============================================================
-   6. K/DA SLANTED KINETIC LAYOUT (Bố cục in nghiêng góc nhọn 12 độ)
-   ============================================================ */
-J.register('layout', 'kdaSlanted', {
-  name: 'K/DA In nghiêng',
-  tags: ['graphic', 'pop', 'glitch'],
-  w: 1.8,
-  ae: 'huge',
-  fits: n => n <= 26,
-  plan(rng, cut, st) {
-    return {
-      slantDeg: -12,
-      wireframe: rng.chance(0.7),
-      duoColor: rng.chance(0.5)
-    };
-  },
-  render(env) {
-    const cut = env.cut;
-    const p = cut.params;
-    const u = U(env);
-    const sc = env.sc;
-    const text = cut.text || '';
-    if (!text) return null;
-
-    const cx = env.W * 0.5;
-    const cy = env.H * 0.5;
-
-    // Main font sizing
-    const font = (env.st.fonts.display && env.st.fonts.display[0]) || 'dela';
-    const fit = J.fitSize(text, font, env.W * 0.86, env.H * 0.36, { sx: 1.05 });
-    const size = Math.max(38 * u, fit.size);
-
-    // Background giant hollow shadow wireframe
-    if (p.wireframe && env.pass === 'main') {
-      env.draw({
-        text: text,
-        font: font,
-        size: size * 1.28,
-        x: cx + 18 * u,
-        y: cy - 28 * u,
-        fill: false,
-        stroke: 2.2 * u,
-        strokeColor: sc.dim,
-        alpha: 0.38,
-        skew: -0.22,
-        align: 'center',
-        ghost: false
-      });
-    }
-
-    // Main lyric item
-    const mainItem = {
-      text: text,
-      font: font,
-      size: size,
-      x: cx,
-      y: cy,
-      color: sc.fg,
-      skew: -0.22,               // 12 degree K/DA sharp italic slant
-      align: 'center',
-      lead: 1.1,
-      ghost: true
-    };
-
-    const bb = J.mainDraw(env, mainItem);
-
-    // Micro decorative sub-bar
-    if (env.pass === 'main' && bb) {
-      const a = inE(env, 0.4) * outE(env);
-      env.rect(bb.x0, bb.y1 + 12 * u, (bb.x1 - bb.x0) * 0.38, 3.5 * u, sc.accent, a, false);
-      env.draw({
-        text: 'LEAGUE OF LEGENDS // K/DA MUSIC',
-        font: 'mono',
-        size: 10 * u,
-        x: bb.x0 + (bb.x1 - bb.x0) * 0.40,
-        y: bb.y1 + 15 * u,
-        color: sc.sub,
-        alpha: 0.65 * a,
-        align: 'left',
-        ghost: false
-      });
-    }
-
-    return bb;
-  }
-}, PK);
-
-/* ============================================================
-   7. K/DA SPLIT CENTER LAYOUT (Cắt đôi chia dòng tương phản)
-   ============================================================ */
-J.register('layout', 'kdaSplitCenter', {
-  name: 'K/DA Chia dòng cắt xéo',
-  tags: ['graphic', 'glitch', 'pop'],
-  w: 1.6,
-  ae: 'split',
-  fits: n => n >= 4 && n <= 32,
-  plan(rng, cut, st) {
-    return {
-      swapColors: rng.chance(0.5)
-    };
-  },
-  render(env) {
-    const cut = env.cut;
-    const u = U(env);
-    const sc = env.sc;
-    const text = cut.text || '';
-    if (!text) return null;
-
-    // Split text into two balanced parts
-    const words = text.split(/\s+/);
-    let topText = text, botText = '';
-    if (words.length >= 2) {
-      const mid = Math.ceil(words.length / 2);
-      topText = words.slice(0, mid).join(' ');
-      botText = words.slice(mid).join(' ');
-    } else {
-      const mid = Math.ceil(text.length / 2);
-      topText = text.slice(0, mid);
-      botText = text.slice(mid);
-    }
-
-    const cx = env.W * 0.5;
-    const cy = env.H * 0.5;
-    const font = (env.st.fonts.display && env.st.fonts.display[0]) || 'dela';
-
-    const fitTop = J.fitSize(topText, font, env.W * 0.75, env.H * 0.22, { sx: 1.05 });
-    const fitBot = botText ? J.fitSize(botText, font, env.W * 0.75, env.H * 0.22, { sx: 1.05 }) : fitTop;
-    const size = Math.min(fitTop.size, fitBot.size, 72 * u);
-
-    const gap = size * 0.62;
-
-    const itTop = {
-      text: topText,
-      font: font,
-      size: size,
-      x: cx - 25 * u,
-      y: cy - gap * 0.85,
-      color: sc.fg,
-      skew: -0.2,
-      align: 'center',
-      mi: 0,
-      ghost: true
-    };
-
-    const bbTop = J.mainDraw(env, itTop);
-
-    let bbBot = null;
-    if (botText) {
-      const itBot = {
-        text: botText,
-        font: font,
-        size: size * 0.95,
-        x: cx + 25 * u,
-        y: cy + gap * 0.85,
-        color: sc.accent,
-        skew: -0.2,
-        align: 'center',
-        mi: 1,
-        ghost: true
-      };
-      bbBot = J.mainDraw(env, itBot);
-    }
-
-    // Angled laser separator
-    if (env.pass === 'main') {
-      const a = inE(env, 0.35) * outE(env);
-      const slashW = 180 * u;
-      env.line([[cx - slashW, cy - 8 * u], [cx + slashW, cy + 8 * u]], sc.sub, 2.5 * u, 0.7 * a, true);
-    }
-
-    return bbTop && bbBot ? {
-      x0: Math.min(bbTop.x0, bbBot.x0),
-      y0: Math.min(bbTop.y0, bbBot.y0),
-      x1: Math.max(bbTop.x1, bbBot.x1),
-      y1: Math.max(bbTop.y1, bbBot.y1)
-    } : (bbTop || bbBot);
-  }
-}, PK);
-
-/* ============================================================
-   8. K/DA LASER SLICE ENTRANCE (Vết chém Laser tốc độ cao)
-   ============================================================ */
-J.register('enter', 'kdaLaserSlice', {
-  name: 'K/DA Chém Laser',
-  tags: ['graphic', 'glitch', 'pop'],
+J.register('enter', 'kdaSnapZoom', {
+  name: 'K/DA Snap Zoom',
+  tags: ['graphic', 'glitch'],
   w: 2.0,
   apply(env, it, p, ctx) {
     const dur = ctx.inDur;
@@ -537,70 +539,87 @@ J.register('enter', 'kdaLaserSlice', {
     const prog = J.clamp(lt / Math.max(0.01, dur));
     const ease = E.outExpo(prog);
 
-    // Initial offset slash slice
-    const dist = (1 - ease) * 160 * U(env);
-    it.dx = (it.dx || 0) + dist * 1.2;
-    it.dy = (it.dy || 0) - dist * 0.5;
-    it.alpha = (it.alpha ?? 1) * J.clamp(prog * 2.2);
+    // Brutal scale slam from 1.6x down to 1.0x with slight overshoot
+    const scale = 1 + (1 - ease) * 0.65;
+    it.size = (it.size || 50) * scale;
+    it.alpha = (it.alpha ?? 1) * J.clamp(prog * 3.5);
 
-    // Flash white on very beginning
-    if (prog < 0.28 && env.pass === 'main') {
+    // 1-frame strobe flash on kick
+    if (prog < 0.2 && env.pass === 'main') {
       it.color = '#FFFFFF';
-      it.glow = (it.glow || 0) + 1.5;
+      it.glow = (it.glow || 0) + 1.8;
     }
   }
 }, PK);
 
 /* ============================================================
-   9. K/DA VOID GRID BACKGROUND (Lưới không gian Cyber Void)
+   8. K/DA AURORA SILK BACKGROUND (Cực quang lụa óng ánh chuẩn MV)
+   Tái hiện chính xác nền óng ánh màu ngọc trai của The Baddest MV
    ============================================================ */
-J.register('bg', 'kdaVoidGrid', {
-  name: 'K/DA Lưới Không gian Void',
-  tags: ['graphic', 'glitch'],
-  w: 1.5,
-  draw(env, P, ctx) {
-    const u = U(env);
-    const sc = env.sc;
+J.register('bg', 'kdaAuroraSilk', {
+  name: 'K/DA Cực quang lụa Iridescent',
+  tags: ['graphic', 'editorial'],
+  w: 2.2,
+  draw(env, P) {
+    const ctx = env.ctx;
     const w = env.W, h = env.H;
     const t = env.t;
 
-    // Horizon line at 65% height
-    const horizY = h * 0.65;
+    // Moving pearlescent iridescent gradient wave
+    const g = ctx.createLinearGradient(
+      w * 0.2 + Math.sin(t * 0.4) * w * 0.25,
+      0,
+      w * 0.8 + Math.cos(t * 0.3) * w * 0.25,
+      h
+    );
 
-    // Perspective floor lines moving toward camera
-    const gridSpeed = (t * 80 * u) % (30 * u);
-    ctx.strokeStyle = sc.dim;
+    // High-fashion pastel silk stops from MV: Lilac -> Soft Cyan -> Pearlescent Pink -> Opal Blue
+    g.addColorStop(0.0, '#9FA8DA'); // Soft lavender lilac
+    g.addColorStop(0.35, '#80DEEA'); // Liquid aqua
+    g.addColorStop(0.70, '#EA80FC'); // Pearlescent neon pink
+    g.addColorStop(1.0, '#B388FF'); // Deep royal opal
+
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, w, h);
+
+    // Diagonal silk wave sheen
+    ctx.save();
+    ctx.globalCompositeOperation = 'overlay';
+    const sheenGrad = ctx.createLinearGradient(0, 0, w, h * 0.8);
+    sheenGrad.addColorStop(0.0, 'rgba(255, 255, 255, 0.4)');
+    sheenGrad.addColorStop(0.5, 'rgba(255, 255, 255, 0.05)');
+    sheenGrad.addColorStop(1.0, 'rgba(255, 255, 255, 0.35)');
+    ctx.fillStyle = sheenGrad;
+    ctx.fillRect(0, 0, w, h);
+    ctx.restore();
+  }
+}, PK);
+
+/* ============================================================
+   9. K/DA ONYX VOID BACKGROUND (Đêm đen Cyberpunk tối giản)
+   ============================================================ */
+J.register('bg', 'kdaOnyxVoid', {
+  name: 'K/DA Đêm đen Onyx Void',
+  tags: ['graphic', 'glitch'],
+  w: 2.0,
+  draw(env, P) {
+    const ctx = env.ctx;
+    const w = env.W, h = env.H;
+    ctx.fillStyle = '#06050A';
+    ctx.fillRect(0, 0, w, h);
+
+    // Subtle 1px tech grid lines
+    const u = U(env);
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
     ctx.lineWidth = 1 * u;
-    ctx.globalAlpha = 0.35;
-
     ctx.beginPath();
-    // Horizontal perspective rungs
-    for (let y = horizY; y <= h; y += 18 * u) {
-      const py = horizY + Math.pow((y - horizY) / (h - horizY), 1.8) * (h - horizY) + gridSpeed;
-      if (py > h) continue;
-      ctx.moveTo(0, py);
-      ctx.lineTo(w, py);
+    for (let x = 0; x < w; x += 180 * u) {
+      ctx.moveTo(x, 0); ctx.lineTo(x, h);
     }
-    // Radial perspective lines converging at center horizon
-    for (let x = -w * 0.5; x <= w * 1.5; x += 90 * u) {
-      ctx.moveTo(w * 0.5, horizY);
-      ctx.lineTo(x, h);
+    for (let y = 0; y < h; y += 180 * u) {
+      ctx.moveTo(0, y); ctx.lineTo(w, y);
     }
     ctx.stroke();
-
-    // Drifting diamond dust / stars
-    const seed = 0x4B4441;
-    for (let i = 0; i < 20; i++) {
-      const rx = (J.r(seed, i, 1) * w + t * 15 * u) % w;
-      const ry = (J.r(seed, i, 2) * horizY);
-      const rsize = (2 + J.r(seed, i, 3) * 3) * u;
-      const rcol = (i % 2 === 0) ? sc.accent : sc.sub;
-      ctx.fillStyle = rcol;
-      ctx.globalAlpha = 0.4 + 0.3 * Math.sin(t * 3 + i);
-      ctx.fillRect(rx - rsize * 0.5, ry - rsize * 0.5, rsize, rsize);
-    }
-
-    ctx.globalAlpha = 1.0;
   }
 }, PK);
 
