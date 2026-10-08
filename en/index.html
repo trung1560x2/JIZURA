@@ -37878,7 +37878,18 @@ function bind() {
     $('fileAutoSync').addEventListener('change', async e => {
       const f = e.target.files && e.target.files[0]; e.target.value = ''; if (!f) return;
       const curLyrics = ($('lyrics') && $('lyrics').value) || S.project.lyrics || '';
-      const hasLyrics = curLyrics.trim().length > 10;
+      // Strip old timestamp brackets to check if actual text exists
+      const pureText = curLyrics.replace(/\[\d+:\d+(?:\.\d+)?\]/g, '').replace(/\[interlude\s*\d*\]/gi, '').trim();
+      const hasLyrics = pureText.length > 10;
+      if (!hasLyrics) {
+        const proceed = window.confirm(
+          '⚠️ Bạn chưa dán lời bài hát vào khung!\n\n' +
+          '• Để khớp chuẩn 100%: Bạn nên dán trước lời bài hát chuẩn vào ô Lời bài hát, sau đó bấm AI Auto-Sync để AI ép khớp mốc thời gian (không bị sai chữ do nhạc nền).\n\n' +
+          '• Nếu tiếp tục lúc này, AI sẽ phải tự nghe mò tiếng hát qua nhạc nền (có thể bị nghe nhầm chữ).\n\n' +
+          'Bạn có muốn AI tự nghe mò không?'
+        );
+        if (!proceed) return;
+      }
       toast(hasLyrics ? 'Đang ép khớp lời (Forced Alignment) chuẩn 100%...' : 'Đang dùng Whisper AI nghe và chép lời...');
       try { loadAudioFile(f); } catch (err) {}
       try {
