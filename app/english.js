@@ -222,7 +222,8 @@
     candy: ['Candy', 'Mint and fruit pastel colors with bouncing letters'],
     acid: ['Acid', 'Black, acid green and magenta with distressed type'],
     sumi: ['Ink and Vermilion', 'Japanese paper, brush lettering and red seals'],
-    gold: ['Golden Night', 'Deep black, gold foil, ivory serif and glints']
+    gold: ['Golden Night', 'Deep black, gold foil, ivory serif and glints'],
+    kda: ['K/DA (Riot Games)', 'Neon Fuchsia × Laser Cyan × Deep Void • Diamond Crystals & Cyber HUD • Riot Games']
   };
   for (const [key, [name, desc]] of Object.entries(styles)) {
     J.STYLES[key].name = name; J.STYLES[key].desc = desc;

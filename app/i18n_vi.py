@@ -12,6 +12,7 @@ MOODS = {
 }
 
 STYLES = {
+    'kda': ('K/DA (Riot Games)', 'Neon Fuchsia × Laser Cyan × Deep Void • Mảnh vỡ pha lê kim cương • Phong cách Riot Games'),
     'hrRuin': ('Phế tích', 'Xanh xám bạc màu, đỏ gỉ sét và chữ có chân vang vọng'),
     'hrNightRec': ('Băng ghi hình nửa đêm', 'Màn hình đen kịt, trắng và đỏ của camera giám sát, nhiễu sóng'),
     'hrCurse': ('Bức thư nguyền rủa', 'Giấy ố vàng, mực phai và nét chữ đỏ sẫm'),
