@@ -23,3 +23,7 @@ variations/
 
 dist/
 preview_project.json
+
+words_*.txt
+chunk*.wav
+clip_*.wav

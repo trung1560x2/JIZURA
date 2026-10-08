@@ -198,10 +198,10 @@
       "lrc": 0,
       "text": "",
       "interlude": true,
-      "secs": 44,
+      "secs": 40,
       "start": 0,
-      "end": 44,
-      "visEnd": 44,
+      "end": 40,
+      "visEnd": 40,
       "note": null,
       "impact": false,
       "emph": [],
@@ -211,11 +211,11 @@
     {
       "index": 1,
       "src": 1,
-      "lrc": 44.2,
+      "lrc": 40.2,
       "text": "Hẹn nhau về đây thăm Miền Tây hôm nay",
-      "start": 44,
-      "end": 48.8,
-      "visEnd": 48.8,
+      "start": 40,
+      "end": 46.4,
+      "visEnd": 46.4,
       "note": null,
       "impact": false,
       "emph": [],
@@ -228,11 +228,11 @@
     {
       "index": 2,
       "src": 2,
-      "lrc": 49,
+      "lrc": 46.6,
       "text": "Đẹp thêm lời yêu sau ngàn ngày mong ước",
-      "start": 48.8,
-      "end": 54.3,
-      "visEnd": 54.3,
+      "start": 46.4,
+      "end": 54.8,
+      "visEnd": 54.8,
       "note": null,
       "impact": false,
       "emph": [
@@ -247,11 +247,11 @@
     {
       "index": 3,
       "src": 3,
-      "lrc": 54.5,
+      "lrc": 55,
       "text": "Yêu rừng tràm rừng đước thương nhớ chiến khu xưa",
-      "start": 54.3,
-      "end": 59.8,
-      "visEnd": 59.8,
+      "start": 54.8,
+      "end": 60.9,
+      "visEnd": 60.9,
       "note": null,
       "impact": false,
       "emph": [],
@@ -264,11 +264,11 @@
     {
       "index": 4,
       "src": 4,
-      "lrc": 60,
+      "lrc": 61.1,
       "text": "Yêu những dòng phù sa đất chín rồng nên thơ",
-      "start": 59.8,
-      "end": 66.3,
-      "visEnd": 66.3,
+      "start": 60.9,
+      "end": 66,
+      "visEnd": 66,
       "note": null,
       "impact": false,
       "emph": [],
@@ -281,11 +281,11 @@
     {
       "index": 5,
       "src": 5,
-      "lrc": 66.5,
+      "lrc": 66.2,
       "text": "Yêu lũ ngập đồng quê mùa tôm cá theo về",
-      "start": 66.3,
-      "end": 75.3,
-      "visEnd": 75.3,
+      "start": 66,
+      "end": 75.5,
+      "visEnd": 75.5,
       "note": null,
       "impact": false,
       "emph": [],
@@ -298,11 +298,11 @@
     {
       "index": 6,
       "src": 6,
-      "lrc": 75.5,
+      "lrc": 75.7,
       "text": "Yêu cù lao cho ngọt lành hoa trái",
-      "start": 75.3,
-      "end": 81,
-      "visEnd": 81,
+      "start": 75.5,
+      "end": 81.5,
+      "visEnd": 81.5,
       "note": null,
       "impact": false,
       "emph": [],
@@ -315,11 +315,11 @@
     {
       "index": 7,
       "src": 7,
-      "lrc": 81.2,
+      "lrc": 81.7,
       "text": "Yêu vàm sông cho đồng thơm lúa mới",
-      "start": 81,
-      "end": 89.2,
-      "visEnd": 89.2,
+      "start": 81.5,
+      "end": 89.3,
+      "visEnd": 89.3,
       "note": null,
       "impact": false,
       "emph": [],
@@ -332,11 +332,11 @@
     {
       "index": 8,
       "src": 8,
-      "lrc": 89.4,
+      "lrc": 89.5,
       "text": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
-      "start": 89.2,
-      "end": 94.89999999999999,
-      "visEnd": 94.89999999999999,
+      "start": 89.3,
+      "end": 95,
+      "visEnd": 95,
       "note": null,
       "impact": false,
       "emph": [],
@@ -349,11 +349,11 @@
     {
       "index": 9,
       "src": 9,
-      "lrc": 95.1,
+      "lrc": 95.2,
       "text": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
-      "start": 94.89999999999999,
-      "end": 100.7,
-      "visEnd": 100.7,
+      "start": 95,
+      "end": 100.39999999999999,
+      "visEnd": 100.39999999999999,
       "note": null,
       "impact": false,
       "emph": [],
@@ -366,11 +366,11 @@
     {
       "index": 10,
       "src": 10,
-      "lrc": 100.9,
+      "lrc": 100.6,
       "text": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
-      "start": 100.7,
-      "end": 106.8,
-      "visEnd": 106.8,
+      "start": 100.39999999999999,
+      "end": 106.89999999999999,
+      "visEnd": 106.89999999999999,
       "note": null,
       "impact": false,
       "emph": [],
@@ -383,9 +383,9 @@
     {
       "index": 11,
       "src": 11,
-      "lrc": 107,
+      "lrc": 107.1,
       "text": "Lời ca yêu Miền Tây",
-      "start": 106.8,
+      "start": 106.89999999999999,
       "end": 111.8,
       "visEnd": 111.8,
       "note": null,
@@ -406,10 +406,10 @@
       "lrc": 112,
       "text": "",
       "interlude": true,
-      "secs": 4,
+      "secs": 5,
       "start": 111.8,
-      "end": 116.6,
-      "visEnd": 116.6,
+      "end": 117.6,
+      "visEnd": 117.6,
       "note": null,
       "impact": false,
       "emph": [],
@@ -419,11 +419,11 @@
     {
       "index": 13,
       "src": 13,
-      "lrc": 116.8,
+      "lrc": 117.8,
       "text": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
-      "start": 116.6,
-      "end": 123.39999999999999,
-      "visEnd": 123.39999999999999,
+      "start": 117.6,
+      "end": 123.3,
+      "visEnd": 123.3,
       "note": null,
       "impact": false,
       "emph": [
@@ -438,11 +438,11 @@
     {
       "index": 14,
       "src": 14,
-      "lrc": 123.6,
+      "lrc": 123.5,
       "text": "Chợ nổi mênh mang đón chào tình trong sáng",
-      "start": 123.39999999999999,
-      "end": 129.20000000000002,
-      "visEnd": 129.20000000000002,
+      "start": 123.3,
+      "end": 129,
+      "visEnd": 129,
       "note": null,
       "impact": false,
       "emph": [],
@@ -455,11 +455,11 @@
     {
       "index": 15,
       "src": 15,
-      "lrc": 129.4,
+      "lrc": 129.2,
       "text": "Vọng những thôn trang xốn xang tình cổ nhạc",
-      "start": 129.20000000000002,
-      "end": 134.4,
-      "visEnd": 134.4,
+      "start": 129,
+      "end": 135.20000000000002,
+      "visEnd": 135.20000000000002,
       "note": null,
       "impact": false,
       "emph": [],
@@ -472,11 +472,11 @@
     {
       "index": 16,
       "src": 16,
-      "lrc": 134.6,
+      "lrc": 135.4,
       "text": "Vương vấn trong tâm hồn ta với thời gian",
-      "start": 134.4,
-      "end": 141.8,
-      "visEnd": 141.8,
+      "start": 135.20000000000002,
+      "end": 147.70000000000002,
+      "visEnd": 147.70000000000002,
       "note": null,
       "impact": false,
       "emph": [],
@@ -489,11 +489,11 @@
     {
       "index": 17,
       "src": 17,
-      "lrc": 142,
+      "lrc": 147.9,
       "text": "Lời ca yêu Miền Tây",
-      "start": 141.8,
-      "end": 146.8,
-      "visEnd": 146.8,
+      "start": 147.70000000000002,
+      "end": 153.8,
+      "visEnd": 153.8,
       "note": null,
       "impact": true,
       "emph": [],
@@ -509,13 +509,13 @@
     {
       "index": 18,
       "src": 18,
-      "lrc": 147,
+      "lrc": 154,
       "text": "",
       "interlude": true,
-      "secs": 19,
-      "start": 146.8,
-      "end": 166.60000000000002,
-      "visEnd": 166.60000000000002,
+      "secs": 5,
+      "start": 153.8,
+      "end": 159.4,
+      "visEnd": 159.4,
       "note": null,
       "impact": false,
       "emph": [],
@@ -525,26 +525,47 @@
     {
       "index": 19,
       "src": 19,
-      "lrc": 166.8,
-      "text": "Hò ơi... Lời yêu thương gửi miền Tây",
-      "start": 166.60000000000002,
-      "end": 173.8,
-      "visEnd": 173.8,
+      "lrc": 159.6,
+      "text": "Hò ơi...",
+      "start": 159.4,
+      "end": 166.3,
+      "visEnd": 164.1,
       "note": null,
       "impact": false,
       "emph": [],
       "chunks": [
-        "Hò ơi...",
-        "Lời yêu thương gửi miền Tây"
+        "Hò",
+        "ơi..."
       ],
       "seed": 3766887335
     },
     {
       "index": 20,
       "src": 20,
-      "lrc": 174,
+      "lrc": 166.5,
+      "text": "Lời yêu thương gửi miền Tây",
+      "start": 166.3,
+      "end": 170.8,
+      "visEnd": 170.8,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [
+        "Lời",
+        "yêu",
+        "thương",
+        "gửi",
+        "miền",
+        "Tây"
+      ],
+      "seed": 335927477
+    },
+    {
+      "index": 21,
+      "src": 21,
+      "lrc": 171,
       "text": "Về thương đi nhớ ơ ờ mà nhớ thương câu hò",
-      "start": 173.8,
+      "start": 170.8,
       "end": 179.8,
       "visEnd": 179.8,
       "note": null,
@@ -554,32 +575,32 @@
         "Về thương đi nhớ",
         "ơ ờ mà nhớ thương câu hò"
       ],
-      "seed": 335927477
-    },
-    {
-      "index": 21,
-      "src": 21,
-      "lrc": 180,
-      "text": "",
-      "interlude": true,
-      "secs": 15,
-      "start": 179.8,
-      "end": 194.8,
-      "visEnd": 194.8,
-      "note": null,
-      "impact": false,
-      "emph": [],
-      "chunks": [],
       "seed": 1613563689
     },
     {
       "index": 22,
       "src": 22,
-      "lrc": 195,
+      "lrc": 180,
+      "text": "",
+      "interlude": true,
+      "secs": 12,
+      "start": 179.8,
+      "end": 192.10000000000002,
+      "visEnd": 192.10000000000002,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [],
+      "seed": 1530976262
+    },
+    {
+      "index": 23,
+      "src": 23,
+      "lrc": 192.3,
       "text": "Yêu cù lao cho ngọt lành hoa trái",
-      "start": 194.8,
-      "end": 200.60000000000002,
-      "visEnd": 200.60000000000002,
+      "start": 192.10000000000002,
+      "end": 197.70000000000002,
+      "visEnd": 197.70000000000002,
       "note": null,
       "impact": false,
       "emph": [],
@@ -587,16 +608,16 @@
         "Yêu cù lao",
         "cho ngọt lành hoa trái"
       ],
-      "seed": 1530976262
+      "seed": 2011508368
     },
     {
-      "index": 23,
-      "src": 23,
-      "lrc": 200.8,
+      "index": 24,
+      "src": 24,
+      "lrc": 197.9,
       "text": "Yêu vàm sông cho đồng thơm lúa mới",
-      "start": 200.60000000000002,
-      "end": 206.4,
-      "visEnd": 206.4,
+      "start": 197.70000000000002,
+      "end": 205.9,
+      "visEnd": 205.9,
       "note": null,
       "impact": false,
       "emph": [],
@@ -604,16 +625,16 @@
         "Yêu vàm sông",
         "cho đồng thơm lúa mới"
       ],
-      "seed": 2011508368
+      "seed": 3197737845
     },
     {
-      "index": 24,
-      "src": 24,
-      "lrc": 206.6,
+      "index": 25,
+      "src": 25,
+      "lrc": 206.1,
       "text": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
-      "start": 206.4,
-      "end": 210,
-      "visEnd": 210,
+      "start": 205.9,
+      "end": 212.10000000000002,
+      "visEnd": 212.10000000000002,
       "note": null,
       "impact": false,
       "emph": [],
@@ -621,16 +642,16 @@
         "Yêu rặng dừa hát ru ta",
         "vòng tay giữ đất bao la"
       ],
-      "seed": 3197737845
+      "seed": 3384221400
     },
     {
-      "index": 25,
-      "src": 25,
-      "lrc": 210.2,
+      "index": 26,
+      "src": 26,
+      "lrc": 212.3,
       "text": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
-      "start": 210,
-      "end": 217.8,
-      "visEnd": 217.8,
+      "start": 212.10000000000002,
+      "end": 217.5,
+      "visEnd": 217.5,
       "note": null,
       "impact": false,
       "emph": [],
@@ -638,14 +659,14 @@
         "Yêu điệu lý hò ngân nga",
         "hòa ca nhịp sống bao đời"
       ],
-      "seed": 3384221400
+      "seed": 3137630123
     },
     {
-      "index": 26,
-      "src": 26,
-      "lrc": 218,
+      "index": 27,
+      "src": 27,
+      "lrc": 217.7,
       "text": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
-      "start": 217.8,
+      "start": 217.5,
       "end": 223.8,
       "visEnd": 223.8,
       "note": null,
@@ -655,11 +676,11 @@
         "Yêu tình đất mũi xa xôi",
         "thảo thơm nơi cuối trời"
       ],
-      "seed": 3137630123
+      "seed": 3400082977
     },
     {
-      "index": 27,
-      "src": 27,
+      "index": 28,
+      "src": 28,
       "lrc": 224,
       "text": "Lời ca yêu Miền Tây",
       "start": 223.8,
@@ -675,32 +696,32 @@
         "Miền",
         "Tây"
       ],
-      "seed": 3400082977
-    },
-    {
-      "index": 28,
-      "src": 28,
-      "lrc": 229,
-      "text": "",
-      "interlude": true,
-      "secs": 6,
-      "start": 228.8,
-      "end": 234.8,
-      "visEnd": 234.8,
-      "note": null,
-      "impact": false,
-      "emph": [],
-      "chunks": [],
       "seed": 587505752
     },
     {
       "index": 29,
       "src": 29,
-      "lrc": 235,
+      "lrc": 229,
+      "text": "",
+      "interlude": true,
+      "secs": 5,
+      "start": 228.8,
+      "end": 234.60000000000002,
+      "visEnd": 234.60000000000002,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [],
+      "seed": 2022923839
+    },
+    {
+      "index": 30,
+      "src": 30,
+      "lrc": 234.8,
       "text": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
-      "start": 234.8,
-      "end": 240.4,
-      "visEnd": 240.4,
+      "start": 234.60000000000002,
+      "end": 240.60000000000002,
+      "visEnd": 240.60000000000002,
       "note": null,
       "impact": false,
       "emph": [
@@ -710,16 +731,16 @@
         "Nghe thổn thức tâm can",
         "câu Dạ cổ hoài lang"
       ],
-      "seed": 2022923839
+      "seed": 1660954266
     },
     {
-      "index": 30,
-      "src": 30,
-      "lrc": 240.6,
+      "index": 31,
+      "src": 31,
+      "lrc": 240.8,
       "text": "Chợ nổi mênh mang đón chào tình trong sáng",
-      "start": 240.4,
-      "end": 246.20000000000002,
-      "visEnd": 246.20000000000002,
+      "start": 240.60000000000002,
+      "end": 246.4,
+      "visEnd": 246.4,
       "note": null,
       "impact": false,
       "emph": [],
@@ -727,16 +748,16 @@
         "Chợ nổi mênh mang",
         "đón chào tình trong sáng"
       ],
-      "seed": 1660954266
+      "seed": 80536637
     },
     {
-      "index": 31,
-      "src": 31,
-      "lrc": 246.4,
+      "index": 32,
+      "src": 32,
+      "lrc": 246.6,
       "text": "Vọng những thôn trang xốn xang tình cổ nhạc",
-      "start": 246.20000000000002,
-      "end": 252.20000000000002,
-      "visEnd": 252.20000000000002,
+      "start": 246.4,
+      "end": 251.8,
+      "visEnd": 251.8,
       "note": null,
       "impact": false,
       "emph": [],
@@ -744,16 +765,16 @@
         "Vọng những thôn trang",
         "xốn xang tình cổ nhạc"
       ],
-      "seed": 80536637
+      "seed": 430885817
     },
     {
-      "index": 32,
-      "src": 32,
-      "lrc": 252.4,
+      "index": 33,
+      "src": 33,
+      "lrc": 252,
       "text": "Vương vấn trong tâm hồn ta với thời gian",
-      "start": 252.20000000000002,
-      "end": 258,
-      "visEnd": 258,
+      "start": 251.8,
+      "end": 257.7,
+      "visEnd": 257.7,
       "note": null,
       "impact": false,
       "emph": [],
@@ -761,14 +782,14 @@
         "Vương vấn trong tâm hồn",
         "ta với thời gian"
       ],
-      "seed": 430885817
+      "seed": 4195910554
     },
     {
-      "index": 33,
-      "src": 33,
-      "lrc": 258.2,
+      "index": 34,
+      "src": 34,
+      "lrc": 257.9,
       "text": "Lời ca yêu Miền Tây",
-      "start": 258,
+      "start": 257.7,
       "end": 262.8,
       "visEnd": 262.8,
       "note": null,
@@ -781,32 +802,32 @@
         "Miền",
         "Tây"
       ],
-      "seed": 4195910554
-    },
-    {
-      "index": 34,
-      "src": 34,
-      "lrc": 263,
-      "text": "",
-      "interlude": true,
-      "secs": 6,
-      "start": 262.8,
-      "end": 269,
-      "visEnd": 269,
-      "note": null,
-      "impact": false,
-      "emph": [],
-      "chunks": [],
       "seed": 1207733338
     },
     {
       "index": 35,
       "src": 35,
-      "lrc": 269.2,
+      "lrc": 263,
+      "text": "",
+      "interlude": true,
+      "secs": 5,
+      "start": 262.8,
+      "end": 268.6,
+      "visEnd": 268.6,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [],
+      "seed": 283761350
+    },
+    {
+      "index": 36,
+      "src": 36,
+      "lrc": 268.8,
       "text": "Em gửi mãi yêu thương đất trời Miền Tây",
-      "start": 269,
-      "end": 275,
-      "visEnd": 275,
+      "start": 268.6,
+      "end": 274.90000000000003,
+      "visEnd": 274.90000000000003,
       "note": null,
       "impact": false,
       "emph": [],
@@ -814,16 +835,16 @@
         "Em gửi mãi yêu thương",
         "đất trời Miền Tây"
       ],
-      "seed": 283761350
+      "seed": 351142874
     },
     {
-      "index": 36,
-      "src": 36,
-      "lrc": 275.2,
+      "index": 37,
+      "src": 37,
+      "lrc": 275.1,
       "text": "Nỗi nhớ sao khuây mãi vơi đầy tha thiết",
-      "start": 275,
-      "end": 281,
-      "visEnd": 281,
+      "start": 274.90000000000003,
+      "end": 280.90000000000003,
+      "visEnd": 280.90000000000003,
       "note": null,
       "impact": false,
       "emph": [],
@@ -831,16 +852,16 @@
         "Nỗi nhớ sao khuây",
         "mãi vơi đầy tha thiết"
       ],
-      "seed": 351142874
+      "seed": 2874636969
     },
     {
-      "index": 37,
-      "src": 37,
-      "lrc": 281.2,
+      "index": 38,
+      "src": 38,
+      "lrc": 281.1,
       "text": "Và muốn bên nhau sau mỗi lần cách biệt",
-      "start": 281,
-      "end": 284.6,
-      "visEnd": 284.6,
+      "start": 280.90000000000003,
+      "end": 286.1,
+      "visEnd": 286.1,
       "note": null,
       "impact": false,
       "emph": [],
@@ -848,33 +869,16 @@
         "Và muốn bên nhau",
         "sau mỗi lần cách biệt"
       ],
-      "seed": 2874636969
-    },
-    {
-      "index": 38,
-      "src": 38,
-      "lrc": 284.8,
-      "text": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
-      "start": 284.6,
-      "end": 292.6,
-      "visEnd": 292.6,
-      "note": null,
-      "impact": true,
-      "emph": [],
-      "chunks": [
-        "Hôn chiếc hôn thắm nồng",
-        "cho thỏa chờ mong"
-      ],
       "seed": 2378052916
     },
     {
       "index": 39,
       "src": 39,
-      "lrc": 292.8,
+      "lrc": 286.3,
       "text": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
-      "start": 292.6,
-      "end": 297.6,
-      "visEnd": 297.6,
+      "start": 286.1,
+      "end": 291.90000000000003,
+      "visEnd": 291.90000000000003,
       "note": null,
       "impact": true,
       "emph": [],
@@ -887,6 +891,23 @@
     {
       "index": 40,
       "src": 40,
+      "lrc": 292.1,
+      "text": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
+      "start": 291.90000000000003,
+      "end": 297.6,
+      "visEnd": 297.6,
+      "note": null,
+      "impact": true,
+      "emph": [],
+      "chunks": [
+        "Hôn chiếc hôn thắm nồng",
+        "cho thỏa chờ mong"
+      ],
+      "seed": 1570286247
+    },
+    {
+      "index": 41,
+      "src": 41,
       "lrc": 297.8,
       "text": "Miền Tây mãi trong tim hồng",
       "start": 297.6,
@@ -905,7 +926,7 @@
         "tim",
         "hồng"
       ],
-      "seed": 1570286247
+      "seed": 1777390671
     }
   ],
   "cuts": [
@@ -965,18 +986,18 @@
       "lineText": "",
       "line": 0,
       "start": 0,
-      "end": 44,
+      "end": 40,
       "layout": "interlude",
       "enter": "blur",
       "exit": "blur",
       "seed": 3242576152,
-      "dur": 44,
+      "dur": 40,
       "index": 0
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.5628885400313965,
-      "outDur": 0.3752590266875977,
+      "inDur": 0.7505180533751954,
+      "outDur": 0.5003453689167969,
       "stagger": 0.058212485840776935,
       "decor": [
         {
@@ -1022,8 +1043,8 @@
       "text": "Hẹn nhau về đây",
       "lineText": "Hẹn nhau về đây thăm Miền Tây hôm nay",
       "line": 1,
-      "start": 44,
-      "end": 45.25086342229199,
+      "start": 40,
+      "end": 41.66781789638932,
       "layout": "knReflow",
       "enter": "knTypeToSlam",
       "exit": "tyStrike",
@@ -1034,12 +1055,12 @@
       "transDur": 0,
       "zone": null,
       "utext": "Hẹn nhau về đây",
-      "dur": 1.2508634222919923,
+      "dur": 1.667817896389323,
       "index": 1
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.8514913657770791,
+      "inDur": 0.95,
       "outDur": 0,
       "stagger": 0.04630276404321194,
       "decor": [
@@ -1087,8 +1108,8 @@
       "text": "thăm Miền Tây hôm nay",
       "lineText": "Hẹn nhau về đây thăm Miền Tây hôm nay",
       "line": 1,
-      "start": 45.25086342229199,
-      "end": 46.95384615384615,
+      "start": 41.66781789638932,
+      "end": 43.93846153846154,
       "layout": "lowerThird",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -1099,7 +1120,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "thăm Miền Tây hôm nay",
-      "dur": 1.7029827315541581,
+      "dur": 2.2706436420722156,
       "index": 2
     },
     {
@@ -1159,8 +1180,8 @@
       "text": "Hẹn nhau về đây thăm Miền Tây hôm nay",
       "lineText": "Hẹn nhau về đây thăm Miền Tây hôm nay",
       "line": 1,
-      "start": 46.95384615384615,
-      "end": 48.8,
+      "start": 43.93846153846154,
+      "end": 46.4,
       "layout": "center",
       "enter": "cut",
       "exit": "scatter",
@@ -1171,7 +1192,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Hẹn nhau về đây thăm Miền Tây hôm nay",
-      "dur": 1.8461538461538467,
+      "dur": 2.46153846153846,
       "morph": {
         "dur": 0.6
       },
@@ -1180,7 +1201,7 @@
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.650634802091113,
+      "inDur": 0.9936967886482443,
       "outDur": 0,
       "stagger": 0.0272062630194705,
       "decor": [
@@ -1231,8 +1252,8 @@
       "text": "Đẹp thêm lời yêu",
       "lineText": "Đẹp thêm lời yêu sau ngàn ngày mong ước",
       "line": 2,
-      "start": 48.8,
-      "end": 50.245855115758026,
+      "start": 46.4,
+      "end": 48.608215085884986,
       "layout": "knReflow",
       "enter": "knTypeToSlam",
       "exit": "cut",
@@ -1243,7 +1264,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Đẹp thêm lời yêu",
-      "dur": 1.4458551157580288,
+      "dur": 2.208215085884987,
       "index": 4
     },
     {
@@ -1303,8 +1324,8 @@
       "text": "sau ngàn ngày mong ước",
       "lineText": "Đẹp thêm lời yêu sau ngàn ngày mong ước",
       "line": 2,
-      "start": 50.245855115758026,
-      "end": 52.184615384615384,
+      "start": 48.608215085884986,
+      "end": 51.569230769230764,
       "layout": "center",
       "enter": "cut",
       "exit": "cut",
@@ -1317,7 +1338,7 @@
       "transDur": 0.42,
       "zone": null,
       "utext": "sau ngàn ngày mong ước",
-      "dur": 1.938760268857358,
+      "dur": 2.961015683345778,
       "index": 5
     },
     {
@@ -1379,8 +1400,8 @@
       "text": "Đẹp thêm lời yêu sau ngàn ngày mong ước",
       "lineText": "Đẹp thêm lời yêu sau ngàn ngày mong ước",
       "line": 2,
-      "start": 52.184615384615384,
-      "end": 54.3,
+      "start": 51.569230769230764,
+      "end": 54.8,
       "layout": "center",
       "enter": "cut",
       "exit": "tyStrike",
@@ -1391,7 +1412,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Đẹp thêm lời yêu sau ngàn ngày mong ước",
-      "dur": 2.115384615384613,
+      "dur": 3.2307692307692335,
       "morph": {
         "dur": 0.6
       },
@@ -1400,8 +1421,8 @@
     },
     {
       "hold": "shimmer",
-      "inDur": 0.7463683726631939,
-      "outDur": 0.49757891510879587,
+      "inDur": 0.8277903769537236,
+      "outDur": 0.55,
       "stagger": 0.04065553334192373,
       "decor": [
         {
@@ -1451,8 +1472,8 @@
       "text": "Yêu rừng tràm rừng đước",
       "lineText": "Yêu rừng tràm rừng đước thương nhớ chiến khu xưa",
       "line": 3,
-      "start": 54.3,
-      "end": 55.95859638369598,
+      "start": 54.8,
+      "end": 56.63953417100827,
       "layout": "center",
       "enter": "knTypeToSlam",
       "exit": "trackOutWide",
@@ -1463,12 +1484,12 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu rừng tràm rừng đước",
-      "dur": 1.6585963836959863,
+      "dur": 1.8395341710082747,
       "index": 7
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.8630095004597003,
+      "inDur": 0.95,
       "outDur": 0,
       "stagger": 0.05453345890389755,
       "decor": [
@@ -1516,8 +1537,8 @@
       "text": "thương nhớ chiến khu xưa",
       "lineText": "Yêu rừng tràm rừng đước thương nhớ chiến khu xưa",
       "line": 3,
-      "start": 55.95859638369598,
-      "end": 57.684615384615384,
+      "start": 56.63953417100827,
+      "end": 58.55384615384615,
       "layout": "lowerThird",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -1528,7 +1549,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "thương nhớ chiến khu xưa",
-      "dur": 1.7260190009194005,
+      "dur": 1.91431198283788,
       "index": 8
     },
     {
@@ -1590,8 +1611,8 @@
       "text": "Yêu rừng tràm rừng đước thương nhớ chiến khu xưa",
       "lineText": "Yêu rừng tràm rừng đước thương nhớ chiến khu xưa",
       "line": 3,
-      "start": 57.684615384615384,
-      "end": 59.8,
+      "start": 58.55384615384615,
+      "end": 60.9,
       "layout": "center",
       "enter": "cut",
       "exit": "trackOutWide",
@@ -1602,7 +1623,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu rừng tràm rừng đước thương nhớ chiến khu xưa",
-      "dur": 2.115384615384613,
+      "dur": 2.3461538461538467,
       "morph": {
         "dur": 0.6
       },
@@ -1611,8 +1632,8 @@
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.95,
-      "outDur": 0.55,
+      "inDur": 0.7846153846153854,
+      "outDur": 0.4707692307692312,
       "stagger": 0.049474820480681955,
       "decor": [
         {
@@ -1662,8 +1683,8 @@
       "text": "Yêu những dòng phù sa",
       "lineText": "Yêu những dòng phù sa đất chín rồng nên thơ",
       "line": 4,
-      "start": 59.8,
-      "end": 61.8,
+      "start": 60.9,
+      "end": 62.46923076923077,
       "layout": "center",
       "enter": "strokeDraw",
       "exit": "tyStrike",
@@ -1674,12 +1695,12 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu những dòng phù sa",
-      "dur": 2,
+      "dur": 1.5692307692307708,
       "index": 10
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.9,
+      "inDur": 0.7061538461538437,
       "outDur": 0,
       "stagger": 0.05177190576912835,
       "decor": [
@@ -1731,8 +1752,8 @@
       "text": "đất chín rồng nên thơ",
       "lineText": "Yêu những dòng phù sa đất chín rồng nên thơ",
       "line": 4,
-      "start": 61.8,
-      "end": 63.8,
+      "start": 62.46923076923077,
+      "end": 64.03846153846153,
       "layout": "center",
       "enter": "knTypeToSlam",
       "exit": "cut",
@@ -1743,7 +1764,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "đất chín rồng nên thơ",
-      "dur": 2,
+      "dur": 1.5692307692307637,
       "index": 11
     },
     {
@@ -1805,8 +1826,8 @@
       "text": "Yêu những dòng phù sa đất chín rồng nên thơ",
       "lineText": "Yêu những dòng phù sa đất chín rồng nên thơ",
       "line": 4,
-      "start": 63.8,
-      "end": 66.3,
+      "start": 64.03846153846153,
+      "end": 66,
       "layout": "center",
       "enter": "cut",
       "exit": "tyStrike",
@@ -1817,7 +1838,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu những dòng phù sa đất chín rồng nên thơ",
-      "dur": 2.5,
+      "dur": 1.961538461538467,
       "morph": {
         "dur": 0.6
       },
@@ -1881,8 +1902,8 @@
       "text": "Yêu lũ ngập đồng quê",
       "lineText": "Yêu lũ ngập đồng quê mùa tôm cá theo về",
       "line": 5,
-      "start": 66.3,
-      "end": 69.20365944734877,
+      "start": 66,
+      "end": 69.06497386109037,
       "layout": "center",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -1893,7 +1914,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu lũ ngập đồng quê",
-      "dur": 2.9036594473487725,
+      "dur": 3.0649738610903654,
       "index": 13
     },
     {
@@ -1954,8 +1975,8 @@
       "text": "mùa tôm cá theo về",
       "lineText": "Yêu lũ ngập đồng quê mùa tôm cá theo về",
       "line": 5,
-      "start": 69.20365944734877,
-      "end": 71.83846153846154,
+      "start": 69.06497386109037,
+      "end": 71.84615384615384,
       "layout": "center",
       "enter": "cut",
       "exit": "cut",
@@ -1966,7 +1987,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "mùa tôm cá theo về",
-      "dur": 2.6348020911127747,
+      "dur": 2.781179985063474,
       "morph": {
         "dur": 0.6
       },
@@ -2035,8 +2056,8 @@
       "text": "Yêu lũ ngập đồng quê mùa tôm cá theo về",
       "lineText": "Yêu lũ ngập đồng quê mùa tôm cá theo về",
       "line": 5,
-      "start": 71.83846153846154,
-      "end": 75.3,
+      "start": 71.84615384615384,
+      "end": 75.5,
       "layout": "center",
       "enter": "cut",
       "exit": "tyStrike",
@@ -2047,7 +2068,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu lũ ngập đồng quê mùa tôm cá theo về",
-      "dur": 3.461538461538453,
+      "dur": 3.6538461538461604,
       "morph": {
         "dur": 0.6
       },
@@ -2056,7 +2077,7 @@
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.5201748251748278,
+      "inDur": 0.5475524475524459,
       "outDur": 0,
       "stagger": 0.028641895093023777,
       "decor": [
@@ -2106,8 +2127,8 @@
       "text": "Yêu cù lao",
       "lineText": "Yêu cù lao cho ngọt lành hoa trái",
       "line": 6,
-      "start": 75.3,
-      "end": 76.45594405594406,
+      "start": 75.5,
+      "end": 76.71678321678321,
       "layout": "circle",
       "enter": "knTypeToSlam",
       "exit": "cut",
@@ -2118,7 +2139,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu cù lao",
-      "dur": 1.1559440559440617,
+      "dur": 1.216783216783213,
       "index": 16
     },
     {
@@ -2179,8 +2200,8 @@
       "text": "cho ngọt lành hoa trái",
       "lineText": "Yêu cù lao cho ngọt lành hoa trái",
       "line": 6,
-      "start": 76.45594405594406,
-      "end": 78.8076923076923,
+      "start": 76.71678321678321,
+      "end": 79.1923076923077,
       "layout": "center",
       "enter": "cut",
       "exit": "cut",
@@ -2191,7 +2212,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "cho ngọt lành hoa trái",
-      "dur": 2.3517482517482478,
+      "dur": 2.4755244755244803,
       "morph": {
         "dur": 0.6
       },
@@ -2260,8 +2281,8 @@
       "text": "Yêu cù lao cho ngọt lành hoa trái",
       "lineText": "Yêu cù lao cho ngọt lành hoa trái",
       "line": 6,
-      "start": 78.8076923076923,
-      "end": 81,
+      "start": 79.1923076923077,
+      "end": 81.5,
       "layout": "center",
       "enter": "cut",
       "exit": "tyStrike",
@@ -2272,7 +2293,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu cù lao cho ngọt lành hoa trái",
-      "dur": 2.1923076923076934,
+      "dur": 2.3076923076923066,
       "morph": {
         "dur": 0.6
       },
@@ -2282,7 +2303,7 @@
     {
       "hold": "tyKeyPulse",
       "inDur": 0.6,
-      "outDur": 0.55,
+      "outDur": 0.5409944751381204,
       "stagger": 0.03335041912738234,
       "decor": [
         {
@@ -2331,8 +2352,8 @@
       "text": "Yêu vàm sông",
       "lineText": "Yêu vàm sông cho đồng thơm lúa mới",
       "line": 7,
-      "start": 81,
-      "end": 82.89579260518487,
+      "start": 81.5,
+      "end": 83.30331491712707,
       "layout": "lowerThird",
       "enter": "wipe",
       "exit": "trackOutWide",
@@ -2343,7 +2364,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu vàm sông",
-      "dur": 1.895792605184866,
+      "dur": 1.803314917127068,
       "index": 19
     },
     {
@@ -2401,8 +2422,8 @@
       "text": "cho đồng thơm lúa mới",
       "lineText": "Yêu vàm sông cho đồng thơm lúa mới",
       "line": 7,
-      "start": 82.89579260518487,
-      "end": 86.04615384615384,
+      "start": 83.30331491712707,
+      "end": 86.3,
       "layout": "center",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -2413,7 +2434,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "cho đồng thơm lúa mới",
-      "dur": 3.1503612409689765,
+      "dur": 2.9966850828729292,
       "index": 20
     },
     {
@@ -2476,8 +2497,8 @@
       "text": "Yêu vàm sông cho đồng thơm lúa mới",
       "lineText": "Yêu vàm sông cho đồng thơm lúa mới",
       "line": 7,
-      "start": 86.04615384615384,
-      "end": 89.2,
+      "start": 86.3,
+      "end": 89.3,
       "layout": "center",
       "enter": "cut",
       "exit": "diagWipeOut",
@@ -2488,7 +2509,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu vàm sông cho đồng thơm lúa mới",
-      "dur": 3.1538461538461604,
+      "dur": 3,
       "morph": {
         "dur": 0.6
       },
@@ -2546,8 +2567,8 @@
       "text": "Yêu rặng dừa hát ru ta",
       "lineText": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
       "line": 8,
-      "start": 89.2,
-      "end": 90.91745930418129,
+      "start": 89.3,
+      "end": 91.01745930418129,
       "layout": "genkou",
       "enter": "knTypeToSlam",
       "exit": "zoomThrough",
@@ -2563,7 +2584,7 @@
     },
     {
       "hold": "glitchtick",
-      "inDur": 0.8951165017555027,
+      "inDur": 0.8951165017555098,
       "outDur": 0,
       "stagger": 0.03518995313555934,
       "decor": [
@@ -2612,8 +2633,8 @@
       "text": "vòng tay giữ đất bao la",
       "lineText": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
       "line": 8,
-      "start": 90.91745930418129,
-      "end": 92.7076923076923,
+      "start": 91.01745930418129,
+      "end": 92.8076923076923,
       "layout": "lowerThird",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -2624,7 +2645,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "vòng tay giữ đất bao la",
-      "dur": 1.7902330035110054,
+      "dur": 1.7902330035110197,
       "index": 23
     },
     {
@@ -2687,8 +2708,8 @@
       "text": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
       "lineText": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
       "line": 8,
-      "start": 92.7076923076923,
-      "end": 94.89999999999999,
+      "start": 92.8076923076923,
+      "end": 95,
       "layout": "center",
       "enter": "cut",
       "exit": "tyStrike",
@@ -2708,7 +2729,7 @@
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.8745326386760652,
+      "inDur": 0.8142200429052977,
       "outDur": 0,
       "stagger": 0.056926462956471365,
       "decor": [
@@ -2758,8 +2779,8 @@
       "text": "Yêu điệu lý hò ngân nga",
       "lineText": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
       "line": 9,
-      "start": 94.89999999999999,
-      "end": 96.64906527735212,
+      "start": 95,
+      "end": 96.6284400858106,
       "layout": "lowerThird",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -2770,7 +2791,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu điệu lý hò ngân nga",
-      "dur": 1.7490652773521305,
+      "dur": 1.6284400858105954,
       "index": 25
     },
     {
@@ -2824,8 +2845,8 @@
       "text": "hòa ca nhịp sống bao đời",
       "lineText": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
       "line": 9,
-      "start": 96.64906527735212,
-      "end": 98.46923076923076,
+      "start": 96.6284400858106,
+      "end": 98.32307692307691,
       "layout": "justified",
       "enter": "cut",
       "exit": "cut",
@@ -2836,7 +2857,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "hòa ca nhịp sống bao đời",
-      "dur": 1.8201654918786403,
+      "dur": 1.6946368372663159,
       "morph": {
         "dur": 0.6
       },
@@ -2904,8 +2925,8 @@
       "text": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
       "lineText": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
       "line": 9,
-      "start": 98.46923076923076,
-      "end": 100.7,
+      "start": 98.32307692307691,
+      "end": 100.39999999999999,
       "layout": "center",
       "enter": "cut",
       "exit": "trackOutWide",
@@ -2916,7 +2937,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
-      "dur": 2.2307692307692406,
+      "dur": 2.07692307692308,
       "morph": {
         "dur": 0.6
       },
@@ -2925,7 +2946,7 @@
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.8446153846153849,
+      "inDur": 0.9,
       "outDur": 0.55,
       "stagger": 0.02664548709522933,
       "decor": [
@@ -2981,8 +3002,8 @@
       "text": "Yêu tình đất mũi xa xôi",
       "lineText": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
       "line": 10,
-      "start": 100.7,
-      "end": 102.57692307692308,
+      "start": 100.39999999999999,
+      "end": 102.39999999999999,
       "layout": "center",
       "enter": "knTypeToSlam",
       "exit": "trackOutWide",
@@ -2993,12 +3014,12 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu tình đất mũi xa xôi",
-      "dur": 1.8769230769230774,
+      "dur": 2,
       "index": 28
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.8446153846153849,
+      "inDur": 0.9,
       "outDur": 0,
       "stagger": 0.05807356410310603,
       "decor": [
@@ -3054,8 +3075,8 @@
       "text": "thảo thơm nơi cuối trời",
       "lineText": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
       "line": 10,
-      "start": 102.57692307692308,
-      "end": 104.45384615384616,
+      "start": 102.39999999999999,
+      "end": 104.39999999999999,
       "layout": "center",
       "enter": "knTypeToSlam",
       "exit": "cut",
@@ -3066,7 +3087,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "thảo thơm nơi cuối trời",
-      "dur": 1.8769230769230774,
+      "dur": 2,
       "index": 29
     },
     {
@@ -3116,8 +3137,8 @@
       "text": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
       "lineText": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
       "line": 10,
-      "start": 104.45384615384616,
-      "end": 106.8,
+      "start": 104.39999999999999,
+      "end": 106.89999999999999,
       "layout": "center",
       "enter": "cut",
       "exit": "trackOutWide",
@@ -3128,7 +3149,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
-      "dur": 2.3461538461538396,
+      "dur": 2.5,
       "morph": {
         "dur": 0.6
       },
@@ -3173,7 +3194,7 @@
       "text": "Lời ca yêu Miền Tây",
       "lineText": "Lời ca yêu Miền Tây",
       "line": 11,
-      "start": 106.8,
+      "start": 106.89999999999999,
       "end": 111.8,
       "layout": "center",
       "enter": "zoom",
@@ -3185,7 +3206,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Lời ca yêu Miền Tây",
-      "dur": 5,
+      "dur": 4.900000000000006,
       "kime": true,
       "index": 31
     },
@@ -3245,12 +3266,12 @@
       "lineText": "",
       "line": 12,
       "start": 111.8,
-      "end": 116.6,
+      "end": 117.6,
       "layout": "interlude",
       "enter": "blur",
       "exit": "blur",
       "seed": 14280277,
-      "dur": 4.799999999999997,
+      "dur": 5.799999999999997,
       "index": 32
     },
     {
@@ -3303,8 +3324,8 @@
       "text": "Nghe thổn thức tâm can",
       "lineText": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
       "line": 13,
-      "start": 116.6,
-      "end": 118.83431952662721,
+      "start": 117.6,
+      "end": 119.47288548555517,
       "layout": "justified",
       "enter": "spin",
       "exit": "collapse",
@@ -3315,12 +3336,12 @@
       "transDur": 0,
       "zone": null,
       "utext": "Nghe thổn thức tâm can",
-      "dur": 2.2343195266272176,
+      "dur": 1.872885485555173,
       "index": 33
     },
     {
       "hold": "heartbeat",
-      "inDur": 0.6,
+      "inDur": 0.588530455969369,
       "outDur": 0,
       "stagger": 0.03119442810304463,
       "decor": [],
@@ -3349,8 +3370,8 @@
       "text": "câu Dạ cổ hoài lang",
       "lineText": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
       "line": 13,
-      "start": 118.83431952662721,
-      "end": 120.78461538461538,
+      "start": 119.47288548555517,
+      "end": 121.1076923076923,
       "layout": "tyLineFocus",
       "enter": "wipe",
       "exit": "cut",
@@ -3361,7 +3382,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "câu Dạ cổ hoài lang",
-      "dur": 1.9502958579881664,
+      "dur": 1.6348068221371364,
       "index": 34
     },
     {
@@ -3422,8 +3443,8 @@
       "text": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
       "lineText": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
       "line": 13,
-      "start": 120.78461538461538,
-      "end": 123.39999999999999,
+      "start": 121.1076923076923,
+      "end": 123.3,
       "layout": "center",
       "enter": "cut",
       "exit": "riseOut",
@@ -3434,7 +3455,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
-      "dur": 2.615384615384613,
+      "dur": 2.1923076923076934,
       "morph": {
         "dur": 0.6
       },
@@ -3443,7 +3464,7 @@
     },
     {
       "hold": "sway",
-      "inDur": 0.7509919944309118,
+      "inDur": 0.738043856595894,
       "outDur": 0,
       "stagger": 0.04845512420753949,
       "decor": [
@@ -3499,8 +3520,8 @@
       "text": "Chợ nổi mênh mang",
       "lineText": "Chợ nổi mênh mang đón chào tình trong sáng",
       "line": 14,
-      "start": 123.39999999999999,
-      "end": 124.90198398886182,
+      "start": 123.3,
+      "end": 124.77608771319179,
       "layout": "center",
       "enter": "neonOn",
       "exit": "cut",
@@ -3511,7 +3532,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Chợ nổi mênh mang",
-      "dur": 1.5019839888618236,
+      "dur": 1.476087713191788,
       "index": 36
     },
     {
@@ -3570,8 +3591,8 @@
       "text": "đón chào tình trong sáng",
       "lineText": "Chợ nổi mênh mang đón chào tình trong sáng",
       "line": 14,
-      "start": 124.90198398886182,
-      "end": 126.96923076923078,
+      "start": 124.77608771319179,
+      "end": 126.8076923076923,
       "layout": "justified",
       "enter": "cut",
       "exit": "cut",
@@ -3582,7 +3603,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "đón chào tình trong sáng",
-      "dur": 2.0672467803689614,
+      "dur": 2.0316045945005214,
       "morph": {
         "dur": 0.6
       },
@@ -3652,8 +3673,8 @@
       "text": "Chợ nổi mênh mang đón chào tình trong sáng",
       "lineText": "Chợ nổi mênh mang đón chào tình trong sáng",
       "line": 14,
-      "start": 126.96923076923078,
-      "end": 129.20000000000002,
+      "start": 126.8076923076923,
+      "end": 129,
       "layout": "center",
       "enter": "cut",
       "exit": "collapse",
@@ -3664,7 +3685,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Chợ nổi mênh mang đón chào tình trong sáng",
-      "dur": 2.2307692307692406,
+      "dur": 2.1923076923076934,
       "morph": {
         "dur": 0.6
       },
@@ -3673,8 +3694,8 @@
     },
     {
       "hold": "heartbeat",
-      "inDur": 0.575999999999998,
-      "outDur": 0.47999999999999826,
+      "inDur": 0.6,
+      "outDur": 0.55,
       "stagger": 0.05960404647514224,
       "decor": [
         {
@@ -3720,8 +3741,8 @@
       "text": "Vọng những thôn trang",
       "lineText": "Vọng những thôn trang xốn xang tình cổ nhạc",
       "line": 15,
-      "start": 129.20000000000002,
-      "end": 130.8,
+      "start": 129,
+      "end": 130.90769230769232,
       "layout": "justified",
       "enter": "spin",
       "exit": "riseOut",
@@ -3732,12 +3753,12 @@
       "transDur": 0,
       "zone": null,
       "utext": "Vọng những thôn trang",
-      "dur": 1.5999999999999943,
+      "dur": 1.9076923076923151,
       "index": 39
     },
     {
       "hold": "heartbeat",
-      "inDur": 0.7999999999999972,
+      "inDur": 0.95,
       "outDur": 0,
       "stagger": 0.036110543232643975,
       "decor": [
@@ -3788,8 +3809,8 @@
       "text": "xốn xang tình cổ nhạc",
       "lineText": "Vọng những thôn trang xốn xang tình cổ nhạc",
       "line": 15,
-      "start": 130.8,
-      "end": 132.4,
+      "start": 130.90769230769232,
+      "end": 132.81538461538463,
       "layout": "center",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -3800,7 +3821,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "xốn xang tình cổ nhạc",
-      "dur": 1.5999999999999943,
+      "dur": 1.9076923076923151,
       "index": 40
     },
     {
@@ -3860,8 +3881,8 @@
       "text": "Vọng những thôn trang xốn xang tình cổ nhạc",
       "lineText": "Vọng những thôn trang xốn xang tình cổ nhạc",
       "line": 15,
-      "start": 132.4,
-      "end": 134.4,
+      "start": 132.81538461538463,
+      "end": 135.20000000000002,
       "layout": "center",
       "enter": "cut",
       "exit": "collapse",
@@ -3872,7 +3893,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Vọng những thôn trang xốn xang tình cổ nhạc",
-      "dur": 2,
+      "dur": 2.384615384615387,
       "morph": {
         "dur": 0.6
       },
@@ -3928,8 +3949,8 @@
       "text": "Vương vấn trong tâm hồn",
       "lineText": "Vương vấn trong tâm hồn ta với thời gian",
       "line": 16,
-      "start": 134.4,
-      "end": 137.05461173897194,
+      "start": 135.20000000000002,
+      "end": 139.6841414509661,
       "layout": "frameBox",
       "enter": "echoIn",
       "exit": "collapse",
@@ -3940,7 +3961,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Vương vấn trong tâm hồn",
-      "dur": 2.654611738971937,
+      "dur": 4.484141450966092,
       "index": 42
     },
     {
@@ -3989,8 +4010,8 @@
       "text": "ta với thời gian",
       "lineText": "Vương vấn trong tâm hồn ta với thời gian",
       "line": 16,
-      "start": 137.05461173897194,
-      "end": 138.95384615384617,
+      "start": 139.6841414509661,
+      "end": 142.8923076923077,
       "layout": "tyLineFocus",
       "enter": "trackIn",
       "exit": "cut",
@@ -4001,7 +4022,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "ta với thời gian",
-      "dur": 1.899234414874229,
+      "dur": 3.208166241341587,
       "index": 43
     },
     {
@@ -4059,8 +4080,8 @@
       "text": "Vương vấn trong tâm hồn ta với thời gian",
       "lineText": "Vương vấn trong tâm hồn ta với thời gian",
       "line": 16,
-      "start": 138.95384615384617,
-      "end": 141.8,
+      "start": 142.8923076923077,
+      "end": 147.70000000000002,
       "layout": "center",
       "enter": "cut",
       "exit": "collapse",
@@ -4071,7 +4092,7 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Vương vấn trong tâm hồn ta với thời gian",
-      "dur": 2.8461538461538396,
+      "dur": 4.807692307692321,
       "morph": {
         "dur": 0.6
       },
@@ -4121,8 +4142,8 @@
       "text": "Lời ca yêu Miền Tây",
       "lineText": "Lời ca yêu Miền Tây",
       "line": 17,
-      "start": 141.8,
-      "end": 146.8,
+      "start": 147.70000000000002,
+      "end": 153.8,
       "layout": "center",
       "enter": "zoom",
       "exit": "zoomFar",
@@ -4133,7 +4154,7 @@
       "transDur": 0,
       "zone": null,
       "utext": "Lời ca yêu Miền Tây",
-      "dur": 5,
+      "dur": 6.099999999999994,
       "kime": true,
       "index": 45
     },
@@ -4161,8 +4182,8 @@
       ],
       "params": {
         "variant": "quiet",
-        "showTitle": true,
-        "titleText": "Yêu Lắm Miền Tây  /  Thùy Chi"
+        "showTitle": false,
+        "titleText": ""
       },
       "scheme": 0,
       "emph": false,
@@ -4177,19 +4198,19 @@
       "text": "",
       "lineText": "",
       "line": 18,
-      "start": 146.8,
-      "end": 166.60000000000002,
+      "start": 153.8,
+      "end": 159.4,
       "layout": "interlude",
       "enter": "blur",
       "exit": "blur",
       "seed": 633748346,
-      "dur": 19.80000000000001,
+      "dur": 5.599999999999994,
       "index": 46
     },
     {
       "hold": "float",
-      "inDur": 0.5010712847362114,
-      "outDur": 0.33404752315747427,
+      "inDur": 0.5104072398190027,
+      "outDur": 0,
       "stagger": 0.04234131544129923,
       "decor": [
         {
@@ -4209,13 +4230,125 @@
         }
       ],
       "params": {
-        "font": "mincho_black",
-        "shape": "thought",
-        "style": "outline",
-        "tail": 1,
-        "off": 0.010257038683630523,
-        "tilt": -2.3414382585324347,
-        "burst": false
+        "font": "gothic_med",
+        "bigFont": "dela",
+        "big": "dim",
+        "bar": 0.10190822208533064,
+        "tc": "scene",
+        "place": "bar",
+        "drift": -1
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "Hò"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "knShearKick",
+      "camP": {
+        "a": 5.938511872431263
+      },
+      "text": "Hò",
+      "lineText": "Hò ơi...",
+      "line": 19,
+      "start": 159.4,
+      "end": 160.420814479638,
+      "layout": "subtitleBar",
+      "enter": "neonOn",
+      "exit": "cut",
+      "seed": 1718547418,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Hò",
+      "dur": 1.0208144796380054,
+      "index": 47
+    },
+    {
+      "hold": "float",
+      "inDur": 0.12,
+      "outDur": 0.55,
+      "stagger": 0.030124886438716206,
+      "decor": [],
+      "params": {
+        "font": "tokumin",
+        "rf": "gothic_med",
+        "orient": "h",
+        "density": 0.6763231771439313,
+        "speed": 1.1349875347688794,
+        "tint": "accent",
+        "order": "ltr"
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "ơi..."
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "pullOut",
+      "camP": {
+        "a": 0.06293727627256884
+      },
+      "text": "ơi...",
+      "lineText": "Hò ơi...",
+      "line": 19,
+      "start": 160.420814479638,
+      "end": 162.2923076923077,
+      "layout": "rain",
+      "enter": "cut",
+      "exit": "waveOut",
+      "seed": 675682286,
+      "recap": false,
+      "trans": "inkBlob",
+      "transP": {},
+      "transDur": 0.6,
+      "zone": null,
+      "utext": "ơi...",
+      "dur": 1.8714932126696908,
+      "morph": {
+        "dur": 0.6
+      },
+      "index": 48,
+      "webMorph": true
+    },
+    {
+      "hold": "float",
+      "inDur": 0.9,
+      "outDur": 0.5423076923076877,
+      "stagger": 0.04759126453893259,
+      "decor": [
+        {
+          "id": "risingParticles",
+          "seed": 831467255,
+          "n": 1,
+          "right": true,
+          "low": true,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 20,
+          "to": 43,
+          "v": 4,
+          "r": 0.5591751178726554
+        }
+      ],
+      "params": {
+        "font": "gothic_med",
+        "tube": "accent",
+        "frame": "none",
+        "flick": true,
+        "sub": true
       },
       "scheme": 1,
       "emph": false,
@@ -4230,139 +4363,167 @@
       "bgP": {},
       "cam": "knShearKick",
       "camP": {
-        "a": 5.938511872431263
+        "a": 5.538587372517213
       },
       "text": "Hò ơi...",
-      "lineText": "Hò ơi... Lời yêu thương gửi miền Tây",
+      "lineText": "Hò ơi...",
       "line": 19,
-      "start": 166.60000000000002,
-      "end": 167.71349174385827,
-      "layout": "bubble",
-      "enter": "knTypeToSlam",
-      "exit": "flipOutY",
-      "seed": 1718547418,
-      "recap": false,
+      "start": 162.2923076923077,
+      "end": 164.1,
+      "layout": "neon",
+      "enter": "neonOn",
+      "exit": "waveOut",
+      "seed": 67549229,
+      "recap": true,
       "trans": null,
       "transP": {},
       "transDur": 0,
       "zone": null,
       "utext": "Hò ơi...",
-      "dur": 1.1134917438582477,
-      "index": 47
+      "dur": 1.8076923076922924,
+      "index": 49
+    },
+    {
+      "hold": "still",
+      "inDur": 0.3,
+      "outDur": 0.3,
+      "stagger": 0.04,
+      "decor": [
+        {
+          "id": "scribbleUnder",
+          "seed": 162112651,
+          "n": 2,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": false,
+          "big": true,
+          "mode": "count",
+          "from": 0,
+          "to": 476,
+          "v": 4,
+          "r": 0.5019014677964151
+        }
+      ],
+      "params": {
+        "variant": "counter"
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "push",
+      "camP": {},
+      "text": "Yêu Lắm Miền Tây",
+      "lineText": "",
+      "line": 19,
+      "start": 164.1,
+      "end": 166.3,
+      "layout": "interlude",
+      "enter": "blur",
+      "exit": "blur",
+      "seed": 1735096393,
+      "dur": 2.200000000000017,
+      "index": 50
     },
     {
       "hold": "float",
-      "inDur": 0.6,
-      "outDur": 0.7,
-      "stagger": 0.037359926460776474,
+      "inDur": 0.32753164556962133,
+      "outDur": 0.19651898734177278,
+      "stagger": 0.04838153424439952,
       "decor": [
         {
-          "id": "seal",
-          "seed": 221736833,
-          "n": 1,
+          "id": "risingParticles",
+          "seed": 450248317,
+          "n": 2,
           "right": true,
           "low": true,
           "accent": true,
           "corner": true,
-          "big": true,
+          "big": false,
           "mode": "count",
-          "from": 3,
-          "to": 904,
-          "v": 3,
-          "r": 0.9091653204523027
+          "from": 14,
+          "to": 432,
+          "v": 4,
+          "r": 0.2594446511939168
         }
       ],
       "params": {
-        "msgs": [
-          "Lời yêu",
-          "thương",
-          "gửi",
-          "miền Tây"
-        ],
-        "font": "tokumin",
-        "side0": -1,
-        "alt": false
+        "font": "gothic_med",
+        "tube": "fg",
+        "frame": "box",
+        "flick": true,
+        "sub": false
       },
       "scheme": 1,
       "emph": false,
       "words": [
-        "Lời",
-        "yêu",
-        "thương",
-        "gửi",
-        "miền",
-        "Tây"
+        "Lời"
       ],
       "note": null,
       "treat": "none",
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "dollyIn",
+      "cam": "pullOut",
       "camP": {
-        "a": 0.08653501474065706
+        "a": 0.08717616249807178
       },
-      "text": "Lời yêu thương gửi miền Tây",
-      "lineText": "Hò ơi... Lời yêu thương gửi miền Tây",
-      "line": 19,
-      "start": 167.71349174385827,
-      "end": 171.03076923076927,
-      "layout": "chat",
-      "enter": "blurStagger",
-      "exit": "explode",
-      "seed": 675682286,
+      "text": "Lời",
+      "lineText": "Lời yêu thương gửi miền Tây",
+      "line": 20,
+      "start": 166.3,
+      "end": 166.95506329113925,
+      "layout": "neon",
+      "enter": "neonOn",
+      "exit": "waveOut",
+      "seed": 3361191150,
       "recap": false,
       "trans": null,
       "transP": {},
       "transDur": 0,
       "zone": null,
-      "utext": "Lời yêu thương gửi miền Tây",
-      "dur": 3.3172774869109958,
-      "index": 48
+      "utext": "Lời",
+      "dur": 0.6550632911392427,
+      "index": 51
     },
     {
       "hold": "float",
-      "inDur": 0.6,
-      "outDur": 0.55,
-      "stagger": 0.0358230807306245,
+      "inDur": 0.23582278481012736,
+      "outDur": 0,
+      "stagger": 0.053865683302283286,
       "decor": [
         {
-          "id": "crosshair",
-          "seed": 296921111,
-          "n": 1,
-          "right": true,
-          "low": false,
-          "accent": false,
-          "corner": false,
+          "id": "bars",
+          "seed": 380982030,
+          "n": 3,
+          "right": false,
+          "low": true,
+          "accent": true,
+          "corner": true,
           "big": true,
           "mode": "index",
-          "from": 8,
-          "to": 731,
-          "v": 5,
-          "r": 0.2629053632263094
+          "from": 5,
+          "to": 129,
+          "v": 0,
+          "r": 0.034133125096559525
         }
       ],
       "params": {
-        "font": "dela",
-        "sx": 1.25,
-        "track": 0.1040753353945911,
-        "sub": false,
-        "under": true,
-        "accent": false,
-        "ox": 0.005917511787265538,
-        "oy": -0.05126776219345629
+        "font": "mincho_black",
+        "tube": "fg",
+        "frame": "bracket",
+        "flick": true,
+        "sub": true
       },
       "scheme": 1,
       "emph": false,
       "words": [
-        "Hò",
-        "ơi...",
-        "Lời",
-        "yêu",
-        "thương",
-        "gửi",
-        "miền",
-        "Tây"
+        "yêu"
       ],
       "note": null,
       "treat": "none",
@@ -4371,57 +4532,313 @@
       "bgP": {},
       "cam": "knShearKick",
       "camP": {
-        "a": 6.561789998086169
+        "a": 7.0028695405926555
       },
-      "text": "Hò ơi... Lời yêu thương gửi miền Tây",
-      "lineText": "Hò ơi... Lời yêu thương gửi miền Tây",
-      "line": 19,
-      "start": 171.03076923076927,
-      "end": 173.8,
-      "layout": "center",
-      "enter": "blurStagger",
-      "exit": "flipOutY",
-      "seed": 67549229,
-      "recap": true,
+      "text": "yêu",
+      "lineText": "Lời yêu thương gửi miền Tây",
+      "line": 20,
+      "start": 166.95506329113925,
+      "end": 167.6101265822785,
+      "layout": "neon",
+      "enter": "tyUnderLift",
+      "exit": "cut",
+      "seed": 647077328,
+      "recap": false,
       "trans": null,
       "transP": {},
       "transDur": 0,
       "zone": null,
-      "utext": "Hò ơi... Lời yêu thương gửi miền Tây",
-      "dur": 2.769230769230745,
-      "index": 49
+      "utext": "yêu",
+      "dur": 0.6550632911392427,
+      "index": 52
+    },
+    {
+      "hold": "drift",
+      "inDur": 0.12,
+      "outDur": 0.3246835443037952,
+      "stagger": 0.0578077087609563,
+      "decor": [
+        {
+          "id": "risingParticles",
+          "seed": 565370232,
+          "n": 3,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 4,
+          "to": 606,
+          "v": 5,
+          "r": 0.7856246747542173
+        }
+      ],
+      "params": {
+        "font": "mincho_black",
+        "rf": "gothic_med",
+        "orient": "h",
+        "density": 0.6486718044662848,
+        "speed": 0.854170030541718,
+        "tint": "accent",
+        "order": "random"
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "thương"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "pullOut",
+      "camP": {
+        "a": 0.07210411976091563
+      },
+      "text": "thương",
+      "lineText": "Lời yêu thương gửi miền Tây",
+      "line": 20,
+      "start": 167.6101265822785,
+      "end": 168.69240506329115,
+      "layout": "rain",
+      "enter": "cut",
+      "exit": "flipOutY",
+      "seed": 1965951577,
+      "recap": false,
+      "trans": "knCornerSwing",
+      "transP": {
+        "c": 3
+      },
+      "transDur": 0.42,
+      "zone": null,
+      "utext": "thương",
+      "dur": 1.0822784810126507,
+      "index": 53
     },
     {
       "hold": "float",
-      "inDur": 0.6769230769230745,
-      "outDur": 0.5716239316239295,
-      "stagger": 0.05838466428569518,
+      "inDur": 0.23582278481012736,
+      "outDur": 0.19651898734177278,
+      "stagger": 0.05791465217713267,
       "decor": [
         {
-          "id": "confetti",
-          "seed": 119745198,
-          "n": 1,
+          "id": "risingParticles",
+          "seed": 509463724,
+          "n": 2,
           "right": true,
           "low": false,
           "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 11,
+          "to": 837,
+          "v": 4,
+          "r": 0.9070685955230147
+        }
+      ],
+      "params": {
+        "font": "tokumin",
+        "rf": "gothic_med",
+        "orient": "h",
+        "density": 0.7195808750391006,
+        "speed": 1.1166141601279378,
+        "tint": "accent",
+        "order": "random"
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "gửi"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "dollyIn",
+      "camP": {
+        "a": 0.08778918432770297
+      },
+      "text": "gửi",
+      "lineText": "Lời yêu thương gửi miền Tây",
+      "line": 20,
+      "start": 168.69240506329115,
+      "end": 169.3474683544304,
+      "layout": "rain",
+      "enter": "tyUnderLift",
+      "exit": "flipOutY",
+      "seed": 2085031336,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "gửi",
+      "dur": 0.6550632911392427,
+      "index": 54
+    },
+    {
+      "hold": "float",
+      "inDur": 0.2870886075949363,
+      "outDur": 0,
+      "stagger": 0.04235207347199321,
+      "decor": [
+        {
+          "id": "confetti",
+          "seed": 180569198,
+          "n": 1,
+          "right": false,
+          "low": true,
+          "accent": true,
           "corner": false,
           "big": false,
-          "mode": "index",
-          "from": 5,
-          "to": 565,
+          "mode": "count",
+          "from": 15,
+          "to": 161,
           "v": 1,
-          "r": 0.026550804264843464
+          "r": 0.8606310703326017
         }
       ],
       "params": {
         "font": "shippori",
-        "sx": 1,
-        "track": 0.035355952102690935,
-        "sub": false,
-        "under": true,
-        "accent": true,
-        "ox": 0.007103519793599841,
-        "oy": -0.005970202004536983
+        "dir": -1,
+        "style": "fill",
+        "twist": -4.497285878285766,
+        "q": 1.5420830184826628,
+        "speed": 0.35909317238256333
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "miền"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "knShearKick",
+      "camP": {
+        "a": 7.285523632308468
+      },
+      "text": "miền",
+      "lineText": "Lời yêu thương gửi miền Tây",
+      "line": 20,
+      "start": 169.3474683544304,
+      "end": 170.14493670886077,
+      "layout": "zoomRepeat",
+      "enter": "tyUnderLift",
+      "exit": "cut",
+      "seed": 1539703012,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "miền",
+      "dur": 0.7974683544303787,
+      "index": 55
+    },
+    {
+      "hold": "float",
+      "inDur": 0.12,
+      "outDur": 0,
+      "stagger": 0.03249090040451847,
+      "decor": [
+        {
+          "id": "risingParticles",
+          "seed": 40059970,
+          "n": 3,
+          "right": false,
+          "low": false,
+          "accent": false,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 11,
+          "to": 144,
+          "v": 3,
+          "r": 0.6629624904599041
+        }
+      ],
+      "params": {
+        "font": "shippori",
+        "bigFont": "tokumin",
+        "big": "outline",
+        "bar": 0.1081997359241359,
+        "tc": "scene",
+        "place": "bar",
+        "drift": 1
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "Tây"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "pullOut",
+      "camP": {
+        "a": 0.07100751857506112
+      },
+      "text": "Tây",
+      "lineText": "Lời yêu thương gửi miền Tây",
+      "line": 20,
+      "start": 170.14493670886077,
+      "end": 170.8,
+      "layout": "subtitleBar",
+      "enter": "cut",
+      "exit": "cut",
+      "seed": 355409764,
+      "recap": false,
+      "trans": "inkBlob",
+      "transP": {},
+      "transDur": 0.2947784810126592,
+      "zone": null,
+      "utext": "Tây",
+      "dur": 0.6550632911392427,
+      "morph": {
+        "dur": 0.2947784810126592
+      },
+      "index": 56,
+      "webMorph": true
+    },
+    {
+      "hold": "hWave",
+      "inDur": 0.12,
+      "outDur": 0.55,
+      "stagger": 0.04262186159729026,
+      "decor": [
+        {
+          "id": "confetti",
+          "seed": 602596882,
+          "n": 3,
+          "right": false,
+          "low": false,
+          "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 8,
+          "to": 702,
+          "v": 3,
+          "r": 0.42335672047920525
+        }
+      ],
+      "params": {
+        "font": "mincho_black",
+        "bigFont": "shippori",
+        "big": "dim",
+        "bar": 0.1075673349853605,
+        "tc": "rec",
+        "place": "bar",
+        "drift": -1
       },
       "scheme": 1,
       "emph": false,
@@ -4436,59 +4853,62 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "handheld",
+      "cam": "dollyIn",
       "camP": {
-        "f": 1.1758338748011739
+        "a": 0.10843990384833888
       },
       "text": "Về thương đi nhớ",
       "lineText": "Về thương đi nhớ ơ ờ mà nhớ thương câu hò",
-      "line": 20,
-      "start": 173.8,
-      "end": 175.3042735042735,
-      "layout": "center",
-      "enter": "knTypeToSlam",
-      "exit": "explode",
-      "seed": 3361191150,
+      "line": 21,
+      "start": 170.8,
+      "end": 173.05641025641026,
+      "layout": "subtitleBar",
+      "enter": "cut",
+      "exit": "waveOut",
+      "seed": 3663739450,
       "recap": false,
-      "trans": null,
-      "transP": {},
-      "transDur": 0,
+      "trans": "knStripSlam",
+      "transP": {
+        "n": 3,
+        "rev": false,
+        "up": false
+      },
+      "transDur": 0.45,
       "zone": null,
       "utext": "Về thương đi nhớ",
-      "dur": 1.504273504273499,
-      "index": 50
+      "dur": 2.2564102564102484,
+      "index": 57
     },
     {
       "hold": "float",
-      "inDur": 0.6,
+      "inDur": 0.9,
       "outDur": 0,
-      "stagger": 0.025364877672400327,
+      "stagger": 0.04917960293008945,
       "decor": [
         {
-          "id": "confetti",
-          "seed": 317539437,
+          "id": "lightLeak",
+          "seed": 306503137,
           "n": 2,
           "right": false,
-          "low": true,
-          "accent": false,
-          "corner": true,
+          "low": false,
+          "accent": true,
+          "corner": false,
           "big": true,
           "mode": "count",
-          "from": 8,
-          "to": 200,
-          "v": 1,
-          "r": 0.18528045224957168
+          "from": 19,
+          "to": 427,
+          "v": 2,
+          "r": 0.6898806954268366
         }
       ],
       "params": {
-        "font": "mincho_black",
-        "sx": 1.45,
-        "track": 0.09033021937124432,
-        "sub": true,
-        "under": false,
-        "accent": false,
-        "ox": -0.043497626669704914,
-        "oy": 0.00914331620559096
+        "font": "shippori",
+        "bigFont": "mincho_black",
+        "big": "dim",
+        "bar": 0.1147646409785375,
+        "tc": "scene",
+        "place": "band",
+        "drift": 1
       },
       "scheme": 1,
       "emph": false,
@@ -4505,57 +4925,59 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "push",
-      "camP": {},
+      "cam": "pullOut",
+      "camP": {
+        "a": 0.08409886219538748
+      },
       "text": "ơ ờ mà nhớ thương câu hò",
       "lineText": "Về thương đi nhớ ơ ờ mà nhớ thương câu hò",
-      "line": 20,
-      "start": 175.3042735042735,
-      "end": 177.4923076923077,
-      "layout": "center",
-      "enter": "blurStagger",
+      "line": 21,
+      "start": 173.05641025641026,
+      "end": 176.33846153846153,
+      "layout": "subtitleBar",
+      "enter": "neonOn",
       "exit": "cut",
-      "seed": 647077328,
+      "seed": 32118300,
       "recap": false,
       "trans": null,
       "transP": {},
       "transDur": 0,
       "zone": null,
       "utext": "ơ ờ mà nhớ thương câu hò",
-      "dur": 2.1880341880341803,
-      "index": 51
+      "dur": 3.2820512820512704,
+      "index": 58
     },
     {
       "hold": "float",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.05787827155552804,
+      "stagger": 0.05588221401674673,
       "decor": [
         {
-          "id": "rainStreaks",
-          "seed": 504187903,
-          "n": 1,
-          "right": false,
+          "id": "brushStroke",
+          "seed": 275256923,
+          "n": 3,
+          "right": true,
           "low": false,
           "accent": false,
           "corner": true,
-          "big": false,
+          "big": true,
           "mode": "index",
-          "from": 8,
-          "to": 948,
-          "v": 2,
-          "r": 0.8824499412439764
+          "from": 16,
+          "to": 693,
+          "v": 1,
+          "r": 0.5513799160253257
         }
       ],
       "params": {
-        "font": "dela",
-        "sx": 1,
-        "track": 0.09734935506246985,
+        "font": "tokumin",
+        "sx": 0.78,
+        "track": 0.07743808406405152,
         "sub": false,
         "under": false,
         "accent": false,
-        "ox": -0.015613518678583203,
-        "oy": 0.05100542622618377
+        "ox": -0.031951771466992795,
+        "oy": -0.05190676267258823
       },
       "scheme": 1,
       "emph": false,
@@ -4576,31 +4998,30 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "roll",
+      "cam": "knShearKick",
       "camP": {
-        "dir": 1,
-        "a": 3.191456684260629
+        "a": 6.7752084855455905
       },
       "text": "Về thương đi nhớ ơ ờ mà nhớ thương câu hò",
       "lineText": "Về thương đi nhớ ơ ờ mà nhớ thương câu hò",
-      "line": 20,
-      "start": 177.4923076923077,
+      "line": 21,
+      "start": 176.33846153846153,
       "end": 179.8,
       "layout": "center",
       "enter": "cut",
       "exit": "flipOutY",
-      "seed": 1965951577,
+      "seed": 2758138989,
       "recap": true,
       "trans": "inkBlob",
       "transP": {},
       "transDur": 0.6,
       "zone": null,
       "utext": "Về thương đi nhớ ơ ờ mà nhớ thương câu hò",
-      "dur": 2.307692307692321,
+      "dur": 3.461538461538481,
       "morph": {
         "dur": 0.6
       },
-      "index": 52,
+      "index": 59,
       "webMorph": true
     },
     {
@@ -4610,34 +5031,19 @@
       "stagger": 0.04,
       "decor": [
         {
-          "id": "progressRing",
-          "seed": 102719807,
-          "n": 3,
-          "right": false,
-          "low": true,
-          "accent": false,
-          "corner": true,
-          "big": false,
-          "mode": "index",
-          "from": 18,
-          "to": 386,
-          "v": 5,
-          "r": 0.46993530075997114
-        },
-        {
           "id": "waveLine",
-          "seed": 170014429,
-          "n": 1,
-          "right": false,
-          "low": false,
-          "accent": false,
+          "seed": 935861475,
+          "n": 3,
+          "right": true,
+          "low": true,
+          "accent": true,
           "corner": true,
-          "big": false,
-          "mode": "count",
-          "from": 16,
-          "to": 166,
-          "v": 5,
-          "r": 0.5754232166800648
+          "big": true,
+          "mode": "index",
+          "from": 15,
+          "to": 93,
+          "v": 0,
+          "r": 0.16838140436448157
         }
       ],
       "params": {
@@ -4657,21 +5063,21 @@
       "camP": {},
       "text": "",
       "lineText": "",
-      "line": 21,
+      "line": 22,
       "start": 179.8,
-      "end": 194.8,
+      "end": 192.10000000000002,
       "layout": "interlude",
       "enter": "blur",
       "exit": "blur",
-      "seed": 3512975141,
-      "dur": 15,
-      "index": 53
+      "seed": 4211257353,
+      "dur": 12.300000000000011,
+      "index": 60
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.5293006993006941,
+      "inDur": 0.5110489510489487,
       "outDur": 0,
-      "stagger": 0.04519180390285328,
+      "stagger": 0.0543512932327576,
       "decor": [
         {
           "id": "waveform",
@@ -4718,9 +5124,9 @@
       },
       "text": "Yêu cù lao",
       "lineText": "Yêu cù lao cho ngọt lành hoa trái",
-      "line": 22,
-      "start": 194.8,
-      "end": 195.97622377622378,
+      "line": 23,
+      "start": 192.10000000000002,
+      "end": 193.23566433566435,
       "layout": "circle",
       "enter": "knTypeToSlam",
       "exit": "cut",
@@ -4731,14 +5137,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu cù lao",
-      "dur": 1.1762237762237646,
-      "index": 54
+      "dur": 1.1356643356643303,
+      "index": 61
     },
     {
       "hold": "tyKeyPulse",
       "inDur": 0.12,
       "outDur": 0,
-      "stagger": 0.026510749148437755,
+      "stagger": 0.03115718177286908,
       "decor": [
         {
           "id": "lineBurst",
@@ -4791,9 +5197,9 @@
       },
       "text": "cho ngọt lành hoa trái",
       "lineText": "Yêu cù lao cho ngọt lành hoa trái",
-      "line": 22,
-      "start": 195.97622377622378,
-      "end": 198.36923076923077,
+      "line": 23,
+      "start": 193.23566433566435,
+      "end": 195.54615384615386,
       "layout": "center",
       "enter": "cut",
       "exit": "cut",
@@ -4804,18 +5210,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "cho ngọt lành hoa trái",
-      "dur": 2.393006993006992,
+      "dur": 2.3104895104895036,
       "morph": {
         "dur": 0.6
       },
-      "index": 55,
+      "index": 62,
       "webMorph": true
     },
     {
       "hold": "tyKeyPulse",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.03520184440072626,
+      "stagger": 0.05438851775601506,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -4872,9 +5278,9 @@
       },
       "text": "Yêu cù lao cho ngọt lành hoa trái",
       "lineText": "Yêu cù lao cho ngọt lành hoa trái",
-      "line": 22,
-      "start": 198.36923076923077,
-      "end": 200.60000000000002,
+      "line": 23,
+      "start": 195.54615384615386,
+      "end": 197.70000000000002,
       "layout": "center",
       "enter": "cut",
       "exit": "tyStrike",
@@ -4885,18 +5291,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu cù lao cho ngọt lành hoa trái",
-      "dur": 2.230769230769255,
+      "dur": 2.1538461538461604,
       "morph": {
         "dur": 0.6
       },
-      "index": 56,
+      "index": 63,
       "webMorph": true
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.48273353166170296,
-      "outDur": 0.4022779430514191,
-      "stagger": 0.030684028376126663,
+      "inDur": 0.6,
+      "outDur": 0.55,
+      "stagger": 0.04916124582407065,
       "decor": [
         {
           "id": "speedCorner",
@@ -4943,9 +5349,9 @@
       },
       "text": "Yêu vàm sông",
       "lineText": "Yêu vàm sông cho đồng thơm lúa mới",
-      "line": 23,
-      "start": 200.60000000000002,
-      "end": 201.9409264768381,
+      "line": 24,
+      "start": 197.70000000000002,
+      "end": 199.5957926051849,
       "layout": "lowerThird",
       "enter": "wipe",
       "exit": "trackOutWide",
@@ -4956,14 +5362,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu vàm sông",
-      "dur": 1.3409264768380638,
-      "index": 57
+      "dur": 1.8957926051848801,
+      "index": 64
     },
     {
       "hold": "tyKeyPulse",
       "inDur": 0.95,
       "outDur": 0,
-      "stagger": 0.03611594508984126,
+      "stagger": 0.04180450825369917,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -5013,9 +5419,9 @@
       "camP": {},
       "text": "cho đồng thơm lúa mới",
       "lineText": "Yêu vàm sông cho đồng thơm lúa mới",
-      "line": 23,
-      "start": 201.9409264768381,
-      "end": 204.16923076923078,
+      "line": 24,
+      "start": 199.5957926051849,
+      "end": 202.74615384615387,
       "layout": "center",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -5026,14 +5432,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "cho đồng thơm lúa mới",
-      "dur": 2.228304292392693,
-      "index": 58
+      "dur": 3.1503612409689765,
+      "index": 65
     },
     {
       "hold": "tyKeyPulse",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.03935786873335019,
+      "stagger": 0.04229583441629074,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -5088,9 +5494,9 @@
       },
       "text": "Yêu vàm sông cho đồng thơm lúa mới",
       "lineText": "Yêu vàm sông cho đồng thơm lúa mới",
-      "line": 23,
-      "start": 204.16923076923078,
-      "end": 206.4,
+      "line": 24,
+      "start": 202.74615384615387,
+      "end": 205.9,
       "layout": "center",
       "enter": "cut",
       "exit": "diagWipeOut",
@@ -5101,18 +5507,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu vàm sông cho đồng thơm lúa mới",
-      "dur": 2.2307692307692264,
+      "dur": 3.153846153846132,
       "morph": {
         "dur": 0.6
       },
-      "index": 59,
+      "index": 66,
       "webMorph": true
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.4881200127673139,
-      "outDur": 0.32541334184487597,
-      "stagger": 0.03423602909431793,
+      "inDur": 0.8406511330992629,
+      "outDur": 0.55,
+      "stagger": 0.03439800680731423,
       "decor": [
         {
           "id": "waveform",
@@ -5158,9 +5564,9 @@
       },
       "text": "Yêu rặng dừa hát ru ta",
       "lineText": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
-      "line": 24,
-      "start": 206.4,
-      "end": 207.48471113948293,
+      "line": 25,
+      "start": 205.9,
+      "end": 207.76811362910948,
       "layout": "genkou",
       "enter": "knTypeToSlam",
       "exit": "zoomThrough",
@@ -5171,14 +5577,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu rặng dừa hát ru ta",
-      "dur": 1.0847111394829199,
-      "index": 60
+      "dur": 1.868113629109473,
+      "index": 67
     },
     {
       "hold": "glitchtick",
-      "inDur": 0.5653367379508438,
+      "inDur": 0.95,
       "outDur": 0,
-      "stagger": 0.04180450825369917,
+      "stagger": 0.04464637186727487,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -5224,9 +5630,9 @@
       },
       "text": "vòng tay giữ đất bao la",
       "lineText": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
-      "line": 24,
-      "start": 207.48471113948293,
-      "end": 208.6153846153846,
+      "line": 25,
+      "start": 207.76811362910948,
+      "end": 209.7153846153846,
       "layout": "lowerThird",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -5237,14 +5643,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "vòng tay giữ đất bao la",
-      "dur": 1.1306734759016877,
-      "index": 61
+      "dur": 1.9472709862751287,
+      "index": 68
     },
     {
       "hold": "tyKeyPulse",
       "inDur": 0.12,
-      "outDur": 0.415384615384616,
-      "stagger": 0.026886592758819463,
+      "outDur": 0.55,
+      "stagger": 0.04099807007936761,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -5299,9 +5705,9 @@
       },
       "text": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
       "lineText": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
-      "line": 24,
-      "start": 208.6153846153846,
-      "end": 210,
+      "line": 25,
+      "start": 209.7153846153846,
+      "end": 212.10000000000002,
       "layout": "center",
       "enter": "cut",
       "exit": "tyStrike",
@@ -5312,18 +5718,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu rặng dừa hát ru ta vòng tay giữ đất bao la",
-      "dur": 1.3846153846153868,
+      "dur": 2.3846153846154152,
       "morph": {
         "dur": 0.6
       },
-      "index": 62,
+      "index": 69,
       "webMorph": true
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.95,
+      "inDur": 0.8142200429053048,
       "outDur": 0,
-      "stagger": 0.03439800680731423,
+      "stagger": 0.036379922388587144,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -5361,8 +5767,14 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
+      "bg": "gradientSweep",
+      "bgP": {
+        "seed": 821166393,
+        "spd": 0.3785587416496128,
+        "k": 0.17355052038561553,
+        "c": "accent",
+        "a0": 4.322684216760099
+      },
       "cam": "dutch",
       "camP": {
         "dir": 1,
@@ -5370,9 +5782,9 @@
       },
       "text": "Yêu điệu lý hò ngân nga",
       "lineText": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
-      "line": 25,
-      "start": 210,
-      "end": 212.35219123505976,
+      "line": 26,
+      "start": 212.10000000000002,
+      "end": 213.72844008581063,
       "layout": "lowerThird",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -5383,14 +5795,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu điệu lý hò ngân nga",
-      "dur": 2.352191235059763,
-      "index": 63
+      "dur": 1.6284400858106096,
+      "index": 70
     },
     {
       "hold": "tyKeyPulse",
       "inDur": 0.12,
       "outDur": 0,
-      "stagger": 0.028903337500523776,
+      "stagger": 0.05189755307510495,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -5428,17 +5840,23 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
+      "bg": "gradientSweep",
+      "bgP": {
+        "seed": 821166393,
+        "spd": 0.3785587416496128,
+        "k": 0.17355052038561553,
+        "c": "accent",
+        "a0": 4.322684216760099
+      },
       "cam": "pullOut",
       "camP": {
         "a": 0.0629247331037186
       },
       "text": "hòa ca nhịp sống bao đời",
       "lineText": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
-      "line": 25,
-      "start": 212.35219123505976,
-      "end": 214.8,
+      "line": 26,
+      "start": 213.72844008581063,
+      "end": 215.42307692307693,
       "layout": "justified",
       "enter": "cut",
       "exit": "cut",
@@ -5449,18 +5867,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "hòa ca nhịp sống bao đời",
-      "dur": 2.4478087649402482,
+      "dur": 1.6946368372663017,
       "morph": {
         "dur": 0.6
       },
-      "index": 64,
+      "index": 71,
       "webMorph": true
     },
     {
       "hold": "noiseDrift",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.039848408591933546,
+      "stagger": 0.04632879743701778,
       "decor": [
         {
           "id": "knWordTicks",
@@ -5507,8 +5925,14 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
+      "bg": "gradientSweep",
+      "bgP": {
+        "seed": 821166393,
+        "spd": 0.3785587416496128,
+        "k": 0.17355052038561553,
+        "c": "accent",
+        "a0": 4.322684216760099
+      },
       "cam": "dutch",
       "camP": {
         "dir": -1,
@@ -5516,9 +5940,9 @@
       },
       "text": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
       "lineText": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
-      "line": 25,
-      "start": 214.8,
-      "end": 217.8,
+      "line": 26,
+      "start": 215.42307692307693,
+      "end": 217.5,
       "layout": "center",
       "enter": "cut",
       "exit": "trackOutWide",
@@ -5529,18 +5953,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu điệu lý hò ngân nga hòa ca nhịp sống bao đời",
-      "dur": 3,
+      "dur": 2.076923076923066,
       "morph": {
         "dur": 0.6
       },
-      "index": 65,
+      "index": 72,
       "webMorph": true
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.8307692307692278,
+      "inDur": 0.8723076923076988,
       "outDur": 0.55,
-      "stagger": 0.04085319162230007,
+      "stagger": 0.04023429993540049,
       "decor": [
         {
           "id": "scribbleUnder",
@@ -5593,9 +6017,9 @@
       },
       "text": "Yêu tình đất mũi xa xôi",
       "lineText": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
-      "line": 26,
-      "start": 217.8,
-      "end": 219.64615384615385,
+      "line": 27,
+      "start": 217.5,
+      "end": 219.43846153846155,
       "layout": "center",
       "enter": "knTypeToSlam",
       "exit": "trackOutWide",
@@ -5606,14 +6030,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Yêu tình đất mũi xa xôi",
-      "dur": 1.8461538461538396,
-      "index": 66
+      "dur": 1.938461538461553,
+      "index": 73
     },
     {
       "hold": "tyKeyPulse",
-      "inDur": 0.8307692307692278,
+      "inDur": 0.8723076923076988,
       "outDur": 0,
-      "stagger": 0.049989254381507635,
+      "stagger": 0.04235017215483822,
       "decor": [
         {
           "id": "lightLeak",
@@ -5666,9 +6090,9 @@
       },
       "text": "thảo thơm nơi cuối trời",
       "lineText": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
-      "line": 26,
-      "start": 219.64615384615385,
-      "end": 221.4923076923077,
+      "line": 27,
+      "start": 219.43846153846155,
+      "end": 221.3769230769231,
       "layout": "center",
       "enter": "knTypeToSlam",
       "exit": "cut",
@@ -5679,14 +6103,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "thảo thơm nơi cuối trời",
-      "dur": 1.8461538461538396,
-      "index": 67
+      "dur": 1.938461538461553,
+      "index": 74
     },
     {
       "hold": "tyKeyPulse",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.03022573953960091,
+      "stagger": 0.05565686010289937,
       "decor": [],
       "params": {
         "font": "dela",
@@ -5728,8 +6152,8 @@
       },
       "text": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
       "lineText": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
-      "line": 26,
-      "start": 221.4923076923077,
+      "line": 27,
+      "start": 221.3769230769231,
       "end": 223.8,
       "layout": "center",
       "enter": "cut",
@@ -5741,18 +6165,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Yêu tình đất mũi xa xôi thảo thơm nơi cuối trời",
-      "dur": 2.307692307692321,
+      "dur": 2.4230769230769056,
       "morph": {
         "dur": 0.6
       },
-      "index": 68,
+      "index": 75,
       "webMorph": true
     },
     {
       "hold": "still",
       "inDur": 0.6,
       "outDur": 0.55,
-      "stagger": 0.039033571323379875,
+      "stagger": 0.04766047867015004,
       "decor": [],
       "params": {
         "font": "mincho_black",
@@ -5776,12 +6200,12 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "tvBars",
+      "bg": "scanBars",
       "bgP": {
-        "seed": 445949249,
-        "n": 4,
-        "spd": 0.08163021658314393,
-        "k": 0.07249064828502014
+        "seed": 683970003,
+        "n": 2,
+        "spd": 0.11555645599029958,
+        "k": 0.06688483672216534
       },
       "cam": "crashZoom",
       "camP": {
@@ -5790,7 +6214,7 @@
       },
       "text": "Lời ca yêu Miền Tây",
       "lineText": "Lời ca yêu Miền Tây",
-      "line": 27,
+      "line": 28,
       "start": 223.8,
       "end": 228.8,
       "layout": "center",
@@ -5805,7 +6229,7 @@
       "utext": "Lời ca yêu Miền Tây",
       "dur": 5,
       "kime": true,
-      "index": 69
+      "index": 76
     },
     {
       "hold": "still",
@@ -5814,40 +6238,25 @@
       "stagger": 0.04,
       "decor": [
         {
-          "id": "lightLeak",
-          "seed": 925940934,
-          "n": 2,
-          "right": true,
+          "id": "speedCorner",
+          "seed": 537222248,
+          "n": 1,
+          "right": false,
           "low": false,
-          "accent": false,
-          "corner": false,
-          "big": false,
-          "mode": "count",
-          "from": 3,
-          "to": 110,
-          "v": 5,
-          "r": 0.007266644854098558
-        },
-        {
-          "id": "brushStroke",
-          "seed": 786765376,
-          "n": 3,
-          "right": true,
-          "low": false,
-          "accent": false,
+          "accent": true,
           "corner": false,
           "big": false,
           "mode": "index",
-          "from": 7,
-          "to": 768,
-          "v": 0,
-          "r": 0.9307238378096372
+          "from": 1,
+          "to": 713,
+          "v": 4,
+          "r": 0.6647218833677471
         }
       ],
       "params": {
         "variant": "quiet",
-        "showTitle": true,
-        "titleText": "Yêu Lắm Miền Tây  /  Thùy Chi"
+        "showTitle": false,
+        "titleText": ""
       },
       "scheme": 1,
       "emph": false,
@@ -5855,32 +6264,27 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "scanBars",
-      "bgP": {
-        "seed": 778806944,
-        "n": 3,
-        "spd": 0.09036218154709785,
-        "k": 0.06725334201008082
-      },
+      "bg": "none",
+      "bgP": {},
       "cam": "push",
       "camP": {},
       "text": "",
       "lineText": "",
-      "line": 28,
+      "line": 29,
       "start": 228.8,
-      "end": 234.8,
+      "end": 234.60000000000002,
       "layout": "interlude",
       "enter": "blur",
       "exit": "blur",
-      "seed": 148365045,
-      "dur": 6,
-      "index": 70
+      "seed": 224797040,
+      "dur": 5.800000000000011,
+      "index": 77
     },
     {
       "hold": "heartbeat",
       "inDur": 0.6,
       "outDur": 0.55,
-      "stagger": 0.030476582644041628,
+      "stagger": 0.025299107127357275,
       "decor": [
         {
           "id": "twinkle",
@@ -5917,17 +6321,22 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
+      "bg": "ripples",
+      "bgP": {
+        "seed": 737476973,
+        "centre": false,
+        "life": 2.097194473259151,
+        "k": 0.30078580962494017
+      },
       "cam": "tiltUp",
       "camP": {
         "a": 0.026468581811059266
       },
       "text": "Nghe thổn thức tâm can",
       "lineText": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
-      "line": 29,
-      "start": 234.8,
-      "end": 236.64002784545772,
+      "line": 30,
+      "start": 234.60000000000002,
+      "end": 236.57145840584758,
       "layout": "justified",
       "enter": "spin",
       "exit": "collapse",
@@ -5938,14 +6347,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Nghe thổn thức tâm can",
-      "dur": 1.840027845457712,
-      "index": 71
+      "dur": 1.9714584058475566,
+      "index": 78
     },
     {
       "hold": "heartbeat",
-      "inDur": 0.5782053602506039,
+      "inDur": 0.6,
       "outDur": 0,
-      "stagger": 0.02520684649818577,
+      "stagger": 0.04356337648350746,
       "decor": [],
       "params": {
         "font": "mincho_black",
@@ -5963,17 +6372,22 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
+      "bg": "ripples",
+      "bgP": {
+        "seed": 737476973,
+        "centre": false,
+        "life": 2.097194473259151,
+        "k": 0.30078580962494017
+      },
       "cam": "panL",
       "camP": {
         "a": 0.021322205822914837
       },
       "text": "câu Dạ cổ hoài lang",
       "lineText": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
-      "line": 29,
-      "start": 236.64002784545772,
-      "end": 238.24615384615385,
+      "line": 30,
+      "start": 236.57145840584758,
+      "end": 238.29230769230773,
       "layout": "tyLineFocus",
       "enter": "wipe",
       "exit": "cut",
@@ -5984,14 +6398,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "câu Dạ cổ hoài lang",
-      "dur": 1.606126000696122,
-      "index": 72
+      "dur": 1.720849286460151,
+      "index": 79
     },
     {
       "hold": "heartbeat",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.031361004378413784,
+      "stagger": 0.0398583754862193,
       "decor": [
         {
           "id": "petals",
@@ -6036,17 +6450,22 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
+      "bg": "ripples",
+      "bgP": {
+        "seed": 737476973,
+        "centre": false,
+        "life": 2.097194473259151,
+        "k": 0.30078580962494017
+      },
       "cam": "knShearKick",
       "camP": {
         "a": 6.4853959020692855
       },
       "text": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
       "lineText": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
-      "line": 29,
-      "start": 238.24615384615385,
-      "end": 240.4,
+      "line": 30,
+      "start": 238.29230769230773,
+      "end": 240.60000000000002,
       "layout": "center",
       "enter": "cut",
       "exit": "riseOut",
@@ -6057,18 +6476,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Nghe thổn thức tâm can câu Dạ cổ hoài lang",
-      "dur": 2.1538461538461604,
+      "dur": 2.3076923076922924,
       "morph": {
         "dur": 0.6
       },
-      "index": 73,
+      "index": 80,
       "webMorph": true
     },
     {
       "hold": "sway",
       "inDur": 0.7509919944309047,
       "outDur": 0,
-      "stagger": 0.0390340993180871,
+      "stagger": 0.038341203939635304,
       "decor": [
         {
           "id": "petals",
@@ -6121,9 +6540,9 @@
       },
       "text": "Chợ nổi mênh mang",
       "lineText": "Chợ nổi mênh mang đón chào tình trong sáng",
-      "line": 30,
-      "start": 240.4,
-      "end": 241.90198398886182,
+      "line": 31,
+      "start": 240.60000000000002,
+      "end": 242.10198398886183,
       "layout": "center",
       "enter": "neonOn",
       "exit": "cut",
@@ -6135,13 +6554,13 @@
       "zone": null,
       "utext": "Chợ nổi mênh mang",
       "dur": 1.5019839888618094,
-      "index": 74
+      "index": 81
     },
     {
       "hold": "heartbeat",
       "inDur": 0.12,
       "outDur": 0,
-      "stagger": 0.025522104834672064,
+      "stagger": 0.0482431624061428,
       "decor": [
         {
           "id": "petals",
@@ -6192,9 +6611,9 @@
       },
       "text": "đón chào tình trong sáng",
       "lineText": "Chợ nổi mênh mang đón chào tình trong sáng",
-      "line": 30,
-      "start": 241.90198398886182,
-      "end": 243.96923076923076,
+      "line": 31,
+      "start": 242.10198398886183,
+      "end": 244.16923076923078,
       "layout": "justified",
       "enter": "cut",
       "exit": "cut",
@@ -6209,14 +6628,14 @@
       "morph": {
         "dur": 0.6
       },
-      "index": 75,
+      "index": 82,
       "webMorph": true
     },
     {
       "hold": "heartbeat",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.04747562814038247,
+      "stagger": 0.03647973706945777,
       "decor": [
         {
           "id": "lineBurst",
@@ -6274,9 +6693,9 @@
       },
       "text": "Chợ nổi mênh mang đón chào tình trong sáng",
       "lineText": "Chợ nổi mênh mang đón chào tình trong sáng",
-      "line": 30,
-      "start": 243.96923076923076,
-      "end": 246.20000000000002,
+      "line": 31,
+      "start": 244.16923076923078,
+      "end": 246.4,
       "layout": "center",
       "enter": "cut",
       "exit": "collapse",
@@ -6287,18 +6706,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Chợ nổi mênh mang đón chào tình trong sáng",
-      "dur": 2.230769230769255,
+      "dur": 2.2307692307692264,
       "morph": {
         "dur": 0.6
       },
-      "index": 76,
+      "index": 83,
       "webMorph": true
     },
     {
       "hold": "heartbeat",
-      "inDur": 0.6,
-      "outDur": 0.55,
-      "stagger": 0.038341203939635304,
+      "inDur": 0.5981538461538491,
+      "outDur": 0.49846153846154095,
+      "stagger": 0.035535840013762934,
       "decor": [
         {
           "id": "tyTextRule",
@@ -6342,9 +6761,9 @@
       },
       "text": "Vọng những thôn trang",
       "lineText": "Vọng những thôn trang xốn xang tình cổ nhạc",
-      "line": 31,
-      "start": 246.20000000000002,
-      "end": 248.04615384615386,
+      "line": 32,
+      "start": 246.4,
+      "end": 248.06153846153848,
       "layout": "justified",
       "enter": "spin",
       "exit": "riseOut",
@@ -6355,14 +6774,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Vọng những thôn trang",
-      "dur": 1.8461538461538396,
-      "index": 77
+      "dur": 1.6615384615384698,
+      "index": 84
     },
     {
       "hold": "heartbeat",
-      "inDur": 0.9230769230769198,
+      "inDur": 0.8307692307692349,
       "outDur": 0,
-      "stagger": 0.028755412145983428,
+      "stagger": 0.02504835638450459,
       "decor": [
         {
           "id": "twinkle",
@@ -6410,9 +6829,9 @@
       },
       "text": "xốn xang tình cổ nhạc",
       "lineText": "Vọng những thôn trang xốn xang tình cổ nhạc",
-      "line": 31,
-      "start": 248.04615384615386,
-      "end": 249.8923076923077,
+      "line": 32,
+      "start": 248.06153846153848,
+      "end": 249.72307692307695,
       "layout": "center",
       "enter": "strokeDraw",
       "exit": "cut",
@@ -6423,14 +6842,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "xốn xang tình cổ nhạc",
-      "dur": 1.8461538461538396,
-      "index": 78
+      "dur": 1.6615384615384698,
+      "index": 85
     },
     {
       "hold": "heartbeat",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.056294695180840786,
+      "stagger": 0.03758559429319575,
       "decor": [
         {
           "id": "twinkle",
@@ -6482,9 +6901,9 @@
       },
       "text": "Vọng những thôn trang xốn xang tình cổ nhạc",
       "lineText": "Vọng những thôn trang xốn xang tình cổ nhạc",
-      "line": 31,
-      "start": 249.8923076923077,
-      "end": 252.20000000000002,
+      "line": 32,
+      "start": 249.72307692307695,
+      "end": 251.8,
       "layout": "center",
       "enter": "cut",
       "exit": "collapse",
@@ -6495,18 +6914,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Vọng những thôn trang xốn xang tình cổ nhạc",
-      "dur": 2.307692307692321,
+      "dur": 2.076923076923066,
       "morph": {
         "dur": 0.6
       },
-      "index": 79,
+      "index": 86,
       "webMorph": true
     },
     {
       "hold": "heartbeat",
       "inDur": 0.6,
       "outDur": 0.55,
-      "stagger": 0.0581244229292497,
+      "stagger": 0.04559608996845782,
       "decor": [
         {
           "id": "twinkle",
@@ -6550,9 +6969,9 @@
       },
       "text": "Vương vấn trong tâm hồn",
       "lineText": "Vương vấn trong tâm hồn ta với thời gian",
-      "line": 32,
-      "start": 252.20000000000002,
-      "end": 254.28064163324828,
+      "line": 33,
+      "start": 251.8,
+      "end": 253.916514764856,
       "layout": "frameBox",
       "enter": "echoIn",
       "exit": "collapse",
@@ -6563,14 +6982,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "Vương vấn trong tâm hồn",
-      "dur": 2.0806416332482627,
-      "index": 80
+      "dur": 2.1165147648559923,
+      "index": 87
     },
     {
       "hold": "heartbeat",
-      "inDur": 0.5358920889536978,
+      "inDur": 0.5451316077287663,
       "outDur": 0,
-      "stagger": 0.03736534740310162,
+      "stagger": 0.04796420485479757,
       "decor": [
         {
           "id": "twinkle",
@@ -6611,9 +7030,9 @@
       },
       "text": "ta với thời gian",
       "lineText": "Vương vấn trong tâm hồn ta với thời gian",
-      "line": 32,
-      "start": 254.28064163324828,
-      "end": 255.76923076923077,
+      "line": 33,
+      "start": 253.916514764856,
+      "end": 255.43076923076924,
       "layout": "tyLineFocus",
       "enter": "trackIn",
       "exit": "cut",
@@ -6624,14 +7043,14 @@
       "transDur": 0,
       "zone": null,
       "utext": "ta với thời gian",
-      "dur": 1.4885891359824939,
-      "index": 81
+      "dur": 1.5142544659132398,
+      "index": 88
     },
     {
       "hold": "skewWobble",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.0412305949407164,
+      "stagger": 0.049242039151722566,
       "decor": [
         {
           "id": "rainStreaks",
@@ -6681,9 +7100,9 @@
       "camP": {},
       "text": "Vương vấn trong tâm hồn ta với thời gian",
       "lineText": "Vương vấn trong tâm hồn ta với thời gian",
-      "line": 32,
-      "start": 255.76923076923077,
-      "end": 258,
+      "line": 33,
+      "start": 255.43076923076924,
+      "end": 257.7,
       "layout": "center",
       "enter": "cut",
       "exit": "collapse",
@@ -6694,18 +7113,18 @@
       "transDur": 0.6,
       "zone": null,
       "utext": "Vương vấn trong tâm hồn ta với thời gian",
-      "dur": 2.2307692307692264,
+      "dur": 2.269230769230745,
       "morph": {
         "dur": 0.6
       },
-      "index": 82,
+      "index": 89,
       "webMorph": true
     },
     {
       "hold": "still",
       "inDur": 0.6,
       "outDur": 0.55,
-      "stagger": 0.03003145307651721,
+      "stagger": 0.038509407649980856,
       "decor": [],
       "params": {
         "font": "mincho_black",
@@ -6729,8 +7148,14 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
+      "bg": "concentric",
+      "bgP": {
+        "seed": 750877056,
+        "gap": 0.0702922812011093,
+        "spd": 0.34949787468649446,
+        "k": 0.09952219898812473,
+        "cy": 0.58
+      },
       "cam": "crashZoom",
       "camP": {
         "at": 0.7187878264929168,
@@ -6738,8 +7163,8 @@
       },
       "text": "Lời ca yêu Miền Tây",
       "lineText": "Lời ca yêu Miền Tây",
-      "line": 33,
-      "start": 258,
+      "line": 34,
+      "start": 257.7,
       "end": 262.8,
       "layout": "center",
       "enter": "zoom",
@@ -6751,9 +7176,9 @@
       "transDur": 0,
       "zone": null,
       "utext": "Lời ca yêu Miền Tây",
-      "dur": 4.800000000000011,
+      "dur": 5.100000000000023,
       "kime": true,
-      "index": 83
+      "index": 90
     },
     {
       "hold": "still",
@@ -6762,98 +7187,87 @@
       "stagger": 0.04,
       "decor": [
         {
-          "id": "rings",
-          "seed": 997489374,
+          "id": "tyTextRule",
+          "seed": 974174620,
           "n": 1,
-          "right": true,
-          "low": false,
-          "accent": true,
-          "corner": false,
-          "big": false,
-          "mode": "count",
-          "from": 11,
-          "to": 415,
-          "v": 0,
-          "r": 0.7225997999776155
-        },
-        {
-          "id": "orbitDots",
-          "seed": 558273850,
-          "n": 2,
-          "right": true,
-          "low": false,
-          "accent": false,
-          "corner": true,
-          "big": true,
-          "mode": "index",
-          "from": 2,
-          "to": 908,
-          "v": 2,
-          "r": 0.9342814984265715
-        }
-      ],
-      "params": {
-        "variant": "quiet",
-        "showTitle": true,
-        "titleText": "Yêu Lắm Miền Tây  /  Thùy Chi"
-      },
-      "scheme": 1,
-      "emph": false,
-      "words": [],
-      "note": null,
-      "treat": "none",
-      "treatP": {},
-      "bg": "concentric",
-      "bgP": {
-        "seed": 385983076,
-        "gap": 0.07082089605741204,
-        "spd": 0.2748848350252956,
-        "k": 0.11539006996899842,
-        "cy": 0.5
-      },
-      "cam": "push",
-      "camP": {},
-      "text": "",
-      "lineText": "",
-      "line": 34,
-      "start": 262.8,
-      "end": 269,
-      "layout": "interlude",
-      "enter": "blur",
-      "exit": "blur",
-      "seed": 721898150,
-      "dur": 6.199999999999989,
-      "index": 84
-    },
-    {
-      "hold": "tyKeyPulse",
-      "inDur": 0.6,
-      "outDur": 0.7,
-      "stagger": 0.042938427061308175,
-      "decor": [
-        {
-          "id": "rings",
-          "seed": 684177663,
-          "n": 2,
           "right": false,
           "low": false,
           "accent": false,
           "corner": false,
           "big": false,
-          "mode": "index",
-          "from": 19,
-          "to": 123,
-          "v": 5,
-          "r": 0.6725387540645897
+          "mode": "count",
+          "from": 0,
+          "to": 693,
+          "v": 2,
+          "r": 0.9400457262527198
         }
       ],
       "params": {
-        "font": "dela",
-        "pos": "lock",
-        "stack": false,
-        "app": "MESSAGE"
+        "variant": "quiet",
+        "showTitle": false,
+        "titleText": ""
       },
-      "scheme": 1,
+      "scheme": 2,
+      "emph": false,
+      "words": [],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "push",
+      "camP": {},
+      "text": "",
+      "lineText": "",
+      "line": 35,
+      "start": 262.8,
+      "end": 268.6,
+      "layout": "interlude",
+      "enter": "blur",
+      "exit": "blur",
+      "seed": 3150075318,
+      "dur": 5.800000000000011,
+      "index": 91
+    },
+    {
+      "hold": "glitchtick",
+      "inDur": 0.6,
+      "outDur": 0,
+      "stagger": 0.027791855118703097,
+      "decor": [
+        {
+          "id": "lightLeak",
+          "seed": 667734396,
+          "n": 1,
+          "right": false,
+          "low": false,
+          "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 17,
+          "to": 924,
+          "v": 5,
+          "r": 0.000029205111786723137
+        }
+      ],
+      "params": {
+        "chunks": [
+          "Em gửi",
+          "mãi yêu",
+          "thương"
+        ],
+        "font": "mincho_black",
+        "acc": 1,
+        "fx": "focus",
+        "slant": 5.1560828275978565,
+        "widths": [
+          1.0787065476295539,
+          1.1075138323474676,
+          0.8657480259775184
+        ]
+      },
+      "scheme": 2,
       "emph": false,
       "words": [
         "Em",
@@ -6865,44 +7279,47 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
-      "cam": "handheld",
+      "bg": "spotlight",
+      "bgP": {
+        "seed": 451965219,
+        "beam": false,
+        "k": 0.14297955544199795
+      },
+      "cam": "dollyIn",
       "camP": {
-        "f": 0.9071309712715447
+        "a": 0.08248735407367348
       },
       "text": "Em gửi mãi yêu thương",
       "lineText": "Em gửi mãi yêu thương đất trời Miền Tây",
-      "line": 35,
-      "start": 269,
-      "end": 271.02539208364453,
-      "layout": "notification",
-      "enter": "tyRubyDrop",
-      "exit": "explode",
-      "seed": 1405743273,
+      "line": 36,
+      "start": 268.6,
+      "end": 270.7266616878268,
+      "layout": "panels",
+      "enter": "blurStagger",
+      "exit": "cut",
+      "seed": 652352212,
       "recap": false,
       "trans": null,
       "transP": {},
       "transDur": 0,
       "zone": null,
       "utext": "Em gửi mãi yêu thương",
-      "dur": 2.025392083644533,
-      "index": 85
+      "dur": 2.126661687826754,
+      "index": 92
     },
     {
-      "hold": "tyKeyPulse",
-      "inDur": 0.6,
+      "hold": "glitchtick",
+      "inDur": 0.12,
       "outDur": 0,
-      "stagger": 0.05970686737331562,
+      "stagger": 0.046768274245550856,
       "decor": [],
       "params": {
         "font": "dela",
-        "strength": 0.45960749477148055,
-        "squash": 1,
-        "ripple": true,
-        "ticks": true
+        "span": 124.30099161341786,
+        "guide": "ticks",
+        "under": "copy"
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "đất",
@@ -6913,61 +7330,71 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
-      "cam": "push",
-      "camP": {},
+      "bg": "spotlight",
+      "bgP": {
+        "seed": 451965219,
+        "beam": false,
+        "k": 0.14297955544199795
+      },
+      "cam": "driftDiag",
+      "camP": {
+        "dx": -1,
+        "dy": -1
+      },
       "text": "đất trời Miền Tây",
       "lineText": "Em gửi mãi yêu thương đất trời Miền Tây",
-      "line": 35,
-      "start": 271.02539208364453,
-      "end": 272.69230769230774,
-      "layout": "mirror",
-      "enter": "wipe",
+      "line": 36,
+      "start": 270.7266616878268,
+      "end": 272.47692307692313,
+      "layout": "arcTop",
+      "enter": "cut",
       "exit": "cut",
-      "seed": 3660380794,
+      "seed": 1743887310,
       "recap": false,
-      "trans": null,
-      "transP": {},
-      "transDur": 0,
+      "trans": "knStutterCut",
+      "transP": {
+        "z": 1.0622096492093989,
+        "o": 0.022514958356041462
+      },
+      "transDur": 0.36,
       "zone": null,
       "utext": "đất trời Miền Tây",
-      "dur": 1.6669156086632029,
-      "index": 86
+      "dur": 1.7502613890963516,
+      "index": 93
     },
     {
-      "hold": "tyKeyPulse",
+      "hold": "glitchtick",
       "inDur": 0.12,
       "outDur": 0.55,
-      "stagger": 0.02967090714140795,
+      "stagger": 0.04401788451708853,
       "decor": [
         {
-          "id": "twinkle",
-          "seed": 990026333,
-          "n": 1,
+          "id": "scribbleCircle",
+          "seed": 995025920,
+          "n": 2,
           "right": false,
           "low": false,
           "accent": false,
           "corner": false,
           "big": false,
-          "mode": "count",
-          "from": 13,
-          "to": 913,
+          "mode": "index",
+          "from": 14,
+          "to": 362,
           "v": 0,
-          "r": 0.012224318226799369
+          "r": 0.69907984463498
         }
       ],
       "params": {
-        "font": "mincho_black",
-        "sx": 1,
-        "track": 0.12079250323586167,
-        "sub": true,
+        "font": "dela",
+        "sx": 0.78,
+        "track": 0.07153471843339504,
+        "sub": false,
         "under": false,
         "accent": false,
-        "ox": -0.03279676316305995,
-        "oy": -0.041888476638123395
+        "ox": -0.0076764002209529295,
+        "oy": -0.027407485423609615
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "Em",
@@ -6983,64 +7410,78 @@
       "note": null,
       "treat": "none",
       "treatP": {},
-      "bg": "none",
-      "bgP": {},
-      "cam": "handheld",
+      "bg": "spotlight",
+      "bgP": {
+        "seed": 451965219,
+        "beam": false,
+        "k": 0.14297955544199795
+      },
+      "cam": "driftDiag",
       "camP": {
-        "f": 1.0523528614547104
+        "dx": 1,
+        "dy": -1
       },
       "text": "Em gửi mãi yêu thương đất trời Miền Tây",
       "lineText": "Em gửi mãi yêu thương đất trời Miền Tây",
-      "line": 35,
-      "start": 272.69230769230774,
-      "end": 275,
+      "line": 36,
+      "start": 272.47692307692313,
+      "end": 274.90000000000003,
       "layout": "center",
       "enter": "cut",
-      "exit": "scatter",
-      "seed": 3045517042,
+      "exit": "blur",
+      "seed": 1751679164,
       "recap": true,
       "trans": "inkBlob",
       "transP": {},
       "transDur": 0.6,
       "zone": null,
       "utext": "Em gửi mãi yêu thương đất trời Miền Tây",
-      "dur": 2.307692307692264,
+      "dur": 2.4230769230769056,
       "morph": {
         "dur": 0.6
       },
-      "index": 87,
+      "index": 94,
       "webMorph": true
     },
     {
-      "hold": "tyKeyPulse",
+      "hold": "glitchtick",
       "inDur": 0.6,
-      "outDur": 0.5000746825989608,
-      "stagger": 0.025675758824218065,
+      "outDur": 0,
+      "stagger": 0.04175621671136469,
       "decor": [
         {
-          "id": "rings",
-          "seed": 716868053,
+          "id": "lightLeak",
+          "seed": 132409942,
           "n": 1,
           "right": true,
           "low": false,
-          "accent": false,
+          "accent": true,
           "corner": true,
           "big": true,
           "mode": "count",
-          "from": 6,
-          "to": 679,
-          "v": 3,
-          "r": 0.9380490980111063
+          "from": 13,
+          "to": 571,
+          "v": 2,
+          "r": 0.030353971989825368
         }
       ],
       "params": {
-        "font": "tokumin",
-        "strength": 0.43909566137939693,
-        "squash": 0.85,
-        "ripple": true,
-        "ticks": true
+        "chunks": [
+          "Nỗi",
+          "nhớ sao",
+          "khuây"
+        ],
+        "font": "mincho_black",
+        "acc": 0,
+        "fx": "none",
+        "slant": 10.482873259112239,
+        "widths": [
+          1.1637611610349268,
+          1.234437530033756,
+          0.8342306252219714
+        ]
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "Nỗi",
@@ -7053,17 +7494,20 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "push",
-      "camP": {},
+      "cam": "driftDiag",
+      "camP": {
+        "dx": 1,
+        "dy": -1
+      },
       "text": "Nỗi nhớ sao khuây",
       "lineText": "Nỗi nhớ sao khuây mãi vơi đầy tha thiết",
-      "line": 36,
-      "start": 275,
-      "end": 276.6669156086632,
-      "layout": "mirror",
-      "enter": "tyRubyDrop",
-      "exit": "waveOut",
-      "seed": 652352212,
+      "line": 37,
+      "start": 274.90000000000003,
+      "end": 276.56691560866324,
+      "layout": "panels",
+      "enter": "blurStagger",
+      "exit": "cut",
+      "seed": 762517242,
       "recap": false,
       "trans": null,
       "transP": {},
@@ -7071,37 +7515,41 @@
       "zone": null,
       "utext": "Nỗi nhớ sao khuây",
       "dur": 1.6669156086632029,
-      "index": 88
+      "index": 95
     },
     {
-      "hold": "hWave",
-      "inDur": 0.6,
-      "outDur": 0.55,
-      "stagger": 0.04064105371944606,
+      "hold": "glitchtick",
+      "inDur": 0.12,
+      "outDur": 0,
+      "stagger": 0.04097990730428137,
       "decor": [
         {
-          "id": "twinkle",
-          "seed": 699049414,
+          "id": "lightLeak",
+          "seed": 986058259,
           "n": 2,
-          "right": true,
-          "low": false,
+          "right": false,
+          "low": true,
           "accent": false,
           "corner": true,
-          "big": false,
-          "mode": "index",
-          "from": 18,
-          "to": 440,
-          "v": 1,
-          "r": 0.6596609444823116
+          "big": true,
+          "mode": "count",
+          "from": 16,
+          "to": 96,
+          "v": 2,
+          "r": 0.5524715648498386
         }
       ],
       "params": {
-        "font": "gothic_med",
-        "pos": "banner",
-        "stack": true,
-        "app": "LYRICS"
+        "font": "tokumin",
+        "sx": 0.78,
+        "track": 0.11935753451660276,
+        "sub": true,
+        "under": false,
+        "accent": false,
+        "ox": -0.027968874666839838,
+        "oy": 0.014769218377768997
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "mãi",
@@ -7115,61 +7563,66 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "panR",
+      "cam": "driftDiag",
       "camP": {
-        "a": 0.024304271772969514
+        "dx": 1,
+        "dy": 1
       },
       "text": "mãi vơi đầy tha thiết",
       "lineText": "Nỗi nhớ sao khuây mãi vơi đầy tha thiết",
-      "line": 36,
-      "start": 276.6669156086632,
-      "end": 278.69230769230774,
-      "layout": "notification",
-      "enter": "trackIn",
-      "exit": "waveOut",
-      "seed": 1743887310,
+      "line": 37,
+      "start": 276.56691560866324,
+      "end": 278.59230769230777,
+      "layout": "center",
+      "enter": "cut",
+      "exit": "cut",
+      "seed": 2992995678,
       "recap": false,
-      "trans": null,
+      "trans": "inkBlob",
       "transP": {},
-      "transDur": 0,
+      "transDur": 0.6,
       "zone": null,
       "utext": "mãi vơi đầy tha thiết",
       "dur": 2.025392083644533,
-      "index": 89
+      "morph": {
+        "dur": 0.6
+      },
+      "index": 96,
+      "webMorph": true
     },
     {
-      "hold": "tyKeyPulse",
-      "inDur": 0.6,
-      "outDur": 0,
-      "stagger": 0.058952881975565107,
+      "hold": "glitchtick",
+      "inDur": 0.12,
+      "outDur": 0.55,
+      "stagger": 0.05588885224307887,
       "decor": [
         {
-          "id": "twinkle",
-          "seed": 860458171,
-          "n": 3,
-          "right": true,
-          "low": true,
+          "id": "scribbleCircle",
+          "seed": 548336031,
+          "n": 2,
+          "right": false,
+          "low": false,
           "accent": true,
           "corner": false,
           "big": false,
-          "mode": "index",
-          "from": 7,
-          "to": 623,
-          "v": 2,
-          "r": 0.08880324382334948
+          "mode": "count",
+          "from": 9,
+          "to": 361,
+          "v": 3,
+          "r": 0.32899359869770706
         }
       ],
       "params": {
         "font": "mincho_black",
-        "sx": 0.78,
-        "track": 0.0729856494255364,
+        "sx": 1.25,
+        "track": 0.0625242170598358,
         "sub": true,
-        "under": false,
-        "accent": false,
-        "ox": -0.035784057527780536,
-        "oy": 0.031646879157051444
+        "under": true,
+        "accent": true,
+        "ox": -0.024190606782212853,
+        "oy": 0.048081013569608325
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "Nỗi",
@@ -7187,55 +7640,66 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "push",
-      "camP": {},
+      "cam": "driftDiag",
+      "camP": {
+        "dx": -1,
+        "dy": -1
+      },
       "text": "Nỗi nhớ sao khuây mãi vơi đầy tha thiết",
       "lineText": "Nỗi nhớ sao khuây mãi vơi đầy tha thiết",
-      "line": 36,
-      "start": 278.69230769230774,
-      "end": 281,
+      "line": 37,
+      "start": 278.59230769230777,
+      "end": 280.90000000000003,
       "layout": "center",
-      "enter": "tyRubyDrop",
-      "exit": "cut",
-      "seed": 1751679164,
+      "enter": "cut",
+      "exit": "blurOutStagger",
+      "seed": 1469573572,
       "recap": true,
-      "trans": null,
+      "trans": "inkBlob",
       "transP": {},
-      "transDur": 0,
+      "transDur": 0.6,
       "zone": null,
       "utext": "Nỗi nhớ sao khuây mãi vơi đầy tha thiết",
       "dur": 2.307692307692264,
-      "index": 90
+      "morph": {
+        "dur": 0.6
+      },
+      "index": 97,
+      "webMorph": true
     },
     {
-      "hold": "tyKeyPulse",
-      "inDur": 0.12,
-      "outDur": 0,
-      "stagger": 0.04970300628687255,
+      "hold": "glitchtick",
+      "inDur": 0.5884179104477573,
+      "outDur": 0.42029850746268377,
+      "stagger": 0.04917216440779157,
       "decor": [
         {
-          "id": "rings",
-          "seed": 241359641,
-          "n": 1,
-          "right": false,
-          "low": true,
+          "id": "lightLeak",
+          "seed": 991929696,
+          "n": 3,
+          "right": true,
+          "low": false,
           "accent": true,
           "corner": true,
           "big": true,
           "mode": "index",
-          "from": 0,
-          "to": 195,
-          "v": 1,
-          "r": 0.30863061849959195
+          "from": 3,
+          "to": 960,
+          "v": 5,
+          "r": 0.21926368563435972
         }
       ],
       "params": {
-        "font": "mincho_black",
-        "pos": "banner",
-        "stack": false,
-        "app": "MESSAGE"
+        "font": "shippori",
+        "sx": 1,
+        "track": 0.09687835865654053,
+        "sub": true,
+        "under": false,
+        "accent": true,
+        "ox": 0.048182761901989585,
+        "oy": 0.03139804255217314
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "Và",
@@ -7248,61 +7712,62 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "handheld",
+      "cam": "driftDiag",
       "camP": {
-        "f": 1.0233177257003263
+        "dx": 1,
+        "dy": -1
       },
       "text": "Và muốn bên nhau",
       "lineText": "Và muốn bên nhau sau mỗi lần cách biệt",
-      "line": 37,
-      "start": 281,
-      "end": 281.9699196326062,
-      "layout": "notification",
-      "enter": "cut",
-      "exit": "cut",
-      "seed": 762517242,
+      "line": 38,
+      "start": 280.90000000000003,
+      "end": 282.30099502487565,
+      "layout": "center",
+      "enter": "rubber",
+      "exit": "blurOutStagger",
+      "seed": 2291156708,
       "recap": false,
-      "trans": "knStripSlam",
-      "transP": {
-        "n": 5,
-        "rev": true,
-        "up": false
-      },
-      "transDur": 0.4364638346727929,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
       "zone": null,
       "utext": "Và muốn bên nhau",
-      "dur": 0.9699196326062065,
-      "index": 91
+      "dur": 1.4009950248756127,
+      "index": 98
     },
     {
-      "hold": "echoTrail",
-      "inDur": 0.12,
+      "hold": "glitchtick",
+      "inDur": 0.6,
       "outDur": 0,
-      "stagger": 0.028791581315454097,
+      "stagger": 0.05093344054999761,
       "decor": [
         {
-          "id": "twinkle",
-          "seed": 71468150,
-          "n": 3,
+          "id": "scribbleCircle",
+          "seed": 42135981,
+          "n": 2,
           "right": false,
-          "low": true,
+          "low": false,
           "accent": false,
           "corner": false,
           "big": true,
-          "mode": "index",
-          "from": 8,
-          "to": 569,
+          "mode": "count",
+          "from": 1,
+          "to": 845,
           "v": 2,
-          "r": 0.5366531230974942
+          "r": 0.9710417832247913
         }
       ],
       "params": {
-        "font": "dela",
-        "pos": "banner",
-        "stack": true,
-        "app": "MUSIC"
+        "font": "shippori",
+        "sx": 1,
+        "track": 0.11493863872252406,
+        "sub": false,
+        "under": false,
+        "accent": true,
+        "ox": 0.012722429609857505,
+        "oy": -0.049350404608994716
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "sau",
@@ -7316,64 +7781,62 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "handheld",
+      "cam": "driftDiag",
       "camP": {
-        "f": 0.9875546256778762
+        "dx": 1,
+        "dy": -1
       },
       "text": "sau mỗi lần cách biệt",
       "lineText": "Và muốn bên nhau sau mỗi lần cách biệt",
-      "line": 37,
-      "start": 281.9699196326062,
-      "end": 283.2153846153846,
-      "layout": "notification",
-      "enter": "cut",
+      "line": 38,
+      "start": 282.30099502487565,
+      "end": 284.1,
+      "layout": "center",
+      "enter": "blurStagger",
       "exit": "cut",
-      "seed": 2992995678,
+      "seed": 4141780767,
       "recap": false,
-      "trans": "knStutterCut",
-      "transP": {
-        "z": 1.0684390883659944,
-        "o": -0.03194161339197308
-      },
-      "transDur": 0.36,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
       "zone": null,
       "utext": "sau mỗi lần cách biệt",
-      "dur": 1.245464982778401,
-      "index": 92
+      "dur": 1.799004975124376,
+      "index": 99
     },
     {
-      "hold": "tyKeyPulse",
+      "hold": "knWordRide",
       "inDur": 0.12,
-      "outDur": 0.5261538461538577,
-      "stagger": 0.04919913977733813,
+      "outDur": 0.55,
+      "stagger": 0.04025686096865684,
       "decor": [
         {
-          "id": "twinkle",
-          "seed": 435045362,
-          "n": 1,
+          "id": "lightLeak",
+          "seed": 147854260,
+          "n": 3,
           "right": true,
-          "low": true,
-          "accent": true,
-          "corner": true,
-          "big": true,
+          "low": false,
+          "accent": false,
+          "corner": false,
+          "big": false,
           "mode": "index",
-          "from": 11,
-          "to": 743,
-          "v": 0,
-          "r": 0.3724771358538419
+          "from": 6,
+          "to": 968,
+          "v": 1,
+          "r": 0.7417459224816412
         }
       ],
       "params": {
-        "font": "mincho_black",
+        "font": "dela",
         "sx": 1,
-        "track": 0.08745147087611259,
-        "sub": true,
-        "under": false,
+        "track": 0.07745523156598211,
+        "sub": false,
+        "under": true,
         "accent": false,
-        "ox": -0.04673993161413819,
-        "oy": -0.056939714960753916
+        "ox": -0.04274163346271962,
+        "oy": 0.03168079770170153
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": false,
       "words": [
         "Và",
@@ -7391,47 +7854,50 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "push",
-      "camP": {},
+      "cam": "driftDiag",
+      "camP": {
+        "dx": -1,
+        "dy": -1
+      },
       "text": "Và muốn bên nhau sau mỗi lần cách biệt",
       "lineText": "Và muốn bên nhau sau mỗi lần cách biệt",
-      "line": 37,
-      "start": 283.2153846153846,
-      "end": 284.6,
+      "line": 38,
+      "start": 284.1,
+      "end": 286.1,
       "layout": "center",
       "enter": "cut",
-      "exit": "explode",
-      "seed": 1469573572,
+      "exit": "blurOutStagger",
+      "seed": 2099116746,
       "recap": true,
       "trans": "inkBlob",
       "transP": {},
       "transDur": 0.6,
       "zone": null,
       "utext": "Và muốn bên nhau sau mỗi lần cách biệt",
-      "dur": 1.3846153846154152,
+      "dur": 2,
       "morph": {
         "dur": 0.6
       },
-      "index": 93,
+      "index": 100,
       "webMorph": true
     },
     {
-      "hold": "heartbeat",
+      "hold": "still",
       "inDur": 0.6,
       "outDur": 0.55,
-      "stagger": 0.03267422899720259,
+      "stagger": 0.04675467328052037,
       "decor": [],
       "params": {
-        "font": "tokumin",
+        "font": "dela",
         "sx": 1,
-        "track": 0.08004058626480401,
+        "track": 0.07486855881288648,
         "sub": false,
         "under": false,
         "accent": false,
-        "ox": 0.014065298880450425,
-        "oy": -0.03923086090944707
+        "ox": 0.04927720227278769,
+        "oy": 0.026500578392297025
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": true,
       "words": [
         "Hôn",
@@ -7449,107 +7915,58 @@
       "treatP": {},
       "bg": "none",
       "bgP": {},
-      "cam": "push",
-      "camP": {},
-      "text": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
-      "lineText": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
-      "line": 38,
-      "start": 284.6,
-      "end": 292.6,
-      "layout": "center",
-      "enter": "zoom",
-      "exit": "zoomThrough",
-      "seed": 2291156708,
-      "recap": false,
-      "trans": null,
-      "transP": {},
-      "transDur": 0,
-      "zone": null,
-      "utext": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
-      "dur": 8,
-      "kime": true,
-      "index": 94
-    },
-    {
-      "hold": "heartbeat",
-      "inDur": 0.6,
-      "outDur": 0,
-      "stagger": 0.05458742777467705,
-      "decor": [],
-      "params": {
-        "font": "tokumin",
-        "sx": 1,
-        "track": 0.08004058626480401,
-        "sub": false,
-        "under": false,
-        "accent": false,
-        "ox": 0.014065298880450425,
-        "oy": -0.03923086090944707
+      "cam": "crashZoom",
+      "camP": {
+        "at": 0.6728556038229726,
+        "a": 0.0880720482673496
       },
-      "scheme": 1,
-      "emph": true,
-      "words": [
-        "Hôn",
-        "chiếc",
-        "hôn",
-        "thắm",
-        "nồng",
-        "cho",
-        "thỏa",
-        "chờ",
-        "mong"
-      ],
-      "note": null,
-      "treat": "none",
-      "treatP": {},
-      "bg": "none",
-      "bgP": {},
-      "cam": "push",
-      "camP": {},
       "text": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
       "lineText": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
       "line": 39,
-      "start": 292.6,
-      "end": 297.6,
+      "start": 286.1,
+      "end": 291.90000000000003,
       "layout": "center",
-      "enter": "zoom",
-      "exit": "cut",
-      "seed": 2291156708,
+      "enter": "blur",
+      "exit": "zoomThrough",
+      "seed": 2311844194,
       "recap": false,
       "trans": null,
       "transP": {},
       "transDur": 0,
       "zone": null,
       "utext": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
-      "dur": 5,
+      "dur": 5.800000000000011,
       "kime": true,
-      "index": 95
+      "index": 101
     },
     {
       "hold": "still",
-      "inDur": 0.12,
+      "inDur": 0.6,
       "outDur": 0.55,
-      "stagger": 0.04486665158183314,
+      "stagger": 0.027057352890260518,
       "decor": [],
       "params": {
-        "font": "mincho_black",
+        "font": "dela",
         "sx": 1,
-        "track": 0.04214009976945818,
-        "sub": true,
+        "track": 0.07486855881288648,
+        "sub": false,
         "under": false,
         "accent": false,
-        "ox": -0.014516685670241718,
-        "oy": 0.025599119653925292
+        "ox": 0.04927720227278769,
+        "oy": 0.026500578392297025
       },
-      "scheme": 1,
+      "scheme": 2,
       "emph": true,
       "words": [
-        "Miền",
-        "Tây",
-        "mãi",
-        "trong",
-        "tim",
-        "hồng"
+        "Hôn",
+        "chiếc",
+        "hôn",
+        "thắm",
+        "nồng",
+        "cho",
+        "thỏa",
+        "chờ",
+        "mong"
       ],
       "note": null,
       "treat": "none",
@@ -7562,30 +7979,81 @@
       },
       "cam": "crashZoom",
       "camP": {
-        "at": 0.6347919856896623,
-        "a": 0.08717836007708683
+        "at": 0.6728556038229726,
+        "a": 0.0880720482673496
+      },
+      "text": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
+      "lineText": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
+      "line": 40,
+      "start": 291.90000000000003,
+      "end": 297.6,
+      "layout": "center",
+      "enter": "blur",
+      "exit": "zoomThrough",
+      "seed": 2311844194,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Hôn chiếc hôn thắm nồng cho thỏa chờ mong",
+      "dur": 5.699999999999989,
+      "kime": true,
+      "index": 102
+    },
+    {
+      "hold": "heartbeat",
+      "inDur": 0.6,
+      "outDur": 0.55,
+      "stagger": 0.044066945087397474,
+      "decor": [],
+      "params": {
+        "font": "mincho_black",
+        "sx": 1,
+        "track": 0.042035551201552154,
+        "sub": false,
+        "under": true,
+        "accent": false,
+        "ox": 0.04530568111222237,
+        "oy": 0.02137765366584063
+      },
+      "scheme": 2,
+      "emph": true,
+      "words": [
+        "Miền",
+        "Tây",
+        "mãi",
+        "trong",
+        "tim",
+        "hồng"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "dollyIn",
+      "camP": {
+        "a": 0.08141120339743793
       },
       "text": "Miền Tây mãi trong tim hồng",
       "lineText": "Miền Tây mãi trong tim hồng",
-      "line": 40,
+      "line": 41,
       "start": 297.6,
       "end": 302.8,
       "layout": "center",
-      "enter": "cut",
-      "exit": "zoomFar",
-      "seed": 2644470681,
+      "enter": "zoom",
+      "exit": "zoomThrough",
+      "seed": 3876332949,
       "recap": false,
-      "trans": "knStutterCut",
-      "transP": {
-        "z": 1.0745174847426826,
-        "o": -0.028383703101426364
-      },
-      "transDur": 0.36,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
       "zone": null,
       "utext": "Miền Tây mãi trong tim hồng",
       "dur": 5.199999999999989,
       "kime": true,
-      "index": 96
+      "index": 103
     }
   ],
   "events": [
@@ -7596,331 +8064,331 @@
       "dur": 0.25
     },
     {
-      "t": 44,
+      "t": 40,
       "type": "chroma",
       "amp": 2.723216908080503,
       "dur": 0.25
     },
     {
-      "t": 45.25086342229199,
+      "t": 41.66781789638932,
       "type": "chroma",
       "amp": 1.4404986002948135,
       "dur": 0.25
     },
     {
-      "t": 45.25086342229199,
+      "t": 41.66781789638932,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 46.95384615384615,
+      "t": 43.93846153846154,
       "type": "chroma",
       "amp": 1.5297286805789918,
       "dur": 0.25
     },
     {
-      "t": 46.95384615384615,
+      "t": 43.93846153846154,
       "type": "hueShift",
       "amp": 0.855,
       "dur": 0.125
     },
     {
-      "t": 48.8,
+      "t": 46.4,
       "type": "chroma",
       "amp": 4.5132017091382295,
       "dur": 0.25
     },
     {
-      "t": 48.8,
+      "t": 46.4,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 48.8,
+      "t": 46.4,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 50.245855115758026,
+      "t": 48.608215085884986,
       "type": "chroma",
       "amp": 1.9419954776205122,
       "dur": 0.25
     },
     {
-      "t": 50.245855115758026,
+      "t": 48.608215085884986,
       "type": "vhsRoll",
       "amp": 0.855,
       "dur": 0.25
     },
     {
-      "t": 52.184615384615384,
+      "t": 51.569230769230764,
       "type": "chroma",
       "amp": 4.320355435023084,
       "dur": 0.25
     },
     {
-      "t": 52.184615384615384,
+      "t": 51.569230769230764,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 52.184615384615384,
+      "t": 51.569230769230764,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 54.3,
+      "t": 54.8,
       "type": "chroma",
       "amp": 2.869830378135666,
       "dur": 0.25
     },
     {
-      "t": 54.3,
+      "t": 54.8,
       "type": "shake",
       "amp": 0.36,
       "dur": 0.3
     },
     {
-      "t": 55.87526305036265,
+      "t": 56.556200837674936,
       "type": "filmBurn",
       "amp": 0.855,
       "dur": 0.29166666666666663
     },
     {
-      "t": 55.95859638369598,
+      "t": 56.63953417100827,
       "type": "chroma",
       "amp": 2.499966007536277,
       "dur": 0.25
     },
     {
-      "t": 57.684615384615384,
+      "t": 58.55384615384615,
       "type": "chroma",
       "amp": 2.1425888898596166,
       "dur": 0.25
     },
     {
-      "t": 59.75833333333333,
+      "t": 60.858333333333334,
       "type": "blackFrame",
       "amp": 0.855,
       "dur": 0.08333333333333333
     },
     {
-      "t": 59.8,
+      "t": 60.9,
       "type": "chroma",
       "amp": 1.8162208071444184,
       "dur": 0.25
     },
     {
-      "t": 61.8,
+      "t": 62.46923076923077,
       "type": "chroma",
       "amp": 2.8331334076542407,
       "dur": 0.25
     },
     {
-      "t": 61.8,
+      "t": 62.46923076923077,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 63.8,
+      "t": 64.03846153846153,
       "type": "chroma",
       "amp": 1.505958411283791,
       "dur": 0.25
     },
     {
-      "t": 63.8,
+      "t": 64.03846153846153,
       "type": "lightSweep",
       "amp": 0.855,
       "dur": 0.29166666666666663
     },
     {
-      "t": 66.25833333333333,
+      "t": 65.95833333333333,
       "type": "whiteFrame",
       "amp": 0.855,
       "dur": 0.08333333333333333
     },
     {
-      "t": 66.3,
+      "t": 66,
       "type": "chroma",
       "amp": 2.6891240405477586,
       "dur": 0.25
     },
     {
-      "t": 69.20365944734877,
+      "t": 69.06497386109037,
       "type": "chroma",
       "amp": 1.8909350869525223,
       "dur": 0.25
     },
     {
-      "t": 71.83846153846154,
+      "t": 71.84615384615384,
       "type": "chroma",
       "amp": 2.097618023175746,
       "dur": 0.25
     },
     {
-      "t": 75.3,
+      "t": 75.5,
       "type": "chroma",
       "amp": 1.753094094712287,
       "dur": 0.25
     },
     {
-      "t": 76.45594405594406,
+      "t": 76.71678321678321,
       "type": "chroma",
       "amp": 2.6177723381947726,
       "dur": 0.25
     },
     {
-      "t": 76.45594405594406,
+      "t": 76.71678321678321,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 78.8076923076923,
+      "t": 79.1923076923077,
       "type": "chroma",
       "amp": 1.549522947417572,
       "dur": 0.25
     },
     {
-      "t": 78.8076923076923,
+      "t": 79.1923076923077,
       "type": "vhsRoll",
       "amp": 0.855,
       "dur": 0.25
     },
     {
-      "t": 81,
+      "t": 81.5,
       "type": "chroma",
       "amp": 2.951058042785153,
       "dur": 0.25
     },
     {
-      "t": 82.81245927185154,
+      "t": 83.21998158379374,
       "type": "whipBlur",
       "amp": 0.855,
       "dur": 0.20833333333333331
     },
     {
-      "t": 82.89579260518487,
+      "t": 83.30331491712707,
       "type": "chroma",
       "amp": 1.6377063538040966,
       "dur": 0.25
     },
     {
-      "t": 86.04615384615384,
+      "t": 86.3,
       "type": "chroma",
       "amp": 1.580940681155771,
       "dur": 0.25
     },
     {
-      "t": 87.82113088146389,
+      "t": 87.98839278968516,
       "type": "trackingNoise",
       "amp": 0.624,
       "dur": 0.16666666666666666
     },
     {
-      "t": 89.2,
+      "t": 89.3,
       "type": "chroma",
       "amp": 2.4676494723185893,
       "dur": 0.25
     },
     {
-      "t": 90.91745930418129,
+      "t": 91.01745930418129,
       "type": "chroma",
       "amp": 2.882086207745597,
       "dur": 0.25
     },
     {
-      "t": 92.01203115326756,
+      "t": 92.11203115326757,
       "type": "waveWarp",
       "amp": 0.624,
       "dur": 0.20833333333333331
     },
     {
-      "t": 92.7076923076923,
+      "t": 92.8076923076923,
       "type": "chroma",
       "amp": 1.4809222568199039,
       "dur": 0.25
     },
     {
-      "t": 92.7076923076923,
+      "t": 92.8076923076923,
       "type": "shake",
       "amp": 0.36,
       "dur": 0.3
     },
     {
-      "t": 94.89999999999999,
+      "t": 95,
       "type": "chroma",
       "amp": 2.233008961370215,
       "dur": 0.25
     },
     {
-      "t": 94.89999999999999,
+      "t": 95,
       "type": "lightSweep",
       "amp": 0.855,
       "dur": 0.29166666666666663
     },
     {
-      "t": 96.64906527735212,
+      "t": 96.6284400858106,
       "type": "chroma",
       "amp": 2.0571496725827454,
       "dur": 0.25
     },
     {
-      "t": 98.46923076923076,
+      "t": 98.32307692307691,
       "type": "chroma",
       "amp": 1.908433263292536,
       "dur": 0.25
     },
     {
-      "t": 100.7,
+      "t": 100.39999999999999,
       "type": "chroma",
       "amp": 1.459929793346673,
       "dur": 0.25
     },
     {
-      "t": 102.57692307692308,
+      "t": 102.39999999999999,
       "type": "chroma",
       "amp": 2.3259775609057396,
       "dur": 0.25
     },
     {
-      "t": 104.45384615384616,
+      "t": 104.39999999999999,
       "type": "chroma",
       "amp": 2.796123635359108,
       "dur": 0.25
     },
     {
-      "t": 106.71666666666667,
+      "t": 106.81666666666666,
       "type": "whipBlur",
       "amp": 1.155,
       "dur": 0.20833333333333331
     },
     {
-      "t": 106.8,
+      "t": 106.89999999999999,
       "type": "chroma",
       "amp": 4.923549822689965,
       "dur": 0.25
     },
     {
-      "t": 106.8,
+      "t": 106.89999999999999,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 106.8,
+      "t": 106.89999999999999,
       "type": "zoom",
       "amp": 1.1,
       "dur": 0.25
     },
     {
-      "t": 106.84,
+      "t": 106.94,
       "type": "shake",
       "amp": 0.792,
       "dur": 0.35
@@ -7932,184 +8400,256 @@
       "dur": 0.25
     },
     {
-      "t": 116.6,
+      "t": 117.6,
       "type": "chroma",
       "amp": 2.28170504162088,
       "dur": 0.25
     },
     {
-      "t": 116.6,
+      "t": 117.6,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 118.83431952662721,
+      "t": 119.47288548555517,
       "type": "chroma",
       "amp": 5.1679615673795345,
       "dur": 0.25
     },
     {
-      "t": 118.83431952662721,
+      "t": 119.47288548555517,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 120.78461538461538,
+      "t": 121.1076923076923,
       "type": "chroma",
       "amp": 4.41434501202777,
       "dur": 0.25
     },
     {
-      "t": 120.78461538461538,
+      "t": 121.1076923076923,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 123.39999999999999,
+      "t": 123.3,
       "type": "chroma",
       "amp": 1.4906128533836454,
       "dur": 0.25
     },
     {
-      "t": 124.90198398886182,
+      "t": 124.77608771319179,
       "type": "chroma",
       "amp": 2.157511732848361,
       "dur": 0.25
     },
     {
-      "t": 126.96923076923078,
+      "t": 126.8076923076923,
       "type": "chroma",
       "amp": 1.819783248817548,
       "dur": 0.25
     },
     {
-      "t": 126.96923076923078,
+      "t": 126.8076923076923,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 129.20000000000002,
+      "t": 129,
       "type": "chroma",
       "amp": 1.63631568076089,
       "dur": 0.25
     },
     {
-      "t": 130.8,
+      "t": 130.90769230769232,
       "type": "chroma",
       "amp": 2.6528564209304752,
       "dur": 0.25
     },
     {
-      "t": 132.4,
+      "t": 132.81538461538463,
       "type": "chroma",
       "amp": 2.5792639781720936,
       "dur": 0.25
     },
     {
-      "t": 132.4,
+      "t": 132.81538461538463,
       "type": "shake",
       "amp": 0.36,
       "dur": 0.3
     },
     {
-      "t": 134.4,
+      "t": 135.20000000000002,
       "type": "chroma",
       "amp": 2.7795518267620354,
       "dur": 0.25
     },
     {
-      "t": 137.05461173897194,
+      "t": 139.6841414509661,
       "type": "chroma",
       "amp": 2.689102073982358,
       "dur": 0.25
     },
     {
-      "t": 137.05461173897194,
+      "t": 139.6841414509661,
       "type": "lightSweep",
       "amp": 0.855,
       "dur": 0.29166666666666663
     },
     {
-      "t": 138.95384615384617,
+      "t": 142.8923076923077,
       "type": "chroma",
       "amp": 1.4460297511704265,
       "dur": 0.25
     },
     {
-      "t": 141.8,
+      "t": 147.70000000000002,
       "type": "chroma",
       "amp": 4.432962060850114,
       "dur": 0.25
     },
     {
-      "t": 141.8,
+      "t": 147.70000000000002,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 141.8,
+      "t": 147.70000000000002,
       "type": "zoom",
       "amp": 1.1,
       "dur": 0.25
     },
     {
-      "t": 141.84,
+      "t": 147.74,
       "type": "shake",
       "amp": 0.792,
       "dur": 0.35
     },
     {
-      "t": 146.8,
+      "t": 153.8,
       "type": "chroma",
       "amp": 1.78,
       "dur": 0.25
     },
     {
-      "t": 166.60000000000002,
+      "t": 159.4,
       "type": "chroma",
       "amp": 1.8671511883474885,
       "dur": 0.25
     },
     {
-      "t": 167.71349174385827,
+      "t": 160.420814479638,
       "type": "chroma",
-      "amp": 1.898852366618812,
+      "amp": 2.8065952831972387,
       "dur": 0.25
     },
     {
-      "t": 171.03076923076927,
+      "t": 160.420814479638,
+      "type": "waveWarp",
+      "amp": 0.855,
+      "dur": 0.20833333333333331
+    },
+    {
+      "t": 162.2923076923077,
       "type": "chroma",
-      "amp": 1.4268493757024407,
+      "amp": 1.7265888347476719,
       "dur": 0.25
     },
     {
-      "t": 173.8,
+      "t": 166.3,
       "type": "chroma",
-      "amp": 2.721273994827643,
+      "amp": 2.7377405449375507,
       "dur": 0.25
     },
     {
-      "t": 175.3042735042735,
+      "t": 166.8717299578059,
+      "type": "filmBurn",
+      "amp": 0.855,
+      "dur": 0.29166666666666663
+    },
+    {
+      "t": 166.95506329113925,
       "type": "chroma",
-      "amp": 2.6595754796266555,
+      "amp": 2.0372706409823147,
       "dur": 0.25
     },
     {
-      "t": 177.4923076923077,
+      "t": 167.6101265822785,
       "type": "chroma",
-      "amp": 1.576218500500545,
+      "amp": 2.820116412835196,
       "dur": 0.25
     },
     {
-      "t": 178.50720100545217,
-      "type": "rgbSplit",
-      "amp": 0.624,
-      "dur": 0.16666666666666666
+      "t": 167.6101265822785,
+      "type": "shake",
+      "amp": 0.36,
+      "dur": 0.3
+    },
+    {
+      "t": 168.69240506329115,
+      "type": "chroma",
+      "amp": 2.0514056035131216,
+      "dur": 0.25
+    },
+    {
+      "t": 168.69240506329115,
+      "type": "vhsRoll",
+      "amp": 0.855,
+      "dur": 0.25
+    },
+    {
+      "t": 169.3474683544304,
+      "type": "chroma",
+      "amp": 1.9161570822354406,
+      "dur": 0.25
+    },
+    {
+      "t": 170.1032700421941,
+      "type": "whiteFrame",
+      "amp": 0.855,
+      "dur": 0.08333333333333333
+    },
+    {
+      "t": 170.14493670886077,
+      "type": "chroma",
+      "amp": 1.7783193382341413,
+      "dur": 0.25
+    },
+    {
+      "t": 170.8,
+      "type": "chroma",
+      "amp": 2.698886419087648,
+      "dur": 0.25
+    },
+    {
+      "t": 170.8,
+      "type": "shake",
+      "amp": 0.36,
+      "dur": 0.3
+    },
+    {
+      "t": 172.8897435897436,
+      "type": "crtOff",
+      "amp": 0.855,
+      "dur": 0.3333333333333333
+    },
+    {
+      "t": 173.05641025641026,
+      "type": "chroma",
+      "amp": 2.451773693440482,
+      "dur": 0.25
+    },
+    {
+      "t": 176.33846153846153,
+      "type": "chroma",
+      "amp": 2.652489837752655,
+      "dur": 0.25
     },
     {
       "t": 179.8,
@@ -8118,130 +8658,142 @@
       "dur": 0.25
     },
     {
-      "t": 194.8,
+      "t": 187.14999999999998,
+      "type": "lightSweep",
+      "amp": 0.6,
+      "dur": 0.2916666666666667
+    },
+    {
+      "t": 192.10000000000002,
       "type": "chroma",
-      "amp": 1.8710663979221134,
+      "amp": 2.792014484889805,
       "dur": 0.25
     },
     {
-      "t": 195.89289044289043,
-      "type": "whipBlur",
+      "t": 192.10000000000002,
+      "type": "lightSweep",
       "amp": 0.855,
-      "dur": 0.20833333333333331
+      "dur": 0.29166666666666663
     },
     {
-      "t": 195.97622377622378,
+      "t": 193.23566433566435,
       "type": "chroma",
-      "amp": 1.544508126694709,
+      "amp": 1.5102922597620636,
       "dur": 0.25
     },
     {
-      "t": 198.36923076923077,
+      "t": 195.54615384615386,
       "type": "chroma",
-      "amp": 1.9790352351963518,
+      "amp": 2.1548817689344286,
       "dur": 0.25
     },
     {
-      "t": 200.60000000000002,
+      "t": 196.48835209172864,
+      "type": "filmBurn",
+      "amp": 0.624,
+      "dur": 0.29166666666666663
+    },
+    {
+      "t": 197.70000000000002,
       "type": "chroma",
-      "amp": 2.088966742483899,
+      "amp": 2.063535998724401,
       "dur": 0.25
     },
     {
-      "t": 201.9409264768381,
-      "type": "chroma",
-      "amp": 2.353046345105395,
-      "dur": 0.25
-    },
-    {
-      "t": 204.16923076923078,
-      "type": "chroma",
-      "amp": 2.5939720785338434,
-      "dur": 0.25
-    },
-    {
-      "t": 206.23333333333335,
-      "type": "crtOff",
-      "amp": 0.855,
-      "dur": 0.3333333333333333
-    },
-    {
-      "t": 206.4,
-      "type": "chroma",
-      "amp": 1.8366624371428042,
-      "dur": 0.25
-    },
-    {
-      "t": 207.48471113948293,
+      "t": 199.5957926051849,
       "type": "chroma",
       "amp": 2.701913335379213,
       "dur": 0.25
     },
     {
-      "t": 208.6153846153846,
+      "t": 202.66282051282053,
+      "type": "whipBlur",
+      "amp": 0.855,
+      "dur": 0.20833333333333331
+    },
+    {
+      "t": 202.74615384615387,
       "type": "chroma",
-      "amp": 1.6103429006133227,
+      "amp": 2.516008355729282,
       "dur": 0.25
     },
     {
-      "t": 208.6153846153846,
-      "type": "shake",
-      "amp": 0.36,
-      "dur": 0.3
-    },
-    {
-      "t": 210,
+      "t": 205.9,
       "type": "chroma",
       "amp": 1.7104803144466132,
       "dur": 0.25
     },
     {
-      "t": 212.35219123505976,
+      "t": 207.76811362910948,
       "type": "chroma",
-      "amp": 2.2030465705227105,
+      "amp": 1.4486412499193102,
       "dur": 0.25
     },
     {
-      "t": 213.45614305272045,
-      "type": "vhsRoll",
-      "amp": 0.624,
-      "dur": 0.25
-    },
-    {
-      "t": 214.8,
-      "type": "chroma",
-      "amp": 2.8402159516606478,
-      "dur": 0.25
-    },
-    {
-      "t": 214.8,
+      "t": 209.15862054380742,
       "type": "hueShift",
-      "amp": 0.855,
+      "amp": 0.624,
       "dur": 0.125
     },
     {
-      "t": 217.8,
+      "t": 209.7153846153846,
       "type": "chroma",
-      "amp": 2.1737027459964153,
+      "amp": 2.4860863977018743,
       "dur": 0.25
     },
     {
-      "t": 219.64615384615385,
+      "t": 212.10000000000002,
       "type": "chroma",
-      "amp": 2.1460471536125985,
+      "amp": 2.1065993980225173,
       "dur": 0.25
     },
     {
-      "t": 221.4923076923077,
-      "type": "chroma",
-      "amp": 2.221516204215586,
-      "dur": 0.25
-    },
-    {
-      "t": 221.4923076923077,
-      "type": "lightSweep",
+      "t": 213.56177341914398,
+      "type": "crtOff",
       "amp": 0.855,
-      "dur": 0.29166666666666663
+      "dur": 0.3333333333333333
+    },
+    {
+      "t": 213.72844008581063,
+      "type": "chroma",
+      "amp": 2.9373616513516754,
+      "dur": 0.25
+    },
+    {
+      "t": 215.42307692307693,
+      "type": "chroma",
+      "amp": 2.1908248792029914,
+      "dur": 0.25
+    },
+    {
+      "t": 217.5,
+      "type": "chroma",
+      "amp": 2.0793218264821918,
+      "dur": 0.25
+    },
+    {
+      "t": 217.5,
+      "type": "shake",
+      "amp": 0.36,
+      "dur": 0.3
+    },
+    {
+      "t": 219.43846153846155,
+      "type": "chroma",
+      "amp": 2.3607499351073056,
+      "dur": 0.25
+    },
+    {
+      "t": 221.3769230769231,
+      "type": "chroma",
+      "amp": 2.886889053182676,
+      "dur": 0.25
+    },
+    {
+      "t": 221.3769230769231,
+      "type": "shake",
+      "amp": 0.36,
+      "dur": 0.3
     },
     {
       "t": 223.75833333333335,
@@ -8252,7 +8804,7 @@
     {
       "t": 223.8,
       "type": "chroma",
-      "amp": 4.861051677362993,
+      "amp": 4.346687498800456,
       "dur": 0.25
     },
     {
@@ -8286,139 +8838,151 @@
       "dur": 0.25
     },
     {
-      "t": 234.8,
+      "t": 234.60000000000002,
       "type": "chroma",
-      "amp": 1.8977163067646323,
+      "amp": 1.8792777915857732,
       "dur": 0.25
     },
     {
-      "t": 236.64002784545772,
+      "t": 234.60000000000002,
+      "type": "rgbSplit",
+      "amp": 0.855,
+      "dur": 0.16666666666666666
+    },
+    {
+      "t": 236.57145840584758,
       "type": "chroma",
-      "amp": 4.310544591872022,
+      "amp": 4.738960427390412,
       "dur": 0.25
     },
     {
-      "t": 236.64002784545772,
+      "t": 236.57145840584758,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 236.64002784545772,
-      "type": "waveWarp",
-      "amp": 1.155,
-      "dur": 0.20833333333333331
-    },
-    {
-      "t": 238.24615384615385,
-      "type": "chroma",
-      "amp": 4.1747022472601385,
-      "dur": 0.25
-    },
-    {
-      "t": 238.24615384615385,
-      "type": "shake",
-      "amp": 0.72,
-      "dur": 0.3
-    },
-    {
-      "t": 238.24615384615385,
+      "t": 236.57145840584758,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 240.4,
+      "t": 238.29230769230773,
       "type": "chroma",
-      "amp": 1.8458570770546794,
+      "amp": 3.915546708991751,
       "dur": 0.25
     },
     {
-      "t": 241.90198398886182,
-      "type": "chroma",
-      "amp": 2.231752414116636,
-      "dur": 0.25
-    },
-    {
-      "t": 243.96923076923076,
-      "type": "chroma",
-      "amp": 1.7983116001822053,
-      "dur": 0.25
-    },
-    {
-      "t": 246.20000000000002,
-      "type": "chroma",
-      "amp": 1.9175337500404566,
-      "dur": 0.25
-    },
-    {
-      "t": 248.04615384615386,
-      "type": "chroma",
-      "amp": 2.4359809529595076,
-      "dur": 0.25
-    },
-    {
-      "t": 248.04615384615386,
-      "type": "hueShift",
-      "amp": 0.855,
-      "dur": 0.125
-    },
-    {
-      "t": 249.80897435897435,
-      "type": "whipBlur",
-      "amp": 0.855,
-      "dur": 0.20833333333333331
-    },
-    {
-      "t": 249.8923076923077,
-      "type": "chroma",
-      "amp": 1.4060523470304906,
-      "dur": 0.25
-    },
-    {
-      "t": 252.20000000000002,
-      "type": "chroma",
-      "amp": 2.4620088925119488,
-      "dur": 0.25
-    },
-    {
-      "t": 254.28064163324828,
-      "type": "chroma",
-      "amp": 2.3287662283331154,
-      "dur": 0.25
-    },
-    {
-      "t": 255.0188674322442,
-      "type": "gridRepeat",
-      "amp": 0.624,
-      "dur": 0.125
-    },
-    {
-      "t": 255.76923076923077,
-      "type": "chroma",
-      "amp": 2.945740880500525,
-      "dur": 0.25
-    },
-    {
-      "t": 258,
-      "type": "chroma",
-      "amp": 4.277110351184383,
-      "dur": 0.25
-    },
-    {
-      "t": 258,
+      "t": 238.29230769230773,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 258,
+      "t": 240.60000000000002,
+      "type": "chroma",
+      "amp": 1.9175337500404566,
+      "dur": 0.25
+    },
+    {
+      "t": 242.10198398886183,
+      "type": "chroma",
+      "amp": 1.610564971482381,
+      "dur": 0.25
+    },
+    {
+      "t": 242.10198398886183,
+      "type": "hueShift",
+      "amp": 0.855,
+      "dur": 0.125
+    },
+    {
+      "t": 244.16923076923078,
+      "type": "chroma",
+      "amp": 2.3475772576406597,
+      "dur": 0.25
+    },
+    {
+      "t": 244.16923076923078,
+      "type": "shake",
+      "amp": 0.36,
+      "dur": 0.3
+    },
+    {
+      "t": 246.4,
+      "type": "chroma",
+      "amp": 2.229146587708965,
+      "dur": 0.25
+    },
+    {
+      "t": 248.06153846153848,
+      "type": "chroma",
+      "amp": 2.6467204158566893,
+      "dur": 0.25
+    },
+    {
+      "t": 248.06153846153848,
+      "type": "zoom",
+      "amp": 1.06,
+      "dur": 0.22
+    },
+    {
+      "t": 249.72307692307695,
+      "type": "chroma",
+      "amp": 2.217758762873709,
+      "dur": 0.25
+    },
+    {
+      "t": 251.71666666666667,
+      "type": "filmBurn",
+      "amp": 0.855,
+      "dur": 0.29166666666666663
+    },
+    {
+      "t": 251.8,
+      "type": "chroma",
+      "amp": 2.791099615832791,
+      "dur": 0.25
+    },
+    {
+      "t": 253.916514764856,
+      "type": "chroma",
+      "amp": 1.8438456878159195,
+      "dur": 0.25
+    },
+    {
+      "t": 253.916514764856,
+      "type": "zoom",
+      "amp": 1.06,
+      "dur": 0.22
+    },
+    {
+      "t": 255.43076923076924,
+      "type": "chroma",
+      "amp": 1.7564940122049302,
+      "dur": 0.25
+    },
+    {
+      "t": 257.7,
+      "type": "chroma",
+      "amp": 3.932014946239069,
+      "dur": 0.25
+    },
+    {
+      "t": 257.7,
+      "type": "shake",
+      "amp": 0.72,
+      "dur": 0.3
+    },
+    {
+      "t": 257.7,
       "type": "zoom",
       "amp": 1.1,
       "dur": 0.25
     },
     {
-      "t": 258.04,
+      "t": 257.74,
       "type": "shake",
       "amp": 0.792,
       "dur": 0.35
@@ -8430,145 +8994,133 @@
       "dur": 0.25
     },
     {
-      "t": 269,
+      "t": 268.6,
       "type": "chroma",
-      "amp": 2.9300255917944016,
+      "amp": 2.5183141611609607,
       "dur": 0.25
     },
     {
-      "t": 269,
-      "type": "lightSweep",
-      "amp": 0.855,
-      "dur": 0.29166666666666663
-    },
-    {
-      "t": 271.02539208364453,
-      "type": "chroma",
-      "amp": 1.545597405079752,
-      "dur": 0.25
-    },
-    {
-      "t": 272.69230769230774,
-      "type": "chroma",
-      "amp": 2.7952111344691364,
-      "dur": 0.25
-    },
-    {
-      "t": 275,
-      "type": "chroma",
-      "amp": 2.860495591768995,
-      "dur": 0.25
-    },
-    {
-      "t": 276.6252489419965,
-      "type": "whiteFrame",
-      "amp": 0.855,
-      "dur": 0.08333333333333333
-    },
-    {
-      "t": 276.6669156086632,
-      "type": "chroma",
-      "amp": 2.849748931452632,
-      "dur": 0.25
-    },
-    {
-      "t": 278.69230769230774,
-      "type": "chroma",
-      "amp": 2.2062997103296222,
-      "dur": 0.25
-    },
-    {
-      "t": 278.69230769230774,
-      "type": "rgbSplit",
-      "amp": 0.855,
-      "dur": 0.16666666666666666
-    },
-    {
-      "t": 281,
-      "type": "chroma",
-      "amp": 2.1468485162779687,
-      "dur": 0.25
-    },
-    {
-      "t": 281.9699196326062,
-      "type": "chroma",
-      "amp": 1.951387105444446,
-      "dur": 0.25
-    },
-    {
-      "t": 281.9699196326062,
+      "t": 268.6,
       "type": "shake",
       "amp": 0.36,
       "dur": 0.3
     },
     {
-      "t": 283.2153846153846,
+      "t": 270.7266616878268,
       "type": "chroma",
-      "amp": 2.319598282240331,
+      "amp": 2.1829299463890495,
       "dur": 0.25
     },
     {
-      "t": 284.5166666666667,
-      "type": "whipBlur",
-      "amp": 1.155,
-      "dur": 0.20833333333333331
-    },
-    {
-      "t": 284.6,
+      "t": 272.47692307692313,
       "type": "chroma",
-      "amp": 4.9114691749680786,
+      "amp": 2.442649721158668,
       "dur": 0.25
     },
     {
-      "t": 284.6,
+      "t": 274.90000000000003,
+      "type": "chroma",
+      "amp": 2.838834969215095,
+      "dur": 0.25
+    },
+    {
+      "t": 276.56691560866324,
+      "type": "chroma",
+      "amp": 1.9824198751058428,
+      "dur": 0.25
+    },
+    {
+      "t": 278.59230769230777,
+      "type": "chroma",
+      "amp": 2.6936654338054358,
+      "dur": 0.25
+    },
+    {
+      "t": 278.59230769230777,
+      "type": "trackingNoise",
+      "amp": 0.855,
+      "dur": 0.16666666666666666
+    },
+    {
+      "t": 280.90000000000003,
+      "type": "chroma",
+      "amp": 2.9270162653177976,
+      "dur": 0.25
+    },
+    {
+      "t": 282.30099502487565,
+      "type": "chroma",
+      "amp": 2.65999706893228,
+      "dur": 0.25
+    },
+    {
+      "t": 282.30099502487565,
+      "type": "shake",
+      "amp": 0.36,
+      "dur": 0.3
+    },
+    {
+      "t": 284.1,
+      "type": "chroma",
+      "amp": 2.9386373763997105,
+      "dur": 0.25
+    },
+    {
+      "t": 284.1,
+      "type": "shake",
+      "amp": 0.36,
+      "dur": 0.3
+    },
+    {
+      "t": 286.1,
+      "type": "chroma",
+      "amp": 4.79202274334617,
+      "dur": 0.25
+    },
+    {
+      "t": 286.1,
       "type": "shake",
       "amp": 0.72,
       "dur": 0.3
     },
     {
-      "t": 284.6,
+      "t": 286.1,
       "type": "zoom",
       "amp": 1.1,
       "dur": 0.25
     },
     {
-      "t": 284.64000000000004,
-      "type": "shake",
-      "amp": 0.792,
-      "dur": 0.35
-    },
-    {
-      "t": 292.6,
-      "type": "chroma",
-      "amp": 4.869636866217479,
-      "dur": 0.25
-    },
-    {
-      "t": 292.6,
-      "type": "shake",
-      "amp": 0.72,
-      "dur": 0.3
-    },
-    {
-      "t": 292.6,
-      "type": "zoom",
-      "amp": 1.1,
-      "dur": 0.25
-    },
-    {
-      "t": 292.6,
+      "t": 286.1,
       "type": "zoom",
       "amp": 1.06,
       "dur": 0.22
     },
     {
-      "t": 292.6,
-      "type": "gridRepeat",
-      "amp": 1.155,
-      "dur": 0.125
+      "t": 286.14000000000004,
+      "type": "shake",
+      "amp": 0.792,
+      "dur": 0.35
     },
     {
-      "t": 292.64000000000004,
+      "t": 291.90000000000003,
+      "type": "chroma",
+      "amp": 4.650234421268106,
+      "dur": 0.25
+    },
+    {
+      "t": 291.90000000000003,
+      "type": "shake",
+      "amp": 0.72,
+      "dur": 0.3
+    },
+    {
+      "t": 291.90000000000003,
+      "type": "zoom",
+      "amp": 1.1,
+      "dur": 0.25
+    },
+    {
+      "t": 291.94000000000005,
       "type": "shake",
       "amp": 0.792,
       "dur": 0.35
@@ -8576,7 +9128,7 @@
     {
       "t": 297.6,
       "type": "chroma",
-      "amp": 5.087490646149963,
+      "amp": 5.354670982137322,
       "dur": 0.25
     },
     {
@@ -8599,9 +9151,9 @@
     },
     {
       "t": 297.6,
-      "type": "hueShift",
+      "type": "rgbSplit",
       "amp": 1.155,
-      "dur": 0.125
+      "dur": 0.16666666666666666
     },
     {
       "t": 297.64000000000004,
