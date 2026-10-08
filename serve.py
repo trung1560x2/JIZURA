@@ -35,9 +35,15 @@ class JizuraHandler(SimpleHTTPRequestHandler):
                 with open(temp_audio, 'wb') as f:
                     f.write(audio_bytes)
                 
-                print(f"[Whisper] Starting auto-sync for {content_len} bytes audio...")
-                result = sync_audio(temp_audio, existing_lyrics=lyrics_text, model_size='base', language=lang_hint)
-                print(f"[Whisper] Auto-sync complete! {result.get('segments_count', 0)} segments, {result.get('words_count', 0)} words.")
+                if lyrics_text and len(lyrics_text.strip()) > 10:
+                    print(f"[Auto-Sync] Using High-Precision Forced Alignment (Stable-Whisper)...")
+                    from tools.forced_alignment import align_audio_to_lyrics
+                    result = align_audio_to_lyrics(temp_audio, lyrics_text, language=lang_hint or 'vi')
+                    print(f"[Auto-Sync] Forced Alignment complete! {result.get('lines_count', 0)} lines, {result.get('words_count', 0)} words in {result.get('alignment_time', 0):.2f}s.")
+                else:
+                    print(f"[Whisper] Starting auto-sync transcription for {content_len} bytes audio...")
+                    result = sync_audio(temp_audio, existing_lyrics=lyrics_text, model_size='base', language=lang_hint)
+                    print(f"[Whisper] Auto-sync complete! {result.get('segments_count', 0)} segments, {result.get('words_count', 0)} words.")
                 
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
