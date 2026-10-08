@@ -1,0 +1,1998 @@
+{
+  "version": 2,
+  "generator": "JIZURA",
+  "appVersion": "@VERSION@",
+  "title": "Ánh Sáng Tương Lai",
+  "artist": "AI Creator",
+  "W": 1920,
+  "H": 1080,
+  "fps": 24,
+  "duration": 21.599999999999998,
+  "styleKey": "magenta",
+  "style": {
+    "name": "ポップ・マゼンタ",
+    "desc": "ショッキングピンク×白・太丸ゴシック・引き出し線",
+    "schemes": [
+      {
+        "bg": "#FF0A8C",
+        "fg": "#FFFFFF",
+        "sub": "#FFD2EA",
+        "accent": "#D5CDFF",
+        "accent2": "#2B2BD9",
+        "ink": "#D5CDFF",
+        "dim": "#F0077F",
+        "ghostA": "#2601F5",
+        "ghostB": "#1AF501"
+      },
+      {
+        "bg": "#FFFFFF",
+        "fg": "#FF0A8C",
+        "sub": "#FF6DB6",
+        "accent": "#2601F5",
+        "accent2": "#FF0A8C",
+        "ink": "#FF0A8C",
+        "dim": "#FFE4F2",
+        "ghostA": "#2601F5",
+        "ghostB": "#1AF501"
+      },
+      {
+        "bg": "#2B2BD9",
+        "fg": "#FFFFFF",
+        "sub": "#C9C9FF",
+        "accent": "#8975FE",
+        "accent2": "#FFFFFF",
+        "ink": "#FFFFFF",
+        "dim": "#2424C4",
+        "ghostA": "#5C3FFE",
+        "ghostB": "#1AF501"
+      }
+    ],
+    "fonts": {
+      "display": [
+        "round",
+        "pop",
+        "gothic_black"
+      ],
+      "serif": [
+        "mincho_bold"
+      ],
+      "body": [
+        "round",
+        "gothic_bold"
+      ],
+      "mono": [
+        "mono"
+      ]
+    },
+    "texture": {
+      "grain": 0.3,
+      "paper": 0,
+      "scan": 0
+    },
+    "ghost": 0.35,
+    "bias": {
+      "layout": {
+        "wave": 2.2,
+        "gloss": 1.6,
+        "huge": 1.6,
+        "pill": 1.4,
+        "scatter": 1.2
+      },
+      "enter": {
+        "pop": 2,
+        "drop": 1.6,
+        "spin": 1.3,
+        "blur": 1.2
+      },
+      "exit": {
+        "scatter": 1.6,
+        "shrink": 1.4,
+        "blur": 1.2
+      }
+    },
+    "decor": {
+      "leaders": 1,
+      "counter": 1,
+      "sparks": 0.8,
+      "shapes": 0.6
+    },
+    "hud": false
+  },
+  "fx": {
+    "motion": 0.71,
+    "glitch": 0.21,
+    "chroma": 0.54,
+    "decor": 0.85,
+    "density": 0.7,
+    "texture": 0.21,
+    "flash": true,
+    "onTwos": true,
+    "koma": 8,
+    "hud": "auto",
+    "bgSwitch": 0.56,
+    "hideNo": false,
+    "hideTime": false
+  },
+  "seed": 676187529,
+  "lines": [
+    {
+      "index": 0,
+      "src": 0,
+      "lrc": 0,
+      "text": "",
+      "interlude": true,
+      "secs": 3,
+      "start": 0,
+      "end": 3,
+      "visEnd": 3,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [],
+      "seed": 1524898181
+    },
+    {
+      "index": 1,
+      "src": 1,
+      "lrc": 3,
+      "text": "Ánh bình minh rực rỡ nơi chân trời xa",
+      "start": 3,
+      "end": 7.5,
+      "visEnd": 7.5,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [
+        "Ánh bình minh",
+        "rực rỡ",
+        "nơi chân trời xa"
+      ],
+      "seed": 1678628988
+    },
+    {
+      "index": 2,
+      "src": 2,
+      "lrc": 7.5,
+      "text": "Bước chân qua muôn trùng sóng gió",
+      "start": 7.5,
+      "end": 11,
+      "visEnd": 11,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [
+        "Bước chân qua",
+        "muôn trùng",
+        "sóng gió"
+      ],
+      "seed": 606588396
+    },
+    {
+      "index": 3,
+      "src": 3,
+      "lrc": 11,
+      "text": "Khát vọng cháy bỏng trong từng con tim",
+      "start": 11,
+      "end": 15.5,
+      "visEnd": 15.5,
+      "note": null,
+      "impact": true,
+      "emph": [
+        "Khát vọng"
+      ],
+      "chunks": [
+        "Khát vọng cháy",
+        "bỏng trong từng",
+        "con tim"
+      ],
+      "seed": 2337336593
+    },
+    {
+      "index": 4,
+      "src": 4,
+      "lrc": 15.5,
+      "text": "Cất cao lời ca bay về phía tương lai",
+      "start": 15.5,
+      "end": 20.7,
+      "visEnd": 20.7,
+      "note": null,
+      "impact": false,
+      "emph": [],
+      "chunks": [
+        "Cất cao lời ca",
+        "bay về phía tương lai"
+      ],
+      "seed": 2314979576
+    }
+  ],
+  "cuts": [
+    {
+      "hold": "still",
+      "inDur": 0.4,
+      "outDur": 0.4,
+      "stagger": 0.04,
+      "decor": [
+        {
+          "id": "lineBurst",
+          "seed": 666226221,
+          "n": 2,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 13,
+          "to": 850,
+          "v": 0,
+          "r": 0.3187204448040575
+        },
+        {
+          "id": "twinkle",
+          "seed": 805256706,
+          "n": 1,
+          "right": true,
+          "low": true,
+          "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 5,
+          "to": 763,
+          "v": 2,
+          "r": 0.4799521048553288
+        }
+      ],
+      "params": {
+        "variant": "quiet",
+        "showTitle": false,
+        "titleText": ""
+      },
+      "scheme": 0,
+      "emph": false,
+      "words": [],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "bokehBg",
+      "bgP": {
+        "seed": 624633109,
+        "n": 15,
+        "k": 0.2569308001501486
+      },
+      "cam": "push",
+      "camP": {},
+      "text": "",
+      "lineText": "",
+      "line": 0,
+      "start": 0,
+      "end": 3,
+      "layout": "interlude",
+      "enter": "blur",
+      "exit": "blur",
+      "seed": 756778095,
+      "dur": 3,
+      "index": 0
+    },
+    {
+      "hold": "skewWobble",
+      "inDur": 0.4194856636121785,
+      "outDur": 0,
+      "stagger": 0.05207760800607503,
+      "decor": [
+        {
+          "id": "qrBlock",
+          "seed": 716426026,
+          "n": 1,
+          "right": false,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "count",
+          "from": 8,
+          "to": 308,
+          "v": 2,
+          "r": 0.04739426029846072
+        },
+        {
+          "id": "beatRing",
+          "seed": 11479894,
+          "n": 3,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": true,
+          "mode": "index",
+          "from": 8,
+          "to": 788,
+          "v": 3,
+          "r": 0.9899968176614493
+        }
+      ],
+      "params": {
+        "font": "round",
+        "fillFont": "gothic_bold",
+        "mark": "bracket",
+        "pos": 0.28,
+        "dens": 0.07324653593450785
+      },
+      "scheme": 0,
+      "emph": false,
+      "words": [
+        "Ánh",
+        "bình",
+        "minh"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "knShearKick",
+      "camP": {
+        "a": 7.714948646258563
+      },
+      "text": "Ánh bình minh",
+      "lineText": "Ánh bình minh rực rỡ nơi chân trời xa",
+      "line": 1,
+      "start": 3,
+      "end": 4.165237954478274,
+      "layout": "justified",
+      "enter": "checker",
+      "exit": "cut",
+      "seed": 1920124450,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Ánh bình minh",
+      "dur": 1.1652379544782736,
+      "index": 1
+    },
+    {
+      "hold": "jitter",
+      "inDur": 0.12,
+      "outDur": 0.3,
+      "stagger": 0.03824390689842403,
+      "decor": [
+        {
+          "id": "stripes",
+          "seed": 816435009,
+          "n": 2,
+          "right": true,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": true,
+          "mode": "index",
+          "from": 16,
+          "to": 898,
+          "v": 0,
+          "r": 0.6343431633431464
+        },
+        {
+          "id": "halftonePatch",
+          "seed": 731679360,
+          "n": 3,
+          "right": false,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 15,
+          "to": 84,
+          "v": 0,
+          "r": 0.9334382077213377
+        }
+      ],
+      "params": {
+        "amp": 0.11216855319915339,
+        "freq": 0.9466934897005559,
+        "trail": 5,
+        "font": "pop",
+        "travel": -0.27245661488268524
+      },
+      "scheme": 0,
+      "emph": false,
+      "words": [
+        "rực",
+        "rỡ"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "particlesBg",
+      "bgP": {
+        "seed": 127302261,
+        "n": 94,
+        "k": 0.5171171711292117,
+        "sq": true
+      },
+      "cam": "dollyIn",
+      "camP": {
+        "a": 0.09026196370366961
+      },
+      "text": "rực rỡ",
+      "lineText": "Ánh bình minh rực rỡ nơi chân trời xa",
+      "line": 1,
+      "start": 4.165237954478274,
+      "end": 4.771800177357375,
+      "layout": "wave",
+      "enter": "cut",
+      "exit": "knDiveGlyph",
+      "seed": 2696840457,
+      "recap": false,
+      "trans": "knCornerSwing",
+      "transP": {
+        "c": 1
+      },
+      "transDur": 0.27295300029559555,
+      "zone": null,
+      "utext": "rực rỡ",
+      "dur": 0.6065622228791012,
+      "index": 2
+    },
+    {
+      "hold": "breathe",
+      "inDur": 0.6742417972214013,
+      "outDur": 0.42140112326337587,
+      "stagger": 0.030939061774406584,
+      "decor": [
+        {
+          "id": "crosshair",
+          "seed": 108262583,
+          "n": 1,
+          "right": true,
+          "low": false,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 8,
+          "to": 301,
+          "v": 1,
+          "r": 0.06702787708491087
+        },
+        {
+          "id": "scribbleUnder",
+          "seed": 489984770,
+          "n": 1,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": false,
+          "big": false,
+          "mode": "count",
+          "from": 4,
+          "to": 138,
+          "v": 5,
+          "r": 0.17308279080316424
+        }
+      ],
+      "params": {
+        "ang": 15.532782290130854,
+        "band": "ink",
+        "second": true,
+        "font": "pop"
+      },
+      "scheme": 0,
+      "emph": false,
+      "words": [
+        "nơi",
+        "chân",
+        "trời",
+        "xa"
+      ],
+      "note": null,
+      "treat": "knWordPlate",
+      "treatP": {
+        "first": false,
+        "pad": 0.13335249184165152,
+        "tilt": 2.107715201564133
+      },
+      "bg": "splitV",
+      "bgP": {
+        "seed": 680904398,
+        "side": 1,
+        "pos": 0.4480964894406498,
+        "c": "lay",
+        "k": 0.1083753446675837
+      },
+      "cam": "roll",
+      "camP": {
+        "dir": -1,
+        "a": 2.6101164465071633
+      },
+      "text": "nơi chân trời xa",
+      "lineText": "Ánh bình minh rực rỡ nơi chân trời xa",
+      "line": 1,
+      "start": 4.771800177357375,
+      "end": 6.176470588235294,
+      "layout": "diag",
+      "enter": "magnet",
+      "exit": "scrambleOut",
+      "seed": 2776406900,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "nơi chân trời xa",
+      "dur": 1.4046704108779196,
+      "index": 3
+    },
+    {
+      "hold": "knCounterRock",
+      "inDur": 0.476470588235294,
+      "outDur": 0.3970588235294117,
+      "stagger": 0.03578434688504785,
+      "decor": [
+        {
+          "id": "dots",
+          "seed": 411201184,
+          "n": 1,
+          "right": false,
+          "low": false,
+          "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 12,
+          "to": 845,
+          "v": 2,
+          "r": 0.23107781074941158
+        },
+        {
+          "id": "sparks",
+          "seed": 929411486,
+          "n": 6,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 0,
+          "to": 653,
+          "v": 4,
+          "r": 0.12203832343220711
+        },
+        {
+          "id": "halftonePatch",
+          "seed": 262794438,
+          "n": 2,
+          "right": false,
+          "low": true,
+          "accent": true,
+          "corner": true,
+          "big": true,
+          "mode": "index",
+          "from": 14,
+          "to": 787,
+          "v": 0,
+          "r": 0.6576744976919144
+        }
+      ],
+      "params": {
+        "font": "round",
+        "sx": 1,
+        "track": 0.10004854572936893,
+        "sub": false,
+        "under": false,
+        "accent": true,
+        "ox": 0.029222557204775512,
+        "oy": 0.03226567888632417
+      },
+      "scheme": 0,
+      "emph": false,
+      "words": [
+        "Ánh",
+        "bình",
+        "minh",
+        "rực",
+        "rỡ",
+        "nơi",
+        "chân",
+        "trời",
+        "xa"
+      ],
+      "note": null,
+      "treat": "tyHollowKey",
+      "treatP": {
+        "rev": false
+      },
+      "bg": "splitV",
+      "bgP": {
+        "seed": 680904398,
+        "side": 1,
+        "pos": 0.4480964894406498,
+        "c": "lay",
+        "k": 0.1083753446675837
+      },
+      "cam": "beatPunch",
+      "camP": {
+        "a": 0.032704875951167195
+      },
+      "text": "Ánh bình minh rực rỡ nơi chân trời xa",
+      "lineText": "Ánh bình minh rực rỡ nơi chân trời xa",
+      "line": 1,
+      "start": 6.176470588235294,
+      "end": 7.5,
+      "layout": "center",
+      "enter": "drop",
+      "exit": "popOut",
+      "seed": 2540514555,
+      "recap": true,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Ánh bình minh rực rỡ nơi chân trời xa",
+      "dur": 1.3235294117647056,
+      "index": 4
+    },
+    {
+      "hold": "tyOutlineBlink",
+      "inDur": 0.36272099901413085,
+      "outDur": 0,
+      "stagger": 0.052970874034799637,
+      "decor": [
+        {
+          "id": "checkerStrip",
+          "seed": 127184216,
+          "n": 2,
+          "right": false,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": true,
+          "mode": "index",
+          "from": 5,
+          "to": 812,
+          "v": 5,
+          "r": 0.8039281885139644
+        },
+        {
+          "id": "glitchRects",
+          "seed": 967575996,
+          "n": 3,
+          "right": false,
+          "low": true,
+          "accent": false,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 5,
+          "to": 348,
+          "v": 3,
+          "r": 0.9321406800299883
+        },
+        {
+          "id": "romajiLine",
+          "seed": 579871914,
+          "n": 2,
+          "right": false,
+          "low": false,
+          "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 13,
+          "to": 166,
+          "v": 3,
+          "r": 0.5852081198245287
+        }
+      ],
+      "params": {
+        "font": "gothic_black",
+        "fontB": "mincho_bold",
+        "extras": true
+      },
+      "scheme": 2,
+      "emph": false,
+      "words": [
+        "Bước",
+        "chân",
+        "qua"
+      ],
+      "note": null,
+      "treat": "splitColor",
+      "treatP": {
+        "sp": 0.5670527889905497,
+        "top": false
+      },
+      "bg": "speedLines",
+      "bgP": {
+        "seed": 490368506,
+        "n": 123,
+        "k": 0.20027632020413877,
+        "clear": 0.34641684729605915
+      },
+      "cam": "crashZoom",
+      "camP": {
+        "at": 0.6671778324991464,
+        "a": 0.10950902585871518
+      },
+      "text": "Bước chân qua",
+      "lineText": "Bước chân qua muôn trùng sóng gió",
+      "line": 2,
+      "start": 7.5,
+      "end": 8.507558330594808,
+      "layout": "scatter",
+      "enter": "pop",
+      "exit": "cut",
+      "seed": 3345459926,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Bước chân qua",
+      "dur": 1.007558330594808,
+      "index": 5
+    },
+    {
+      "hold": "tyKeyPulse",
+      "inDur": 0.12,
+      "outDur": 0.24015773907328286,
+      "stagger": 0.057334673802834,
+      "decor": [
+        {
+          "id": "tapePieces",
+          "seed": 89511840,
+          "n": 3,
+          "right": false,
+          "low": true,
+          "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 11,
+          "to": 924,
+          "v": 3,
+          "r": 0.12179133319295943
+        },
+        {
+          "id": "heartsStars",
+          "seed": 38716894,
+          "n": 3,
+          "right": true,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 8,
+          "to": 482,
+          "v": 4,
+          "r": 0.10511893266811967
+        },
+        {
+          "id": "knSpeedTrail",
+          "seed": 998967017,
+          "n": 2,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": true,
+          "mode": "index",
+          "from": 6,
+          "to": 288,
+          "v": 4,
+          "r": 0.7882417438086122
+        }
+      ],
+      "params": {
+        "font": "round",
+        "order": "out",
+        "acc": true,
+        "fulc": "tri"
+      },
+      "scheme": 2,
+      "emph": false,
+      "words": [
+        "muôn",
+        "trùng"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "speedLines",
+      "bgP": {
+        "seed": 490368506,
+        "n": 123,
+        "k": 0.20027632020413877,
+        "clear": 0.34641684729605915
+      },
+      "cam": "whipIn",
+      "camP": {
+        "dir": "U",
+        "d": 0.2008699269592762
+      },
+      "text": "muôn trùng",
+      "lineText": "Bước chân qua muôn trùng sóng gió",
+      "line": 2,
+      "start": 8.507558330594808,
+      "end": 9.30808412750575,
+      "layout": "knSeesaw",
+      "enter": "cut",
+      "exit": "zoomFar",
+      "seed": 2400150599,
+      "recap": false,
+      "trans": "knStutterCut",
+      "transP": {
+        "z": 1.0723941138596274,
+        "o": 0.02613791855052114
+      },
+      "transDur": 0.36,
+      "zone": null,
+      "utext": "muôn trùng",
+      "dur": 0.8005257969109429,
+      "index": 6
+    },
+    {
+      "hold": "knTickShift",
+      "inDur": 0.23850147880381206,
+      "outDur": 0.26,
+      "stagger": 0.03312917010509409,
+      "decor": [
+        {
+          "id": "highlightMark",
+          "seed": 25430808,
+          "n": 3,
+          "right": true,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 15,
+          "to": 959,
+          "v": 2,
+          "r": 0.025859876535832882
+        },
+        {
+          "id": "scribbleCircle",
+          "seed": 257872789,
+          "n": 1,
+          "right": true,
+          "low": false,
+          "accent": false,
+          "corner": false,
+          "big": false,
+          "mode": "count",
+          "from": 0,
+          "to": 821,
+          "v": 2,
+          "r": 0.614061321131885
+        }
+      ],
+      "params": {
+        "ang": 16.722101760096848,
+        "band": "ink",
+        "second": false,
+        "font": "gothic_black"
+      },
+      "scheme": 2,
+      "emph": false,
+      "words": [
+        "sóng",
+        "gió"
+      ],
+      "note": null,
+      "treat": "gradientV",
+      "treatP": {
+        "up": false,
+        "g": true
+      },
+      "bg": "none",
+      "bgP": {},
+      "cam": "handheld",
+      "camP": {
+        "f": 1.0817156893434003
+      },
+      "text": "sóng gió",
+      "lineText": "Bước chân qua muôn trùng sóng gió",
+      "line": 2,
+      "start": 9.30808412750575,
+      "end": 9.970588235294118,
+      "layout": "diag",
+      "enter": "tyLineWipe",
+      "exit": "sweepCover",
+      "seed": 3815473050,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "sóng gió",
+      "dur": 0.6625041077883669,
+      "index": 7
+    },
+    {
+      "hold": "jitter",
+      "inDur": 0.3705882352941176,
+      "outDur": 0,
+      "stagger": 0.03570419078227133,
+      "decor": [
+        {
+          "id": "orbitDots",
+          "seed": 359996798,
+          "n": 1,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 14,
+          "to": 920,
+          "v": 2,
+          "r": 0.9544643510598689
+        },
+        {
+          "id": "crosshair",
+          "seed": 188655924,
+          "n": 2,
+          "right": true,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 7,
+          "to": 683,
+          "v": 0,
+          "r": 0.06308922730386257
+        }
+      ],
+      "params": {
+        "font": "pop",
+        "sx": 1.25,
+        "track": 0.08479422998614611,
+        "sub": true,
+        "under": false,
+        "accent": true,
+        "ox": -0.007931144535541536,
+        "oy": 0.03364533746615052
+      },
+      "scheme": 2,
+      "emph": false,
+      "words": [
+        "Bước",
+        "chân",
+        "qua",
+        "muôn",
+        "trùng",
+        "sóng",
+        "gió"
+      ],
+      "note": null,
+      "treat": "gradientV",
+      "treatP": {
+        "up": false,
+        "g": false
+      },
+      "bg": "none",
+      "bgP": {},
+      "cam": "push",
+      "camP": {},
+      "text": "Bước chân qua muôn trùng sóng gió",
+      "lineText": "Bước chân qua muôn trùng sóng gió",
+      "line": 2,
+      "start": 9.970588235294118,
+      "end": 11,
+      "layout": "center",
+      "enter": "drop",
+      "exit": "cut",
+      "seed": 601474143,
+      "recap": true,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Bước chân qua muôn trùng sóng gió",
+      "dur": 1.0294117647058822,
+      "index": 8
+    },
+    {
+      "hold": "pulse",
+      "inDur": 0.12,
+      "outDur": 0,
+      "stagger": 0.03492993154330179,
+      "decor": [
+        {
+          "id": "dots",
+          "seed": 730665206,
+          "n": 2,
+          "right": false,
+          "low": false,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 15,
+          "to": 234,
+          "v": 3,
+          "r": 0.5290188065264374
+        },
+        {
+          "id": "glitchRects",
+          "seed": 795121405,
+          "n": 1,
+          "right": false,
+          "low": false,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 13,
+          "to": 251,
+          "v": 0,
+          "r": 0.4802655684761703
+        }
+      ],
+      "params": {
+        "copies": 5,
+        "dir": -1,
+        "style": "outline",
+        "font": "mincho_bold",
+        "gap": 0.8371189661137759,
+        "xs": -0.006099337190389631
+      },
+      "scheme": 1,
+      "emph": true,
+      "words": [
+        "Khát",
+        "vọng",
+        "cháy"
+      ],
+      "note": null,
+      "treat": "tyHollowKey",
+      "treatP": {
+        "rev": false
+      },
+      "bg": "splitDiag",
+      "bgP": {
+        "seed": 843097483,
+        "side": -1,
+        "pos": 0.4713091272488236,
+        "ang": -29.012739025056362,
+        "c": "tint",
+        "k": 0.10995260965079069
+      },
+      "cam": "shakeHard",
+      "camP": {},
+      "text": "Khát vọng cháy",
+      "lineText": "Khát vọng cháy bỏng trong từng con tim",
+      "line": 3,
+      "start": 11,
+      "end": 12.214532871972319,
+      "layout": "stack",
+      "enter": "cut",
+      "exit": "cut",
+      "seed": 1187969246,
+      "recap": false,
+      "trans": "knStripSlam",
+      "transP": {
+        "n": 3,
+        "rev": false,
+        "up": false
+      },
+      "transDur": 0.45,
+      "zone": null,
+      "utext": "Khát vọng cháy",
+      "dur": 1.2145328719723185,
+      "index": 9
+    },
+    {
+      "hold": "knWordRide",
+      "inDur": 0.12,
+      "outDur": 0.3877162629757784,
+      "stagger": 0.04754042248358019,
+      "decor": [
+        {
+          "id": "twinkle",
+          "seed": 841643878,
+          "n": 1,
+          "right": false,
+          "low": false,
+          "accent": false,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 4,
+          "to": 414,
+          "v": 4,
+          "r": 0.331724627641961
+        },
+        {
+          "id": "romajiLine",
+          "seed": 21291145,
+          "n": 2,
+          "right": true,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "count",
+          "from": 10,
+          "to": 849,
+          "v": 0,
+          "r": 0.7725840497296304
+        }
+      ],
+      "params": {
+        "font": "round",
+        "fontB": "gothic_black",
+        "shots": [
+          "vert",
+          "crop",
+          "band",
+          "tilt",
+          "huge",
+          "small"
+        ],
+        "side": 1,
+        "fin": "left"
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "bỏng",
+        "trong",
+        "từng"
+      ],
+      "note": null,
+      "treat": "extrude",
+      "treatP": {
+        "d": 0.12935764917172493,
+        "dir": [
+          1,
+          0.55
+        ],
+        "c": 1
+      },
+      "bg": "splitDiag",
+      "bgP": {
+        "seed": 843097483,
+        "side": -1,
+        "pos": 0.4713091272488236,
+        "ang": -29.012739025056362,
+        "c": "tint",
+        "k": 0.10995260965079069
+      },
+      "cam": "knTiltKick",
+      "camP": {
+        "dir": 1,
+        "a": 3.062989775650203
+      },
+      "text": "bỏng trong từng",
+      "lineText": "Khát vọng cháy bỏng trong từng con tim",
+      "line": 3,
+      "start": 12.214532871972319,
+      "end": 13.506920415224913,
+      "layout": "knRhythmCuts",
+      "enter": "cut",
+      "exit": "flipOutY",
+      "seed": 694326206,
+      "recap": false,
+      "trans": "knCornerSwing",
+      "transP": {
+        "c": 0
+      },
+      "transDur": 0.42,
+      "zone": null,
+      "utext": "bỏng trong từng",
+      "dur": 1.2923875432525946,
+      "index": 10
+    },
+    {
+      "hold": "jitter",
+      "inDur": 0.24103806228373692,
+      "outDur": 0.2008650519031141,
+      "stagger": 0.028646104553481565,
+      "decor": [
+        {
+          "id": "scribbleUnder",
+          "seed": 527073917,
+          "n": 3,
+          "right": false,
+          "low": false,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 16,
+          "to": 813,
+          "v": 0,
+          "r": 0.8616280530113727
+        },
+        {
+          "id": "shapes",
+          "seed": 74555311,
+          "n": 6,
+          "right": true,
+          "low": false,
+          "accent": true,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 20,
+          "to": 935,
+          "v": 5,
+          "r": 0.6523160319775343
+        }
+      ],
+      "params": {
+        "font": "round",
+        "gap": 0,
+        "acc": 37,
+        "fill": "ink",
+        "nums": true
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "con",
+        "tim"
+      ],
+      "note": null,
+      "treat": "knWordScale",
+      "treatP": {
+        "big": 1.3614627164276316,
+        "small": 0.8122555050812662,
+        "pick": "long"
+      },
+      "bg": "splitDiag",
+      "bgP": {
+        "seed": 843097483,
+        "side": -1,
+        "pos": 0.4713091272488236,
+        "ang": -29.012739025056362,
+        "c": "tint",
+        "k": 0.10995260965079069
+      },
+      "cam": "knShearKick",
+      "camP": {
+        "a": 7.916237750090659
+      },
+      "text": "con tim",
+      "lineText": "Khát vọng cháy bỏng trong từng con tim",
+      "line": 3,
+      "start": 13.506920415224913,
+      "end": 14.176470588235293,
+      "layout": "gridCells",
+      "enter": "diagWipe",
+      "exit": "scatter",
+      "seed": 1786273305,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "con tim",
+      "dur": 0.6695501730103803,
+      "index": 11
+    },
+    {
+      "hold": "tyOutlineBlink",
+      "inDur": 0.4764705882352943,
+      "outDur": 0.39705882352941196,
+      "stagger": 0.05927630397141911,
+      "decor": [
+        {
+          "id": "crosshair",
+          "seed": 283781313,
+          "n": 2,
+          "right": true,
+          "low": false,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 11,
+          "to": 149,
+          "v": 3,
+          "r": 0.836312239523977
+        },
+        {
+          "id": "sparks",
+          "seed": 619339097,
+          "n": 6,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": false,
+          "big": false,
+          "mode": "index",
+          "from": 6,
+          "to": 936,
+          "v": 4,
+          "r": 0.4036702385637909
+        }
+      ],
+      "params": {
+        "font": "round",
+        "sx": 0.78,
+        "track": 0.056767540713772185,
+        "sub": false,
+        "under": true,
+        "accent": false,
+        "ox": -0.04146961092483253,
+        "oy": -0.01933099913410842
+      },
+      "scheme": 1,
+      "emph": true,
+      "words": [
+        "Khát",
+        "vọng",
+        "cháy",
+        "bỏng",
+        "trong",
+        "từng",
+        "con",
+        "tim"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "splitDiag",
+      "bgP": {
+        "seed": 843097483,
+        "side": -1,
+        "pos": 0.4713091272488236,
+        "ang": -29.012739025056362,
+        "c": "tint",
+        "k": 0.10995260965079069
+      },
+      "cam": "shakeHard",
+      "camP": {},
+      "text": "Khát vọng cháy bỏng trong từng con tim",
+      "lineText": "Khát vọng cháy bỏng trong từng con tim",
+      "line": 3,
+      "start": 14.176470588235293,
+      "end": 15.5,
+      "layout": "center",
+      "enter": "zoom",
+      "exit": "flipOutX",
+      "seed": 293915146,
+      "recap": true,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Khát vọng cháy bỏng trong từng con tim",
+      "dur": 1.3235294117647065,
+      "index": 12
+    },
+    {
+      "hold": "tyReadCursor",
+      "inDur": 0.548858638743455,
+      "outDur": 0.4443141361256541,
+      "stagger": 0.0534909464744851,
+      "decor": [
+        {
+          "id": "speedCorner",
+          "seed": 735521885,
+          "n": 2,
+          "right": true,
+          "low": false,
+          "accent": true,
+          "corner": false,
+          "big": true,
+          "mode": "index",
+          "from": 1,
+          "to": 902,
+          "v": 3,
+          "r": 0.17249536397866905
+        },
+        {
+          "id": "spiralLine",
+          "seed": 798754363,
+          "n": 1,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "count",
+          "from": 10,
+          "to": 409,
+          "v": 5,
+          "r": 0.6415919282007962
+        }
+      ],
+      "params": {
+        "font": "round",
+        "fm": "gothic_black",
+        "edge": "b",
+        "style": "dim",
+        "dir": 1
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "Cất",
+        "cao",
+        "lời",
+        "ca"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "knJumpCut",
+      "camP": {
+        "s0": 54
+      },
+      "text": "Cất cao lời ca",
+      "lineText": "Cất cao lời ca bay về phía tương lai",
+      "line": 4,
+      "start": 15.5,
+      "end": 16.806806282722512,
+      "layout": "tyCropGiant",
+      "enter": "domino",
+      "exit": "vSliceDrop",
+      "seed": 3063462898,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Cất cao lời ca",
+      "dur": 1.306806282722512,
+      "index": 13
+    },
+    {
+      "hold": "orbitSmall",
+      "inDur": 0.6,
+      "outDur": 0.5679581151832461,
+      "stagger": 0.02792766631464474,
+      "decor": [
+        {
+          "id": "scribbleUnder",
+          "seed": 274415650,
+          "n": 1,
+          "right": true,
+          "low": false,
+          "accent": false,
+          "corner": true,
+          "big": false,
+          "mode": "index",
+          "from": 14,
+          "to": 303,
+          "v": 1,
+          "r": 0.7351646202150732
+        }
+      ],
+      "params": {
+        "font": "pop",
+        "round": false,
+        "flash": "accent",
+        "beat": true
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "bay",
+        "về",
+        "phía",
+        "tương",
+        "lai"
+      ],
+      "note": null,
+      "treat": "marker",
+      "treatP": {
+        "v": "skew",
+        "c": 0
+      },
+      "bg": "none",
+      "bgP": {},
+      "cam": "knReadPan",
+      "camP": {
+        "a": 0.033397140506654974
+      },
+      "text": "bay về phía tương lai",
+      "lineText": "Cất cao lời ca bay về phía tương lai",
+      "line": 4,
+      "start": 16.806806282722512,
+      "end": 18.7,
+      "layout": "knPadGrid",
+      "enter": "slideL",
+      "exit": "knLaunch",
+      "seed": 1238180660,
+      "recap": false,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "bay về phía tương lai",
+      "dur": 1.8931937172774873,
+      "index": 14
+    },
+    {
+      "hold": "knWordPulse",
+      "inDur": 0.6,
+      "outDur": 0.55,
+      "stagger": 0.027746444770600648,
+      "decor": [
+        {
+          "id": "petals",
+          "seed": 729315069,
+          "n": 2,
+          "right": true,
+          "low": true,
+          "accent": false,
+          "corner": true,
+          "big": true,
+          "mode": "index",
+          "from": 18,
+          "to": 981,
+          "v": 3,
+          "r": 0.6429691757075489
+        },
+        {
+          "id": "romajiLine",
+          "seed": 20514814,
+          "n": 1,
+          "right": true,
+          "low": true,
+          "accent": true,
+          "corner": false,
+          "big": false,
+          "mode": "count",
+          "from": 6,
+          "to": 849,
+          "v": 2,
+          "r": 0.25242427783086896
+        }
+      ],
+      "params": {
+        "font": "mincho_bold",
+        "sx": 0.78,
+        "track": 0.06006247621029616,
+        "sub": false,
+        "under": false,
+        "accent": false,
+        "ox": -0.025737676536664367,
+        "oy": -0.0038917229231447
+      },
+      "scheme": 1,
+      "emph": false,
+      "words": [
+        "Cất",
+        "cao",
+        "lời",
+        "ca",
+        "bay",
+        "về",
+        "phía",
+        "tương",
+        "lai"
+      ],
+      "note": null,
+      "treat": "none",
+      "treatP": {},
+      "bg": "none",
+      "bgP": {},
+      "cam": "crashZoom",
+      "camP": {
+        "at": 0.6463436060235835,
+        "a": 0.08377446129219607
+      },
+      "text": "Cất cao lời ca bay về phía tương lai",
+      "lineText": "Cất cao lời ca bay về phía tương lai",
+      "line": 4,
+      "start": 18.7,
+      "end": 20.7,
+      "layout": "center",
+      "enter": "slideWhole",
+      "exit": "whipOut",
+      "seed": 1373518446,
+      "recap": true,
+      "trans": null,
+      "transP": {},
+      "transDur": 0,
+      "zone": null,
+      "utext": "Cất cao lời ca bay về phía tương lai",
+      "dur": 2,
+      "index": 15
+    }
+  ],
+  "events": [
+    {
+      "t": 0,
+      "type": "chroma",
+      "amp": 1.54,
+      "dur": 0.25
+    },
+    {
+      "t": 3,
+      "type": "chroma",
+      "amp": 2.254632235784084,
+      "dur": 0.25
+    },
+    {
+      "t": 4.165237954478274,
+      "type": "chroma",
+      "amp": 1.9521091879904269,
+      "dur": 0.25
+    },
+    {
+      "t": 4.165237954478274,
+      "type": "zoom",
+      "amp": 1.055,
+      "dur": 0.22
+    },
+    {
+      "t": 4.771800177357375,
+      "type": "chroma",
+      "amp": 1.9090900710970162,
+      "dur": 0.25
+    },
+    {
+      "t": 6.176470588235294,
+      "type": "chroma",
+      "amp": 1.5715326986461877,
+      "dur": 0.25
+    },
+    {
+      "t": 7.5,
+      "type": "chroma",
+      "amp": 2.141460982803255,
+      "dur": 0.25
+    },
+    {
+      "t": 8.507558330594808,
+      "type": "chroma",
+      "amp": 2.2297052476741372,
+      "dur": 0.25
+    },
+    {
+      "t": 9.30808412750575,
+      "type": "chroma",
+      "amp": 1.9811120325885714,
+      "dur": 0.25
+    },
+    {
+      "t": 9.970588235294118,
+      "type": "chroma",
+      "amp": 1.991657202206552,
+      "dur": 0.25
+    },
+    {
+      "t": 10.958333333333334,
+      "type": "whiteFrame",
+      "amp": 1.105,
+      "dur": 0.08333333333333333
+    },
+    {
+      "t": 11,
+      "type": "chroma",
+      "amp": 4.282676760088652,
+      "dur": 0.25
+    },
+    {
+      "t": 11,
+      "type": "shake",
+      "amp": 0.71,
+      "dur": 0.3
+    },
+    {
+      "t": 11,
+      "type": "flash",
+      "amp": 1,
+      "dur": 0.125
+    },
+    {
+      "t": 12.214532871972319,
+      "type": "chroma",
+      "amp": 1.5583649155125021,
+      "dur": 0.25
+    },
+    {
+      "t": 12.214532871972319,
+      "type": "zoom",
+      "amp": 1.055,
+      "dur": 0.22
+    },
+    {
+      "t": 13.003016220387872,
+      "type": "gridRepeat",
+      "amp": 0.584,
+      "dur": 0.125
+    },
+    {
+      "t": 13.506920415224913,
+      "type": "chroma",
+      "amp": 1.6212424561753869,
+      "dur": 0.25
+    },
+    {
+      "t": 14.009803921568627,
+      "type": "doors",
+      "amp": 1.105,
+      "dur": 0.3333333333333333
+    },
+    {
+      "t": 14.176470588235293,
+      "type": "chroma",
+      "amp": 4.182287024231627,
+      "dur": 0.25
+    },
+    {
+      "t": 14.176470588235293,
+      "type": "shake",
+      "amp": 0.71,
+      "dur": 0.3
+    },
+    {
+      "t": 14.176470588235293,
+      "type": "zoom",
+      "amp": 1.055,
+      "dur": 0.22
+    },
+    {
+      "t": 15.416666666666666,
+      "type": "panelWipe",
+      "amp": 0.8049999999999999,
+      "dur": 0.20833333333333331
+    },
+    {
+      "t": 15.5,
+      "type": "chroma",
+      "amp": 2.3653234813455493,
+      "dur": 0.25
+    },
+    {
+      "t": 16.640139616055844,
+      "type": "irisTrans",
+      "amp": 0.8049999999999999,
+      "dur": 0.3333333333333333
+    },
+    {
+      "t": 16.806806282722512,
+      "type": "chroma",
+      "amp": 2.0565844390541317,
+      "dur": 0.25
+    },
+    {
+      "t": 18.7,
+      "type": "chroma",
+      "amp": 1.4695840691123156,
+      "dur": 0.25
+    },
+    {
+      "t": 18.7,
+      "type": "hueShift",
+      "amp": 0.8049999999999999,
+      "dur": 0.125
+    }
+  ],
+  "beats": [],
+  "hud": false,
+  "keyBg": null,
+  "centerFree": false,
+  "zones": null,
+  "typeset": false,
+  "unify": false,
+  "lang": "en",
+  "energyRate": 0,
+  "width": 1920,
+  "height": 1080,
+  "extra": false,
+  "wa": true,
+  "horror": false,
+  "typo": true,
+  "kinetic": true,
+  "fonts": {
+    "display": [
+      "M PLUS Rounded 1c",
+      "Mochiy Pop One",
+      "Noto Sans JP Black"
+    ],
+    "serif": [
+      "Noto Serif JP Bold"
+    ],
+    "body": [
+      "M PLUS Rounded 1c",
+      "Noto Sans JP Bold"
+    ],
+    "mono": [
+      "IBM Plex Mono"
+    ]
+  },
+  "fontTable": {
+    "gothic_black": {
+      "label": "Noto Sans JP Black",
+      "family": "Noto Sans JP",
+      "weight": 900,
+      "kind": "gothic",
+      "langFamily": "Noto Sans JP",
+      "langWeight": 900
+    },
+    "gothic_bold": {
+      "label": "Noto Sans JP Bold",
+      "family": "Noto Sans JP",
+      "weight": 700,
+      "kind": "gothic",
+      "langFamily": "Noto Sans JP",
+      "langWeight": 700
+    },
+    "gothic_med": {
+      "label": "Noto Sans JP Medium",
+      "family": "Noto Sans JP",
+      "weight": 500,
+      "kind": "gothic",
+      "langFamily": "Noto Sans JP",
+      "langWeight": 500
+    },
+    "gothic_light": {
+      "label": "Noto Sans JP Light",
+      "family": "Noto Sans JP",
+      "weight": 300,
+      "kind": "gothic",
+      "langFamily": "Noto Sans JP",
+      "langWeight": 300
+    },
+    "dela": {
+      "label": "Dela Gothic One",
+      "family": "Dela Gothic One",
+      "weight": 400,
+      "kind": "display",
+      "langFamily": "Dela Gothic One",
+      "langWeight": 400
+    },
+    "zenkaku": {
+      "label": "Zen Kaku Gothic New Black",
+      "family": "Zen Kaku Gothic New",
+      "weight": 900,
+      "kind": "gothic",
+      "langFamily": "Zen Kaku Gothic New",
+      "langWeight": 900
+    },
+    "mincho_black": {
+      "label": "Zen Old Mincho Black",
+      "family": "Zen Old Mincho",
+      "weight": 900,
+      "kind": "mincho",
+      "langFamily": "Zen Old Mincho",
+      "langWeight": 900
+    },
+    "mincho_bold": {
+      "label": "Noto Serif JP Bold",
+      "family": "Noto Serif JP",
+      "weight": 700,
+      "kind": "mincho",
+      "langFamily": "Noto Serif JP",
+      "langWeight": 700
+    },
+    "mincho": {
+      "label": "Noto Serif JP Medium",
+      "family": "Noto Serif JP",
+      "weight": 500,
+      "kind": "mincho",
+      "langFamily": "Noto Serif JP",
+      "langWeight": 500
+    },
+    "mincho_light": {
+      "label": "Noto Serif JP Light",
+      "family": "Noto Serif JP",
+      "weight": 300,
+      "kind": "mincho",
+      "langFamily": "Noto Serif JP",
+      "langWeight": 300
+    },
+    "tokumin": {
+      "label": "Kaisei Tokumin",
+      "family": "Kaisei Tokumin",
+      "weight": 800,
+      "kind": "mincho",
+      "langFamily": "Kaisei Tokumin",
+      "langWeight": 800
+    },
+    "round": {
+      "label": "M PLUS Rounded 1c",
+      "family": "M PLUS Rounded 1c",
+      "weight": 800,
+      "kind": "round",
+      "langFamily": "M PLUS Rounded 1c",
+      "langWeight": 800
+    },
+    "pop": {
+      "label": "Mochiy Pop One",
+      "family": "Mochiy Pop One",
+      "weight": 400,
+      "kind": "display",
+      "langFamily": "Mochiy Pop One",
+      "langWeight": 400
+    },
+    "dot": {
+      "label": "DotGothic16",
+      "family": "DotGothic16",
+      "weight": 400,
+      "kind": "pixel",
+      "langFamily": "DotGothic16",
+      "langWeight": 400
+    },
+    "brush": {
+      "label": "Yuji Syuku",
+      "family": "Yuji Syuku",
+      "weight": 400,
+      "kind": "brush",
+      "langFamily": "Yuji Syuku",
+      "langWeight": 400
+    },
+    "mono": {
+      "label": "IBM Plex Mono",
+      "family": "IBM Plex Mono",
+      "weight": 500,
+      "kind": "mono",
+      "langFamily": "IBM Plex Mono",
+      "langWeight": 500
+    },
+    "reggae": {
+      "label": "Reggae One",
+      "family": "Reggae One",
+      "weight": 400,
+      "kind": "display",
+      "langFamily": "Reggae One",
+      "langWeight": 400
+    },
+    "rampart": {
+      "label": "Rampart One",
+      "family": "Rampart One",
+      "weight": 400,
+      "kind": "display",
+      "langFamily": "Rampart One",
+      "langWeight": 400
+    },
+    "potta": {
+      "label": "Potta One",
+      "family": "Potta One",
+      "weight": 400,
+      "kind": "brush",
+      "langFamily": "Potta One",
+      "langWeight": 400
+    },
+    "kiwi": {
+      "label": "Kiwi Maru",
+      "family": "Kiwi Maru",
+      "weight": 500,
+      "kind": "round",
+      "langFamily": "Kiwi Maru",
+      "langWeight": 500
+    },
+    "klee": {
+      "label": "Klee One",
+      "family": "Klee One",
+      "weight": 600,
+      "kind": "hand",
+      "langFamily": "Klee One",
+      "langWeight": 600
+    },
+    "shippori": {
+      "label": "Shippori Mincho B1",
+      "family": "Shippori Mincho B1",
+      "weight": 800,
+      "kind": "mincho",
+      "langFamily": "Shippori Mincho B1",
+      "langWeight": 800
+    },
+    "sansui": {
+      "label": "IBM Plex Sans JP",
+      "family": "IBM Plex Sans JP",
+      "weight": 500,
+      "kind": "gothic",
+      "langFamily": "IBM Plex Sans JP",
+      "langWeight": 500
+    }
+  }
+}

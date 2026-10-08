@@ -513,9 +513,9 @@ button.small.primary { padding: 4px 12px; }
           <button id="tapStop" class="ghost">Finish</button>
       </div>
       <div class="sec">
-        <div class="sec-h"><h2>Lyrics</h2><span class="sec-btns"><label class="file ghost small" title="Load an LRC file (lyrics with time stamps) in place of the current lyrics (Undo brings them back)">Load LRC<input id="fileLrc" type="file" accept=".lrc,.txt,text/plain"></label><button id="btnClearLyrics" class="ghost small" title="Clear the lyrics with their line timings, per-line settings and export range (Undo or Ctrl+Z brings them back)">Clear lyrics</button><button id="btnSyntax" class="ghost small" aria-expanded="false">Syntax</button></span></div>
+        <div class="sec-h"><h2>Lyrics</h2><span class="sec-btns"><label class="file ghost small" title="Tự động nhận diện lời và bắt nhịp từ âm thanh bằng Whisper AI">🎙️ AI Auto-Sync<input id="fileAutoSync" type="file" accept="audio/*,.mp3,.wav,.m4a,.ogg,.flac"></label><label class="file ghost small" title="Load an LRC file (lyrics with time stamps) in place of the current lyrics (Undo brings them back)">Load LRC<input id="fileLrc" type="file" accept=".lrc,.txt,text/plain"></label><button id="btnClearLyrics" class="ghost small" title="Clear the lyrics with their line timings, per-line settings and export range (Undo or Ctrl+Z brings them back)">Clear lyrics</button><button id="btnSyntax" class="ghost small" aria-expanded="false">Syntax</button></span></div>
         <textarea id="lyrics" rows="9" spellcheck="false" aria-label="Lyrics (one phrase per line)"></textarea>
-        <label class="lang-row">Lyrics language<select id="lyricLang"><option value="auto">Auto-detect</option><option value="ja">日本語</option><option value="zh-Hant">繁體中文</option><option value="zh-Hans">简体中文</option><option value="ko">한국어</option><option value="en">English</option></select><span id="langNote" class="muted"></span></label>
+        <label class="lang-row">Lyrics language<select id="lyricLang"><option value="auto">Auto-detect</option><option value="ja">日本語</option><option value="zh-Hant">繁體中文</option><option value="zh-Hans">简体中文</option><option value="ko">한국어</option><option value="en">English</option><option value="vi">Tiếng Việt</option></select><span id="langNote" class="muted"></span></label>
         <div id="syntax" class="syntax" hidden>
           <ul>
             <li>One phrase per line. A blank line adds a short pause.</li>
@@ -1279,8 +1279,8 @@ function clipHalf(poly, nx, ny, d0, sgn) {
 (() => {
 'use strict';
 
-J.LANGS = ['auto', 'ja', 'zh-Hant', 'zh-Hans', 'ko', 'en'];
-J.LANG_LABEL = { auto: '自動判定', ja: '日本語', 'zh-Hant': '繁體中文', 'zh-Hans': '简体中文', ko: '한국어', en: 'English' };
+J.LANGS = ['auto', 'ja', 'zh-Hant', 'zh-Hans', 'ko', 'en', 'vi'];
+J.LANG_LABEL = { auto: '自動判定', ja: '日本語', 'zh-Hant': '繁體中文', 'zh-Hans': '简体中文', ko: '한국어', en: 'English', vi: 'Tiếng Việt' };
 
 /* characters that differ between Traditional and Simplified Chinese (same order in both strings) */
 const TC = '們個說這會對時來還後過國開關與為從問間見長東車門愛聽學讓話號發點無現體經電實樣聲變離氣夢給覺當歡陽戀邊頭淚誰歲遠嗎萬難寫應讀憶樂麼麗傷將總結終紅綠線顏風飛鳥謝語請認識熱燈願獨夠紀帶滿靜輕別腦臉懷謊錯顆陣場讚淺溫記憑護壞歸媽隨銀聞態虛遙';
@@ -1291,8 +1291,10 @@ const TCSET = new Set([...TC]), SCSET = new Set([...SC]);
 /* which language are these lyrics in? (almost only Latin letters → en (English / romaji), kana → ja, hangul → ko,
    Han only → Traditional / Simplified by the distinctive forms, Traditional when there are none) */
 J.detectLang = (text) => {
-  let kana = 0, hangul = 0, han = 0, tc = 0, sc = 0, latin = 0;
+  let kana = 0, hangul = 0, han = 0, tc = 0, sc = 0, latin = 0, vi = 0;
+  const VI_CHARS = /[àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđĐ]/i;
   for (const c of String(text || '')) {
+    if (VI_CHARS.test(c)) vi++;
     const u = c.codePointAt(0);
     if ((u >= 0x41 && u <= 0x5a) || (u >= 0x61 && u <= 0x7a) || (u >= 0xc0 && u <= 0x24f && u !== 0xd7 && u !== 0xf7) || (u >= 0xff21 && u <= 0xff5a && (u <= 0xff3a || u >= 0xff41))) latin++;
     else if ((u >= 0x3041 && u <= 0x30ff && u !== 0x30fb && u !== 0x30fc) || (u >= 0xff66 && u <= 0xff9d)) kana++;
@@ -1303,6 +1305,7 @@ J.detectLang = (text) => {
       if (SCSET.has(c)) sc++;
     }
   }
+  if (vi >= 2) return 'vi';
   // a CJK character carries about as much as a short word — weigh it ×3 against single Latin letters
   const cjk = kana + hangul + han;
   if (latin >= 6 && latin >= (latin + cjk * 3) * 0.9) return 'en';
@@ -1368,12 +1371,43 @@ J.LANG_FACES = {
       reggae: F('Black Han Sans', 400, 'Black+Han+Sans'), rampart: F('Black Han Sans', 400, 'Black+Han+Sans'), potta: F('Nanum Brush Script', 400, 'Nanum+Brush+Script'),
     },
   },
+  vi: {
+    sans: F('Be Vietnam Pro', 500, 'Be+Vietnam+Pro:wght@300;500;700;900'),
+    serif: F('Playfair Display', 500, 'Playfair+Display:ital,wght@0,500;0,700;0,900;1,500;1,700'),
+    fbSans: '"Be Vietnam Pro","Montserrat","Segoe UI","Arial",sans-serif',
+    fbSerif: '"Playfair Display","Noto Serif","Times New Roman",serif',
+    map: {
+      gothic_black: F('Be Vietnam Pro', 900, 'Be+Vietnam+Pro:wght@900'),
+      gothic_bold: F('Be Vietnam Pro', 700, 'Be+Vietnam+Pro:wght@700'),
+      gothic_med: F('Be Vietnam Pro', 500, 'Be+Vietnam+Pro:wght@500'),
+      gothic_light: F('Be Vietnam Pro', 300, 'Be+Vietnam+Pro:wght@300'),
+      zenkaku: F('Montserrat', 900, 'Montserrat:wght@900'),
+      sansui: F('Be Vietnam Pro', 500, 'Be+Vietnam+Pro:wght@500'),
+      mincho_black: F('Playfair Display', 900, 'Playfair+Display:wght@900'),
+      mincho_bold: F('Playfair Display', 700, 'Playfair+Display:wght@700'),
+      mincho: F('Playfair Display', 500, 'Playfair+Display:wght@500'),
+      mincho_light: F('Noto Serif', 400, 'Noto+Serif:wght@400'),
+      tokumin: F('Playfair Display', 800, 'Playfair+Display:wght@800'),
+      shippori: F('Playfair Display', 700, 'Playfair+Display:wght@700'),
+      dela: F('Anton', 400, 'Anton'),
+      round: F('Comfortaa', 700, 'Comfortaa:wght@700'),
+      pop: F('Patrick Hand', 400, 'Patrick+Hand'),
+      kiwi: F('Quicksand', 600, 'Quicksand:wght@600'),
+      klee: F('Dancing Script', 700, 'Dancing+Script:wght@700'),
+      brush: F('Caveat', 700, 'Caveat:wght@700'),
+      reggae: F('Bungee', 400, 'Bungee'),
+      rampart: F('Alfa Slab One', 400, 'Alfa+Slab+One'),
+      potta: F('Dancing Script', 700, 'Dancing+Script:wght@700'),
+      dot: F('VT323', 400, 'VT323'),
+      mono: F('IBM Plex Mono', 500, 'IBM+Plex+Mono:wght@500'),
+    },
+  },
 };
 
 /* the language fonts are drawn in right now (set by the planner / renderer from plan.lang) */
 J.lang = 'ja';
 J.setLang = (l) => {
-  l = J.LANG_FACES[l] || l === 'en' ? l : 'ja';               // en: the styles' own faces (they all have Latin glyphs)
+  l = J.LANG_FACES[l] || l === 'en' || l === 'vi' ? l : 'ja';
   if (l === J.lang) return;
   J.lang = l;
   if (J.glyphs) J.glyphs.clear();
@@ -1394,6 +1428,14 @@ J.POOLS = {
   'zh-Hans': { kana: ZH_S, hira: ZH_S, half: ZH_S.slice(0, 60) + DIG, reel: ZH_S.slice(-40) + DIG, scramble: ZH_S + '★◆▲●■※＃＄％＆' + DIG, signs: ZH_S.slice(0, 60) + SYM + '01' },
   ko: { kana: KO, hira: KO, half: KO.slice(0, 60) + DIG, reel: KO.slice(-30) + DIG, scramble: KO + '★◆▲●■※＃＄％＆' + DIG, signs: KO.slice(0, 60) + SYM + '01' },
   en: { kana: EN_U, hira: EN_L, half: '0123456789ABCDEF', reel: EN_U + DIG, scramble: EN_U + EN_L + '★◆▲●■#$%&' + DIG, signs: EN_U + '#*+=/<>' + '01' },
+  vi: {
+    kana: 'AÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬBCDĐEÉÈẺẼẸÊẾỀỂỄỆGHIÍÌỈĨỊKLMNOÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢPQRSTUÚÙỦŨỤƯỨỪỬỮỰVXYÝỲỶỸỴ',
+    hira: 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệghiíìỉĩịklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ',
+    half: '0123456789ABCDEF',
+    reel: 'ÁnhTrăngMâyNướcSôngHoaGióHươngQuêMẹYêuĐấtBiển0123456789',
+    scramble: 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệghiíìỉĩịklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ★◆▲●■#$%&0123456789',
+    signs: 'AÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬ#*+=/<>01'
+  },
 };
 J.pool = (kind) => { const P = J.POOLS[J.lang] || J.POOLS.ja; return P[kind] || J.POOLS.ja[kind]; };
 const SERIF_KINDS = { mincho: 1, brush: 1, hand: 1 };
@@ -1419,7 +1461,7 @@ J.langBaseFaces = (keys) => {
   return out;
 };
 /* segmenter locale for chunking */
-J.segLocale = () => (J.lang === 'zh-Hant' ? 'zh-Hant' : J.lang === 'zh-Hans' ? 'zh-Hans' : J.lang === 'ko' ? 'ko' : J.lang === 'en' ? 'en' : 'ja');
+J.segLocale = () => (J.lang === 'zh-Hant' ? 'zh-Hant' : J.lang === 'zh-Hans' ? 'zh-Hans' : J.lang === 'ko' ? 'ko' : J.lang === 'vi' ? 'vi' : J.lang === 'en' ? 'en' : 'ja');
 })();
 
 /* ============================================================
@@ -37832,6 +37874,35 @@ function bind() {
     document.querySelectorAll('.themeSel').forEach(x => { x.value = el.value; });
     flushSave();
   }));
+  if ($('fileAutoSync')) {
+    $('fileAutoSync').addEventListener('change', async e => {
+      const f = e.target.files && e.target.files[0]; e.target.value = ''; if (!f) return;
+      toast('Đang dùng Whisper AI phân tích âm thanh và bắt nhịp...');
+      try { loadAudioFile(f); } catch (err) {}
+      try {
+        let apiUrl = '/api/auto_sync';
+        if (S.project.lyrics && S.project.lyrics.trim()) {
+          apiUrl += '?lyrics=' + encodeURIComponent(S.project.lyrics.trim());
+        }
+        const res = await fetch(apiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/octet-stream' },
+          body: f
+        });
+        if (!res.ok) throw new Error('API error: ' + res.status);
+        const data = await res.json();
+        if (data.lrc) {
+          loadLrc(data.lrc);
+          toast('Đã đồng bộ nhịp tự động thành công bằng Whisper AI!');
+        } else if (data.error) {
+          toast('Lỗi Whisper: ' + data.error);
+        }
+      } catch (err) {
+        console.error(err);
+        toast('Không thể kết nối Whisper API (hãy chạy start-jizura.bat)');
+      }
+    });
+  }
   $('fileLrc').addEventListener('change', async e => {
     const f = e.target.files && e.target.files[0]; e.target.value = ''; if (!f) return;
     if (f.size > 2e6) { toast('The LRC file is too large'); return; }
@@ -37984,6 +38055,35 @@ function boot() {
   bindTour();
   let seen = false; try { seen = localStorage.getItem('jizura.tourDone') === '1'; } catch (e) {}
   if (!seen && S.mode === 'easy' && !window.__adobe_cep__) setTimeout(tourStart, 600);   // first visit: show the tour once
+  // check URL param ?load=... to load project from MCP or local file
+  try {
+    const sp = new URLSearchParams(window.location.search);
+    const loadParam = sp.get('load');
+    const audioParam = sp.get('audio');
+    if (loadParam) {
+      fetch(loadParam).then(r => r.json()).then(np => {
+        S.project = mergeProject(np);
+        if (S.tap) stopTap();
+        pause();
+        ED.undo = []; ED.redo = []; H.list = []; H.i = -1;
+        syncUI(); replan(); restoreFonts(); commit(); updateEditBtns(); flushSave();
+        const c = S.plan.cuts.find(c => c.line >= 0);
+        if (c) seek(c.start + Math.min(c.dur * 0.6, c.inDur + 0.25));
+        const audioSrc = np.audioUrl || audioParam;
+        if (audioSrc && !S.audio) {
+          fetch(audioSrc).then(r => r.blob()).then(b => {
+            const file = new File([b], np.audioName || 'audio.mp3', { type: b.type || 'audio/mp3' });
+            loadAudioFile(file, true);
+          }).catch(e => console.warn('Failed to auto-load audio from project/url:', e));
+        }
+      }).catch(err => console.error('Failed to load project from ?load param:', err));
+    } else if (audioParam && !S.audio) {
+      fetch(audioParam).then(r => r.blob()).then(b => {
+        const file = new File([b], 'audio.mp3', { type: b.type || 'audio/mp3' });
+        loadAudioFile(file, true);
+      }).catch(e => console.warn('Failed to auto-load audio param:', e));
+    }
+  } catch (e) {}
   // open on a representative frame (end of the first cut's entrance)
   const c0 = S.plan.cuts.find(c => c.line >= 0);
   if (c0) seek(c0.start + Math.min(c0.dur * 0.6, c0.inDur + 0.25));

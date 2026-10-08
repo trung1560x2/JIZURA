@@ -1,2 +1,25 @@
 __pycache__/
 *.pyc
+*.pyo
+
+# Node dependencies
+node_modules/
+dev/node_modules/
+mcp-server/node_modules/
+
+# Audio / Media files (exclude large binaries from git)
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+temp_sync_audio.*
+
+# Build & temp logs
+*.log
+.serena/
+all_segments.txt
+variations/
+
+dist/
+preview_project.json

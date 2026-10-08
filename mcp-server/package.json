@@ -1,0 +1,17 @@
+{
+  "name": "jizura-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) Server for JIZURA Lyric Motion Video Maker",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "jizura-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "zod": "^3.23.8"
+  }
+}

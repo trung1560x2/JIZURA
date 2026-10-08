@@ -1778,6 +1778,35 @@ function bind() {
     document.querySelectorAll('.themeSel').forEach(x => { x.value = el.value; });
     flushSave();
   }));
+  if ($('fileAutoSync')) {
+    $('fileAutoSync').addEventListener('change', async e => {
+      const f = e.target.files && e.target.files[0]; e.target.value = ''; if (!f) return;
+      toast('Đang dùng Whisper AI phân tích âm thanh và bắt nhịp...');
+      try { loadAudioFile(f); } catch (err) {}
+      try {
+        let apiUrl = '/api/auto_sync';
+        if (S.project.lyrics && S.project.lyrics.trim()) {
+          apiUrl += '?lyrics=' + encodeURIComponent(S.project.lyrics.trim());
+        }
+        const res = await fetch(apiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/octet-stream' },
+          body: f
+        });
+        if (!res.ok) throw new Error('API error: ' + res.status);
+        const data = await res.json();
+        if (data.lrc) {
+          loadLrc(data.lrc);
+          toast('Đã đồng bộ nhịp tự động thành công bằng Whisper AI!');
+        } else if (data.error) {
+          toast('Lỗi Whisper: ' + data.error);
+        }
+      } catch (err) {
+        console.error(err);
+        toast('Không thể kết nối Whisper API (hãy chạy start-jizura.bat)');
+      }
+    });
+  }
   $('fileLrc').addEventListener('change', async e => {
     const f = e.target.files && e.target.files[0]; e.target.value = ''; if (!f) return;
     if (f.size > 2e6) { toast('LRC ファイルが大きすぎます'); return; }
@@ -1930,6 +1959,35 @@ function boot() {
   bindTour();
   let seen = false; try { seen = localStorage.getItem('jizura.tourDone') === '1'; } catch (e) {}
   if (!seen && S.mode === 'easy' && !window.__adobe_cep__) setTimeout(tourStart, 600);   // first visit: show the tour once
+  // check URL param ?load=... to load project from MCP or local file
+  try {
+    const sp = new URLSearchParams(window.location.search);
+    const loadParam = sp.get('load');
+    const audioParam = sp.get('audio');
+    if (loadParam) {
+      fetch(loadParam).then(r => r.json()).then(np => {
+        S.project = mergeProject(np);
+        if (S.tap) stopTap();
+        pause();
+        ED.undo = []; ED.redo = []; H.list = []; H.i = -1;
+        syncUI(); replan(); restoreFonts(); commit(); updateEditBtns(); flushSave();
+        const c = S.plan.cuts.find(c => c.line >= 0);
+        if (c) seek(c.start + Math.min(c.dur * 0.6, c.inDur + 0.25));
+        const audioSrc = np.audioUrl || audioParam;
+        if (audioSrc && !S.audio) {
+          fetch(audioSrc).then(r => r.blob()).then(b => {
+            const file = new File([b], np.audioName || 'audio.mp3', { type: b.type || 'audio/mp3' });
+            loadAudioFile(file, true);
+          }).catch(e => console.warn('Failed to auto-load audio from project/url:', e));
+        }
+      }).catch(err => console.error('Failed to load project from ?load param:', err));
+    } else if (audioParam && !S.audio) {
+      fetch(audioParam).then(r => r.blob()).then(b => {
+        const file = new File([b], 'audio.mp3', { type: b.type || 'audio/mp3' });
+        loadAudioFile(file, true);
+      }).catch(e => console.warn('Failed to auto-load audio param:', e));
+    }
+  } catch (e) {}
   // open on a representative frame (end of the first cut's entrance)
   const c0 = S.plan.cuts.find(c => c.line >= 0);
   if (c0) seek(c0.start + Math.min(c0.dur * 0.6, c0.inDur + 0.25));
